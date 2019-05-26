@@ -1,4 +1,3 @@
-/*! portal-pc-static - git - 2019-05-21 15:39:15 */
 Function.prototype.bind || (Function.prototype.bind = function() {
     var e = arguments
       , t = this;
@@ -1789,7 +1788,7 @@ GreenLine.Flyout = {
             $("<a/>", {
                 id: "gfo-sina",
                 "class": "item-box",
-                href: "http://e.weibo.com/95169guahaowang",
+                href: "https://weibo.com/gzcayyweibo",
                 rel: "nofollow",
                 target: "_blank",
                 title: "微博账号"

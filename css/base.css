@@ -4350,7 +4350,7 @@ body {
 }
 
 .loop-expert-box .title .right .paging {
-    background: url(/img/v2/hp2.png?_=20140624) -1px -373px no-repeat;
+    background: url("../images/hp2.png") -1px -373px no-repeat;
     width: 19px;
     height: 19px;
     display: inline-block;
@@ -4433,13 +4433,13 @@ body {
     left: 15px;
     position: absolute;
     top: -8px;
-    background: url(/img/v2/hp2.png?_=20140624) -10px -436px no-repeat;
+    background: url("../images/hp2.png") -10px -436px no-repeat;
     width: 10px;
     height: 8px
 }
 
 .loop-expert-box .content ul li .bottom i.flag {
-    background: url(/img/v2/hp2.png?_=20140624) -121px -34px no-repeat;
+    background: url("../images/hp2.png") -121px -34px no-repeat;
     width: 12px;
     height: 9px;
     display: inline-block;
@@ -5415,7 +5415,7 @@ body {
     position: absolute;
     width: 19px;
     height: 19px;
-    background: url(/img/v2/hp2.png?_=20140306) -1px -373px no-repeat;
+    background: url("../images/hp2.png") -1px -373px no-repeat;
     overflow: hidden;
     text-indent: -999px
 }
@@ -7952,7 +7952,7 @@ input.tipIt,textarea.tipIt {
     border: 2px solid #73b52d;
     border-right: none;
     height: 36px;
-    background: url(/img/v2/1px-bg.png) 0 -28px repeat-x;
+    background: url("../images/1px-bg.png") 0 -28px repeat-x;
     display: inline-block;
     float: left;
     position: relative;
@@ -7978,7 +7978,7 @@ input.tipIt,textarea.tipIt {
     height: 17px;
     position: absolute;
     margin: 10px 0 0 10px;
-    background: url(/img/v2/sprites.png?_=20131125) -91px -71px no-repeat
+    background: url("../images/sprites.png") -91px -71px no-repeat
 }
 
 .gh-search-input .g-iptph-wrap label {
@@ -8653,7 +8653,7 @@ input.tipIt,textarea.tipIt {
     top: 15px;
     left: 26px;
     display: block;
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -984px;
     width: 13px;
@@ -8690,7 +8690,7 @@ input.tipIt,textarea.tipIt {
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li .title i.nk {
     margin-top: -3px;
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -656px;
     width: 23px;
@@ -8698,7 +8698,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li .title i.wk {
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -886px;
     width: 27px;
@@ -8706,7 +8706,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li .title i.fck {
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -535px;
     width: 25px;
@@ -8715,7 +8715,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li .title i.pfk {
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -722px;
     width: 21px;
@@ -8723,7 +8723,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li .title i.gk {
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -600px;
     width: 15px;
@@ -8731,7 +8731,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li .title i.wgk {
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -822px;
     width: 15px;
@@ -8740,7 +8740,7 @@ input.tipIt,textarea.tipIt {
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li .title i.yk {
     margin-top: 3px;
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -940px;
     width: 21px;
@@ -8748,7 +8748,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li .title i.qt {
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -776px;
     width: 13px;
@@ -8789,7 +8789,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li.menu-current i.nk {
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -689px;
     width: 23px;
@@ -8798,7 +8798,7 @@ input.tipIt,textarea.tipIt {
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li.menu-current i.wk {
     margin-top: 1px;
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -913px;
     width: 27px;
@@ -8807,7 +8807,7 @@ input.tipIt,textarea.tipIt {
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li.menu-current i.fck {
     margin: 1px 8px 0 1px;
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -570px;
     width: 20px;
@@ -8816,7 +8816,7 @@ input.tipIt,textarea.tipIt {
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li.menu-current i.pfk {
     margin: 2px 8px 0 1px;
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -751px;
     width: 16px;
@@ -8825,7 +8825,7 @@ input.tipIt,textarea.tipIt {
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li.menu-current i.gk {
     margin-top: 2px;
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -629px;
     width: 15px;
@@ -8834,7 +8834,7 @@ input.tipIt,textarea.tipIt {
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li.menu-current i.wgk {
     margin-top: 1px;
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -854px;
     width: 15px;
@@ -8842,7 +8842,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li.menu-current i.yk {
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -962px;
     width: 21px;
@@ -8850,7 +8850,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-home-menu .main-category-nav .nav-cats-wrapper ul li.menu-current i.qt {
-    background-image: url("../images/front/home-sprite.png");
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -799px;
     width: 13px;
@@ -8870,7 +8870,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-home-menu .main-category-nav .nav-subcats-wrapper .subcats-item.show-bg {
-    background: url("../images/front/fast-bg.png") 165px 245px no-repeat #fff
+    background: url("../images/fast-bg.png") 165px 245px no-repeat #fff
 }
 
 .gh-home-menu .main-category-nav .nav-subcats-wrapper .subcats-item .click-more {
@@ -10573,7 +10573,7 @@ input.tipIt,textarea.tipIt {
 }
 
 #gfo-remind .close {
-    background: url(/img/v2/hp2.png?_=20140624) -99px -124px no-repeat #faf7e1;
+    background: url("../images/hp2.png") -99px -124px no-repeat #faf7e1;
     position: absolute;
     height: 15px;
     width: 15px;
@@ -13349,7 +13349,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .new-login-dialog a.close {
-    background: url(/img/v2/hp2.png?_=20140624) -99px -124px no-repeat #faf7e1;
+    background: url("../images/hp2.png") -99px -124px no-repeat #faf7e1;
     position: absolute;
     height: 15px;
     width: 15px;

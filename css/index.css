@@ -667,7 +667,7 @@
 }
 
 .gp-index .pagers a {
-    background: url(/img/index-banner.jpg) -122px -59px no-repeat;
+    background: url("../images/index-banner.jpg") -122px -59px no-repeat;
     height: 11px;
     width: 11px;
     text-indent: -999px;

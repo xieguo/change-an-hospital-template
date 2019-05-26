@@ -978,12 +978,6 @@ GH.run(function() {
         "首页" == $(this).text() && $(this).attr("href", $GC.jkljServer)
     }),
     function() {
-        try {
-            window.console && window.console.log && (console.log("喜欢研究前端技术，还是发现了什么bug？不如和我们一起为微医添砖加瓦吧！"),
-            console.log("职位介绍：http://jobs.51job.com/hangzhou/91344167.html"))
-        } catch (e) {}
-    }(),
-    function() {
         $(".J_BottomInnerModule").length && $(".J_BottomInnerModuleLink").length && ($(".J_BottomInnerModuleLink").each(function() {
             if (!$(this).hasClass("hide")) {
                 var e = $(this).height();
