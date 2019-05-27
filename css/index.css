@@ -890,7 +890,7 @@
 
 .gp-index .landing-section .loading {
     height: 100%;
-    background: url(/img/v2/loading-big.gif) center center no-repeat
+    background: url("../images/loading-big.gif") center center no-repeat
 }
 
 .gp-index .booking-section .main-ctn {
@@ -1378,7 +1378,7 @@
 
 .gp-index .booking-section .gd-list .cover-bg {
     display: block;
-    background: url(/img/v2/blank.gif);
+    background: url("../images/blank.gif");
     height: 100%;
     left: 0;
     position: absolute;

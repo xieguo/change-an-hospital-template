@@ -5638,7 +5638,7 @@ body {
     width: 56px;
     height: 76px;
     margin-right: 1px;
-    background-image: url(../img/yzwy/icon-thank-1.png);
+    background-image: url("../images/icon-thank-1.png");
     background-repeat: no-repeat;
     margin-bottom: 10px
 }
@@ -5676,7 +5676,7 @@ body {
 .g-falg-list.g-mr-24 dl dt {
     width: 39px;
     height: 52px;
-    background: url(../img/yzwy/icon-thank-2.png) no-repeat
+    background: url("../images/icon-thank-2.png") no-repeat
 }
 
 .g-falg-list.g-mr-24 dl dt.flag-2 {
@@ -5798,7 +5798,7 @@ body {
     width: 19px;
     height: 19px;
     position: absolute;
-    background: url(../img/internethospital/opened.png);
+    background: url("../images/opened.png");
     left: 120px;
     top: 60px
 }
@@ -6816,7 +6816,7 @@ input,input.text,select,textarea {
 }
 
 .gb-aplipy,.gb-aplipy .gb-right {
-    background: url(/img/alipay/bt.png) no-repeat;
+    background: url("../images/bt.png") no-repeat;
     display: inline-block
 }
 
@@ -6829,7 +6829,7 @@ input,input.text,select,textarea {
 }
 
 .gb-aplipy .gb-text {
-    background: url(/img/alipay/bt.png) repeat-x;
+    background: url("../images/bt.png") repeat-x;
     display: inline-block;
     text-align: center;
     cursor: pointer
@@ -7137,19 +7137,19 @@ input.tipIt,textarea.tipIt {
 }
 
 .errorMsg {
-    background: url(/img/error-msg-bg.png) 0 -30px no-repeat;
+    background: url("../images/error-msg-bg.png") 0 -30px no-repeat;
     padding-left: 13px;
     display: inline-block
 }
 
 .errorMsg span {
-    background: url(/img/error-msg-bg.png) right -90px no-repeat;
+    background: url("../images/error-msg-bg.png") right -90px no-repeat;
     padding-right: 6px;
     display: inline-block
 }
 
 .errorMsg span i {
-    background: url(/img/error-msg-bg.png) 0 -60px repeat-x;
+    background: url("../images/error-msg-bg.png") 0 -60px repeat-x;
     display: inline-block;
     line-height: 30px;
     font-size: 12px;
@@ -7823,7 +7823,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-logo .sub-logo-box .sub-logo {
-    background: url(/img/wy-logo-s.png) no-repeat;
+    background: url("../images/ca-logo-s.png") no-repeat;
     width: 119px;
     height: 57px;
     margin-left: 25px;
@@ -7860,7 +7860,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-logo-search .logo {
-    background: url(/img/wy-logo-s2.png) no-repeat;
+    background: url("../images/ca-logo-s2.png") no-repeat;
     width: 169px;
     height: 80px
 }
@@ -8166,7 +8166,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-mini .logo {
-    background: url(../img/platform-logo-new.png) no-repeat;
+    background: url("../images/platform-logo-new.png") no-repeat;
     width: 119px;
     height: 57px;
     float: left;
@@ -8186,7 +8186,7 @@ input.tipIt,textarea.tipIt {
 
 .gh-mini .sub-logo-box .sub-logo {
     margin-left: 20px;
-    background: url(/img/wy-logo-s.png) no-repeat;
+    background: url("../images/ca-logo-s.png") no-repeat;
     width: 124px;
     height: 37px
 }
