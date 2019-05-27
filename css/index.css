@@ -955,7 +955,7 @@
     margin-right: 10px;
     display: inline-block;
     zoom:1;overflow: hidden;
-    background: url(/img/v2/search-addr.png) 0 -8px no-repeat
+    background: url("../images/search-addr.png") 0 -8px no-repeat
 }
 
 .gp-index .booking-section .fast-order .title .province {
@@ -1095,7 +1095,7 @@
     position: absolute;
     right: 4px;
     top: 10px;
-    background: url(/img/v2/search-addr.png) 0 -48px no-repeat;
+    background: url("../images/search-addr.png") 0 -48px no-repeat;
     width: 18px;
     height: 18px
 }

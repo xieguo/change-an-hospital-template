@@ -340,7 +340,7 @@ body {
 }
 
 .g-more i {
-    background: url(/img/v2/sprites.png?_=20131125) -93px -155px no-repeat;
+    background: url("../images/sprites.png") -93px -155px no-repeat;
     position: absolute;
     height: 7px;
     width: 4px;
@@ -612,7 +612,7 @@ body {
 }
 
 .g-pop-textTip i {
-    background: url(/img/v2/g-total-v3.png) -71px -103px no-repeat;
+    background: url("../images/g-total-v3.png") -71px -103px no-repeat;
     height: 14px;
     width: 7px;
     position: absolute;
@@ -621,7 +621,7 @@ body {
 }
 
 .g-link-contain,.g-link-cover {
-    background: url(/img/v2/blank.gif)
+    background: url("../images/blank.gif")
 }
 
 .g-link-contain {
@@ -1411,12 +1411,12 @@ body {
     display: inline-block;
     width: 16px;
     height: 16px;
-    background: url(/img/v2/icons-v2.png) no-repeat
+    background: url("../images/icons-v2.png") no-repeat
 }
 
 .gi1 {
     display: inline-block;
-    background: url(/img/v2/g-total-v3.png) no-repeat
+    background: url("../images/g-total-v3.png") no-repeat
 }
 
 .gi2,.giPay {
@@ -1427,7 +1427,7 @@ body {
 
 .gi2 {
     display: inline-block;
-    zoom:1;background: url(/img/v2/icons2-v3.png) no-repeat;
+    zoom:1;background: url("../images/icons2-v3.png") no-repeat;
     vertical-align: middle;
     overflow: hidden
 }
@@ -1453,7 +1453,7 @@ body {
     display: inline-block;
     width: 16px;
     height: 16px;
-    background: url(/img/v2/gp-media-focus-v2.png) no-repeat
+    background: url("../images/gp-media-focus-v2.png") no-repeat
 }
 
 .gi5,.giS {
@@ -1462,7 +1462,7 @@ body {
 
 .gi5 {
     display: inline-block;
-    zoom:1;background: url(/img/v2/schedule-bt.png) no-repeat;
+    zoom:1;background: url("../images/schedule-bt.png") no-repeat;
     vertical-align: middle;
     overflow: hidden;
     width: 16px;
@@ -1675,13 +1675,13 @@ body {
 }
 
 .gi-error-apply {
-    background: url(/img/v2/apply-error.png);
+    background: url("../images/apply-error.png");
     width: 46px;
     height: 46px
 }
 
 .gi-block2 {
-    background: url(/img/v2/pictures3-v2.png?_=20140826) -16px -611px no-repeat;
+    background: url("../images/pictures3-v2.png") -16px -611px no-repeat;
     width: 97px;
     height: 80px
 }
@@ -1693,13 +1693,13 @@ body {
 }
 
 .gi-pentagram {
-    background: url(/img/v2/pictures3-v2.png?_=20140826) 0 -521px no-repeat;
+    background: url("../images/pictures3-v2.png") 0 -521px no-repeat;
     width: 84px;
     height: 80px
 }
 
 .gi-bulb {
-    background: url(/img/v2/popup/popup.png) 0 -245px no-repeat;
+    background: url("../images/popup.png") 0 -245px no-repeat;
     width: 109px;
     height: 79px
 }
@@ -1708,13 +1708,13 @@ body {
     display: inline-block;
     overflow: hidden;
     vertical-align: middle;
-    background: url(/img/v2/popup/popup.png) 0 -75px no-repeat;
+    background: url("../images/popup.png") 0 -75px no-repeat;
     height: 50px;
     width: 51px
 }
 
 .gi-little-bulb {
-    background: url(/img/v2/pictures3-v2.png?_=20140826) 0 -701px no-repeat;
+    background: url("../images/pictures3-v2.png") 0 -701px no-repeat;
     width: 80px;
     height: 58px
 }
@@ -1749,11 +1749,11 @@ body {
 }
 
 .gi-searchv2 {
-    background: url(/img/v2/disIcons.png) 0 -21px no-repeat
+    background: url("../images/disIcons.png") 0 -21px no-repeat
 }
 
 .gi-askv2 {
-    background: url(/img/v2/disIcons.png) no-repeat
+    background: url("../images/disIcons.png") no-repeat
 }
 
 .giv2 {
@@ -1831,7 +1831,7 @@ body {
 }
 
 .gi-plus {
-    background: url(/img/v2/my-apply-icon1.png) no-repeat
+    background: url("../images/my-apply-icon1.png") no-repeat
 }
 
 .gi-plus-selected {
@@ -1863,7 +1863,7 @@ body {
 }
 
 .gi-plus-big {
-    background: url(/img/v2/my-plus-logo.png) no-repeat;
+    background: url("../images/my-plus-logo.png") no-repeat;
     width: 58px;
     height: 58px
 }
@@ -1942,7 +1942,7 @@ body {
 }
 
 .gi-middle-bulb {
-    background: url(/img/v2/little-bumb.png) no-repeat;
+    background: url("../images/little-bumb.png") no-repeat;
     height: 58px;
     width: 75px
 }
@@ -1974,7 +1974,7 @@ body {
 
 .g-progressbar-pic li {
     float: left;
-    background: url(/img/v2/flow_bg.png);
+    background: url("../images/flow_bg.png");
     color: #888;
     text-shadow: 0 1px 0 #fff
 }
@@ -2081,7 +2081,7 @@ body {
     height: 16px;
     overflow: hidden;
     width: 16px;
-    background: url(/img/v2/icons-v2.png) 0 -108px no-repeat;
+    background: url("../images/icons-v2.png") 0 -108px no-repeat;
     margin-top: -8px
 }
 
@@ -2157,7 +2157,7 @@ body {
 }
 
 .ui-datepicker-header .ui-icon {
-    background-image: url(/img/v2/icons-v2.png);
+    background-image: url("../images/icons-v2.png");
     background-repeat: no-repeat
 }
 
@@ -2683,19 +2683,19 @@ body {
 .g-schedule .msg .icon-no {
     display: -moz-inline-stack;
     display: inline-block;
-    background: url(/img/v2/pictures3-v2.png?_=20140826) 0 -521px no-repeat;
+    background: url("../images/pictures3-v2.png") 0 -521px no-repeat;
     width: 84px
 }
 
 .g-schedule .msg .icon-busy {
     display: -moz-inline-stack;
     display: inline-block;
-    background: url(/img/v2/pictures-v1.png) 0 -340px no-repeat;
+    background: url("../images/pictures-v1.png") 0 -340px no-repeat;
     width: 118px
 }
 
 .g-schedule .loading {
-    background: url(/img/v2/white-transparent.png);
+    background: url("../images/white-transparent.png");
     position: absolute;
     left: 0;
     top: 0;
@@ -2988,7 +2988,7 @@ body {
     padding: 4px 0 2px 12px;
     line-height: 20px;
     position: relative;
-    background: url(/img/v2/round.png) 0 14px no-repeat
+    background: url("../images/round.png") 0 14px no-repeat
 }
 
 .g-qa.first,.g-qas li.first {
@@ -3056,7 +3056,7 @@ body {
 }
 
 .g-box .helps li {
-    background: url(/img/v2/round.png) 0 11px no-repeat;
+    background: url("../images/round.png") 0 11px no-repeat;
     padding-left: 10px;
     font-size: 14px
 }
@@ -3187,7 +3187,7 @@ body {
 
 .glRating i {
     float: left;
-    background: url(/img/v2/icons2-v3.png) 0 -529px no-repeat;
+    background: url("../images/icons2-v3.png") 0 -529px no-repeat;
     height: 19px;
     width: 20px;
     padding: 0 2px;
@@ -3203,7 +3203,7 @@ body {
 }
 
 .glRating i.ongray {
-    background: url(/img/v2/rating-gray.png) 0 -45px no-repeat
+    background: url("../images/rating-gray.png") 0 -45px no-repeat
 }
 
 .glRating span {
@@ -3232,7 +3232,7 @@ body {
 }
 
 .glRating #rating-tips strong {
-    background: url(/img/v2/rating-top.png) no-repeat;
+    background: url("../images/rating-top.png") no-repeat;
     height: 9px;
     width: 12px;
     position: absolute;
@@ -3337,7 +3337,7 @@ body {
 }
 
 .g-topic-banner h1 {
-    background: url(/img/v2/zhuanti/blue-title-bg.png);
+    background: url("../images/blue-title-bg.png");
     height: 78px;
     line-height: 78px;
     font-size: 48px;
@@ -3454,7 +3454,7 @@ body {
 
 .g-hot-news-nop li {
     padding-left: 12px;
-    background: url(/img/v2/round.png) 0 center no-repeat
+    background: url("../images/round.png") 0 center no-repeat
 }
 
 .g-hot-qas {
@@ -3462,7 +3462,7 @@ body {
 }
 
 .g-hot-qas .img {
-    background: url(/img/v2/zhuanti/h7n9-sprites.png) 0 -777px no-repeat;
+    background: url("../images/h7n9-sprites.png") 0 -777px no-repeat;
     height: 119px;
     width: 247px;
     margin: 0 auto 6px
@@ -3474,7 +3474,7 @@ body {
 
 .g-hot-qas li {
     padding: 4px 0 4px 10px;
-    background: url(/img/v2/little-dot.png) 0 center no-repeat
+    background: url("../images/little-dot.png") 0 center no-repeat
 }
 
 .g-hot-qas li a {
@@ -3796,7 +3796,7 @@ body {
 .g-foucus-warp .list-left dl.nav,.g-foucus-warp .list-left ul.nav {
     margin: 0 20px 20px;
     padding: 20px 0 10px;
-    background: url(/img/v2/gray-dash-border.gif) 0 bottom repeat-x
+    background: url("../images/gray-dash-border.gif") 0 bottom repeat-x
 }
 
 .g-foucus-warp .list-left dl.nav dt,.g-foucus-warp .list-left dl.nav li,.g-foucus-warp .list-left ul.nav dt,.g-foucus-warp .list-left ul.nav li {
@@ -3811,7 +3811,7 @@ body {
 }
 
 .g-foucus-warp .list-left dl.nav dt a:hover,.g-foucus-warp .list-left dl.nav li a:hover,.g-foucus-warp .list-left ul.nav dt a:hover,.g-foucus-warp .list-left ul.nav li a:hover {
-    background: url(/img/v2/gp-media-focus-v2.png) -66px -44px no-repeat;
+    background: url("../images/gp-media-focus-v2.png") -66px -44px no-repeat;
     text-decoration: none
 }
 
@@ -3821,11 +3821,11 @@ body {
 
 .g-foucus-warp .list-left dl.nav dt.selected a,.g-foucus-warp .list-left dl.nav li.selected a,.g-foucus-warp .list-left ul.nav dt.selected a,.g-foucus-warp .list-left ul.nav li.selected a {
     color: #fff;
-    background: url(/img/v2/gp-media-focus-v2.png) -65px 0 no-repeat
+    background: url("../images/gp-media-focus-v2.png") -65px 0 no-repeat
 }
 
 .g-foucus-warp .list-left dl.nav dt.selected a:hover,.g-foucus-warp .list-left dl.nav li.selected a:hover,.g-foucus-warp .list-left ul.nav dt.selected a:hover,.g-foucus-warp .list-left ul.nav li.selected a:hover {
-    background: url(/img/v2/gp-media-focus-v2.png) -65px 0 no-repeat
+    background: url("../images/gp-media-focus-v2.png") -65px 0 no-repeat
 }
 
 .g-foucus-warp .list-left dl.nav dt.selected .focus-incon1,.g-foucus-warp .list-left dl.nav li.selected .focus-incon1,.g-foucus-warp .list-left ul.nav dt.selected .focus-incon1,.g-foucus-warp .list-left ul.nav li.selected .focus-incon1 {
@@ -3994,7 +3994,7 @@ body {
     height: 100px;
     padding: 20px 10px 0;
     border-right: 1px solid #F8C4C4;
-    background: url(/img/v2/blue-border-new.png) repeat-x
+    background: url("../images/blue-border-new.png") repeat-x
 }
 
 .g-sche-table .docs .fr,.g-sche-table .sches tr.hasSchedule .alldaytd {
@@ -4043,7 +4043,7 @@ body {
 .g-sche-table .sches td {
     text-align: center;
     height: 40px;
-    background: url(/img/v2/gray-border-new.png) repeat-x;
+    background: url("../images/gray-border-new.png") repeat-x;
     vertical-align: middle;
     font-weight: 400
 }
@@ -4137,7 +4137,7 @@ body {
 }
 
 .g-sche-table .sches .br td {
-    background: url(/img/v2/blue-border-new.png) repeat-x
+    background: url("../images/blue-border-new.png") repeat-x
 }
 
 .g-sche-table .sches .br td.even {
@@ -4221,7 +4221,7 @@ body {
     width: 11px;
     top: 10px;
     left: -10px;
-    background: url(/img/v2/hp.png) 0 -424px no-repeat;
+    background: url("../images/hp.png") 0 -424px no-repeat;
     position: absolute
 }
 
@@ -4312,7 +4312,7 @@ body {
 
 .g-social-login a {
     display: inline-block;
-    background: url(/img/v2/social.png?_=20131203) no-repeat;
+    background: url("../images/social.png") no-repeat;
     height: 24px;
     width: 66px;
     margin-right: 5px;
@@ -4597,7 +4597,7 @@ body {
 
 .g-expert-items .doc-info .doc-base-info dl dt a.name i {
     position: absolute;
-    background: url(/img/v2/consult-icon.gif) no-repeat;
+    background: url("../images/consult-icon.gif") no-repeat;
     width: 16px;
     height: 14px;
     right: -16px;
@@ -4710,7 +4710,7 @@ body {
     height: 38px;
     top: 0;
     right: 0;
-    background: url(/img/v2/search-icon.png?_=20140402) 0 -63px no-repeat
+    background: url("../images/search-icon.png") 0 -63px no-repeat
 }
 
 .g-expert-items .doc-data .order-num {
@@ -4730,7 +4730,7 @@ body {
     float: left;
     width: 88px;
     padding-left: 54px;
-    background: url(/img/v2/search-icon.png?_=20140402) -54px -160px no-repeat
+    background: url("../images/search-icon.png") -54px -160px no-repeat
 }
 
 .g-expert-items .doc-data .doc-comment p {
@@ -4745,7 +4745,7 @@ body {
 .g-expert-items .doc-data .doc-visit i {
     width: 40px;
     height: 40px;
-    background: url(/img/v2/search-icon.png?_=20140402) -62px -120px no-repeat;
+    background: url("../images/search-icon.png") -62px -120px no-repeat;
     display: -moz-inline-stack;
     display: inline-block;
     zoom:1;overflow: hidden
@@ -4839,7 +4839,7 @@ body {
     height: 38px;
     top: -2px;
     right: -2px;
-    background: url(/img/v2/search-icon.png?_=20140402) 0 -63px no-repeat
+    background: url("../images/search-icon.png") 0 -63px no-repeat
 }
 
 .g-expert-items .doc-shiftcase ul {
@@ -4883,7 +4883,7 @@ body {
     vertical-align: middle;
     padding: 9px 0;
     height: 32px;
-    background: url(/img/v2/search-icon.png?_=20140402) no-repeat
+    background: url("../images/search-icon.png") no-repeat
 }
 
 .g-expert-items .doc-shiftcase ul .case-info .am-pm {
@@ -4891,14 +4891,14 @@ body {
     color: #fff;
     padding: 16px 0;
     height: 18px;
-    background: url(/img/v2/search-icon.png?_=20140402) no-repeat
+    background: url("../images/search-icon.png") no-repeat
 }
 
 .g-expert-items .doc-shiftcase ul .case-info .icon {
     position: absolute;
     top: 31px;
     right: -3px;
-    background: url(/img/v2/search-icon.png?_=20140402) no-repeat;
+    background: url("../images/search-icon.png") no-repeat;
     width: 16px;
     height: 16px;
     display: block
@@ -4970,12 +4970,12 @@ body {
 
 .g-expert-items .doc-shiftcase .bx-prev {
     left: 0;
-    background: url(/img/v2/search-icon.png?_=20140402) 0 -172px no-repeat
+    background: url("../images/search-icon.png") 0 -172px no-repeat
 }
 
 .g-expert-items .doc-shiftcase .bx-next {
     right: 0;
-    background: url(/img/v2/search-icon.png?_=20140402) -24px -172px no-repeat
+    background: url("../images/search-icon.png") -24px -172px no-repeat
 }
 
 .g-expert-items .not-order-wrap {
@@ -5098,12 +5098,12 @@ body {
 }
 
 .g-hpt-items .hospital-total .set-relative dl dd .tel {
-    background: url(/img/v2/search-icon.png?_=20140402) -82px -33px no-repeat;
+    background: url("../images/search-icon.png") -82px -33px no-repeat;
     padding-left: 24px
 }
 
 .g-hpt-items .hospital-total .set-relative dl dd .addr {
-    background: url(/img/v2/search-icon.png?_=20140402) -82px -56px no-repeat;
+    background: url("../images/search-icon.png") -82px -56px no-repeat;
     padding-left: 24px
 }
 
@@ -5126,7 +5126,7 @@ body {
 }
 
 .g-hpt-items .hospital-total .set-relative dl dd .disease {
-    background: url(/img/v2/search-icon.png?_=20140402) -82px -81px no-repeat;
+    background: url("../images/search-icon.png") -82px -81px no-repeat;
     padding-left: 24px
 }
 
@@ -5191,7 +5191,7 @@ body {
     display: block;
     width: 40px;
     height: 40px;
-    background: url(/img/v2/search-icon.png?_=20140402) -62px -162px no-repeat;
+    background: url("../images/search-icon.png") -62px -162px no-repeat;
     margin: 0 auto
 }
 
@@ -5210,7 +5210,7 @@ body {
     display: block;
     width: 40px;
     height: 40px;
-    background: url(/img/v2/search-icon.png?_=20140402) -62px -122px no-repeat;
+    background: url("../images/search-icon.png") -62px -122px no-repeat;
     margin: 0 auto
 }
 
@@ -5248,7 +5248,7 @@ body {
     height: 38px;
     top: 0;
     right: 0;
-    background: url(/img/v2/search-icon.png?_=20140402) 0 -63px no-repeat
+    background: url("../images/search-icon.png") 0 -63px no-repeat
 }
 
 .g-hpt-items .apply-bt {
@@ -5525,7 +5525,7 @@ body {
 }
 
 .g-jy-share .text i.bottom {
-    background: url(/img/v2/zhuanti/disease/bottom.png) no-repeat;
+    background: url("../images/bottom.png") no-repeat;
     bottom: -7px;
     height: 7px;
     left: 12px;
@@ -5551,7 +5551,7 @@ body {
 }
 
 .g-jy-share a.cover {
-    background: url(/img/v2/blank.gif);
+    background: url("../images/blank.gif");
     height: 100%;
     left: 0;
     position: absolute;
@@ -5563,12 +5563,12 @@ body {
 .g-banner-sliders {
     height: 350px;
     position: relative;
-    background: url(/img/v2/banner-bg.gif) center bottom no-repeat
+    background: url("../images/banner-bg.gif") center bottom no-repeat
 }
 
 .g-banner-sliders ul {
     height: 350px;
-    background: url(/img/v2/banner-landing.gif) center 84px no-repeat
+    background: url("../images/banner-landing.gif") center 84px no-repeat
 }
 
 .g-banner-sliders li {
@@ -5591,7 +5591,7 @@ body {
 }
 
 .g-banner-sliders .pagers a {
-    background: url(/img/v2/dot-black.png) no-repeat;
+    background: url("../images/dot-black.png") no-repeat;
     height: 11px;
     width: 11px;
     overflow: hidden;
@@ -5936,7 +5936,7 @@ body {
     display: block;
     width: 20px;
     height: 20px;
-    background: url(/img/v2/search-addr.png) 0 -44px no-repeat
+    background: url("../images/search-addr.png") 0 -44px no-repeat
 }
 
 .area-wrap .hot a,.area-wrap .list a {
@@ -6321,12 +6321,12 @@ input,input.text,select,textarea {
 }
 
 .gb,.gb .gb-right {
-    background: url(/img/v2/button-v2.png) no-repeat;
+    background: url("../images/button-v2.png") no-repeat;
     display: inline-block
 }
 
 .gb .gb-text {
-    background: url(/img/v2/button-v2.png) repeat-x;
+    background: url("../images/button-v2.png") repeat-x;
     display: inline-block;
     text-align: center
 }
@@ -7597,7 +7597,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-nav .small-logo {
-    background: url(/img/v2/pictures2-v2.png) 0 -53px no-repeat;
+    background: url("../images/logos-in-a-pic.png") 0 -53px no-repeat;
     display: inline-block;
     height: 22px;
     margin-top: 3px;
@@ -7744,7 +7744,7 @@ input.tipIt,textarea.tipIt {
     position: absolute;
     left: 50%;
     top: 50%;
-    background: url(/img/v2/order.png) no-repeat
+    background: url("../images/order.png") no-repeat
 }
 
 .gh-order p i.info {
@@ -8025,7 +8025,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-menu a.new i {
-    background: url(/img/v2/myzl/new.gif) no-repeat;
+    background: url("../images/new.gif") no-repeat;
     height: 9px;
     width: 22px;
     position: absolute;
@@ -8051,7 +8051,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-menu .app i {
-    background: url(/img/v2/app-guahao.png?_=20140312) -28px -233px no-repeat;
+    background: url("../images/app-guahao.png") -28px -233px no-repeat;
     height: 49px;
     width: 47px;
     position: absolute;
@@ -8101,7 +8101,7 @@ input.tipIt,textarea.tipIt {
 .gh-cha {
     height: 42px;
     padding: 0;
-    background: url(/img/v2/menu_bg.gif) left top repeat-x
+    background: url("../images/menu_bg.gif") left top repeat-x
 }
 
 .gh-cha .gh-list {
@@ -8117,7 +8117,7 @@ input.tipIt,textarea.tipIt {
     width: 88px;
     padding-left: 10px;
     line-height: 42px;
-    background: url(/img/v2/menu_line.gif) right center no-repeat
+    background: url("../images/menu_line.gif") right center no-repeat
 }
 
 .gh-cha .gh-list .special span {
@@ -8244,14 +8244,14 @@ input.tipIt,textarea.tipIt {
 }
 
 #cha-logo .gh-logo .logo {
-    background: url(/img/v2/cha.png);
+    background: url("../images/cha.png");
     width: 270px;
     height: 71px;
     margin-top: 6px
 }
 
 #sina-wrapper .gh-logo .logo {
-    background: url(/img/v2/head-logo.png?_=20140327) -10px 0 no-repeat;
+    background: url("../images/head-logo.png") -10px 0 no-repeat;
     height: 58px;
     width: 174px;
     margin-top: 0
@@ -8284,7 +8284,7 @@ input.tipIt,textarea.tipIt {
 }
 
 #jkka-wrapper .gh-logo .sub-logo {
-    background: url(/img/v2/head-logo.png?_=20140327) -2px -267px no-repeat;
+    background: url("../images/head-logo.png") -2px -267px no-repeat;
     height: 35px;
     width: 221px;
     margin-top: 8px
@@ -8317,7 +8317,7 @@ input.tipIt,textarea.tipIt {
 }
 
 #alipay-wrapper .gh-logo .logo {
-    background: url(/img/v2/head-logo.png?_=20140327) 10px -107px no-repeat;
+    background: url("../images/head-logo.png") 10px -107px no-repeat;
     height: 56px;
     width: 136px;
     margin-top: 0
@@ -8380,7 +8380,7 @@ input.tipIt,textarea.tipIt {
 }
 
 #fecity-wrapper .gh-mini .logo {
-    background: url(/img/v2/wb-logo-mini.gif) no-repeat;
+    background: url("../images/58-logo-mini.gif") no-repeat;
     background-size: 130px 35px;
     height: 35px;
     width: 130px;
@@ -8404,7 +8404,7 @@ input.tipIt,textarea.tipIt {
 }
 
 #taikang-wrapper .gh-logo .logo {
-    background: url(/img/v2/head-logo.png?_=20140327) -10px -730px no-repeat;
+    background: url("../images/head-logo.png") -10px -730px no-repeat;
     height: 78px;
     width: 212px;
     margin-top: 0
@@ -8475,14 +8475,14 @@ input.tipIt,textarea.tipIt {
 }
 
 #ifeng-wrapper .gh-logo .logo {
-    background: url(/img/v2/ifeng-logo.png?20160315) no-repeat;
+    background: url("../images/ifeng-logo.png") no-repeat;
     height: 50px;
     width: 161px;
     margin-top: 5px
 }
 
 #ifeng-wrapper .gh-mini .logo {
-    background: url(/img/v2/ifeng-logo-mini.png) no-repeat;
+    background: url("../images/ifeng-logo-mini.png") no-repeat;
     background-size: 130px 35px;
     height: 35px;
     width: 130px;
@@ -9976,7 +9976,7 @@ input.tipIt,textarea.tipIt {
     margin: 20px auto 40px;
     width: 80px;
     height: 80px;
-    background: url(/img/v2/loading-big.gif) no-repeat
+    background: url("../images/loading-big.gif") no-repeat
 }
 
 .gm-box .body .error {
@@ -10067,7 +10067,7 @@ input.tipIt,textarea.tipIt {
     width: 120px;
     height: 120px;
     margin-left: -60px;
-    background: url(/img/v2/loading-big.gif) center center no-repeat #fff
+    background: url("../images/loading-big.gif") center center no-repeat #fff
 }
 
 #gm-msg .body {
@@ -10101,7 +10101,7 @@ input.tipIt,textarea.tipIt {
 }
 
 #gm-myzl-tkapply .gm-close,.gm-myzl-tkapply .gm-close {
-    background: url(/img/v2/myzl/tk-close.png) no-repeat;
+    background: url("../images/tk-orage-close.png") no-repeat;
     height: 34px;
     position: absolute;
     right: 15px;
@@ -10226,7 +10226,7 @@ input.tipIt,textarea.tipIt {
 }
 
 #gm-confirm .body .content-text.loading i,#gm-reSendMsg .body .content-text.loading i {
-    background: url(/img/v2/popup/loading.gif) no-repeat;
+    background: url("../images/loading.gif") no-repeat;
     height: 31px;
     width: 31px;
     top: 12px;
@@ -10234,13 +10234,13 @@ input.tipIt,textarea.tipIt {
 }
 
 #gm-confirm .body .content-text.success i,#gm-reSendMsg .body .content-text.success i {
-    background: url(/img/v2/popup/popup.png) 0 -334px no-repeat;
+    background: url("../images/popup.png") 0 -334px no-repeat;
     height: 52px;
     width: 52px
 }
 
 #gm-confirm .body .content-text.fail i,#gm-reSendMsg .body .content-text.fail i {
-    background: url(/img/v2/popup/popup.png) 0 -135px no-repeat;
+    background: url("../images/popup.png") 0 -135px no-repeat;
     height: 50px;
     width: 45px
 }
@@ -10265,7 +10265,7 @@ input.tipIt,textarea.tipIt {
     width: 720px;
     padding: 1px;
     margin: 0 auto;
-    background: url(/img/v2/popup/loading.gif) center center no-repeat #fafafa
+    background: url("../images/loading.gif") center center no-repeat #fafafa
 }
 
 .loginmodalErrorMsg {
@@ -10475,7 +10475,7 @@ input.tipIt,textarea.tipIt {
     position: fixed;
     left: 0;
     width: 100%;
-    background: url(/img/v2/popup/black-bg.png);
+    background: url("../images/black-bg.png");
     height: 90px;
     font-size: 12px
 }
@@ -10504,7 +10504,7 @@ input.tipIt,textarea.tipIt {
 
 #gfo-login .arrow {
     float: left;
-    background: url(/img/v2/popup/popup.png) no-repeat;
+    background: url("../images/popup.png") no-repeat;
     height: 21px;
     width: 65px;
     margin: 43px 18px 0 10px
@@ -10518,7 +10518,7 @@ input.tipIt,textarea.tipIt {
 
 #gfo-login .close {
     position: absolute;
-    background: url(/img/v2/popup/popup.png) 0 -396px no-repeat;
+    background: url("../images/popup.png") 0 -396px no-repeat;
     height: 21px;
     width: 21px;
     right: 10px;
@@ -10590,7 +10590,7 @@ input.tipIt,textarea.tipIt {
 }
 
 #gfo-remind .head {
-    background: url(/img/v2/remind-head.png) no-repeat;
+    background: url("./images/remind-head.png") no-repeat;
     height: 184px;
     position: absolute;
     right: 26px;
@@ -10795,7 +10795,7 @@ input.tipIt,textarea.tipIt {
 }
 
 #gfo-medicalConsult {
-    background: url(/img/v2/medical-cosult.png) center 0 no-repeat #c4e6db;
+    background: url("../images/medical-cosult.png") center 0 no-repeat #c4e6db;
     height: 150px!important;
     width: 120px;
     position: absolute!important;
@@ -11163,11 +11163,11 @@ input.tipIt,textarea.tipIt {
 #ask-for {
     width: 73px;
     height: 99px;
-    background: url(/img/v2/children/askfor.png) center no-repeat #b0e4fe
+    background: url("../images/askfor.png") center no-repeat #b0e4fe
 }
 
 #ask-for:hover {
-    background: url(/img/v2/children/askforhover.png) center no-repeat #b0e4fe
+    background: url("../images/askforhover.png") center no-repeat #b0e4fe
 }
 
 #register {
@@ -11199,7 +11199,7 @@ input.tipIt,textarea.tipIt {
     position: absolute;
     width: 424px;
     height: 232px;
-    background: url(/img/v2/fe-pj.png) no-repeat;
+    background: url("../images/fe-pj.png") no-repeat;
     left: -378px;
     top: -20px
 }
@@ -11210,7 +11210,7 @@ input.tipIt,textarea.tipIt {
     top: 15px;
     width: 27px;
     height: 27px;
-    background: url(/img/v2/fe-close.png) no-repeat
+    background: url("../images/fe-close.png") no-repeat
 }
 
 #fe-evaluate .fe-action {
@@ -11236,7 +11236,7 @@ input.tipIt,textarea.tipIt {
     position: absolute;
     width: 364px;
     height: 213px;
-    background: url(/img/v2/fe-help.png) no-repeat;
+    background: url("../images/fe-help.png") no-repeat;
     left: -220px;
     top: 25px
 }
@@ -11247,7 +11247,7 @@ input.tipIt,textarea.tipIt {
     top: 26px;
     width: 27px;
     height: 27px;
-    background: url(/img/v2/fe-close.png) no-repeat
+    background: url("../images/fe-close.png") no-repeat
 }
 
 #feHelpCenter .fe-action {
@@ -11339,7 +11339,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gm-correct-dialog div.success i {
-    background: url(/img/v2/popup/popup.png) 0 -334px no-repeat;
+    background: url("../images/popup.png") 0 -334px no-repeat;
     height: 52px;
     width: 52px;
     display: inline-block
@@ -11496,7 +11496,7 @@ input.tipIt,textarea.tipIt {
     margin: 20px auto 40px;
     width: 80px;
     height: 80px;
-    background: url(/img/v2/loading-big.gif) no-repeat
+    background: url("../images/loading-big.gif") no-repeat
 }
 
 .gm-epay-dialog .body .error {
@@ -12906,7 +12906,7 @@ input.tipIt,textarea.tipIt {
     height: 16px;
     vertical-align: middle;
     overflow: hidden;
-    background-image: url(/img/v2/icons-v2.png);
+    background-image: url("../images/icons-v2.png");
     background-repeat: no-repeat
 }
 
