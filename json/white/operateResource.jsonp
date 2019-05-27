@@ -1,0 +1,26 @@
+jQuery1810370370158142028_1558968710062({
+	"hasError": false,
+	"code": "1",
+	"map": null,
+	"returnUrl": null,
+	"message": null,
+	"data": [{
+		"resourceId": "P-1.3",
+		"url": "https://bbs.guahao.com/topic/dhKdM67561528691326979?P-1.3",
+		"imgUrl": "https://kano.guahao.cn/Qfb91389525?resize=1200x220",
+		"iphonexImgUrl": null,
+		"backgroundColor": "无",
+		"size": "1200-220",
+		"activityName": "【医生说】第148期专题",
+		"activityIntroduce": "通过医生专题，在平台中将医生谈病的专业氛围营造起来，使医生包装逐步成为微医产品的一个重要组成部分，更好的促进医生品牌概念的形成。本期专家王业东。",
+		"popNumber": 2,
+		"popCount": 2,
+		"applyId": "12386",
+		"operateResourceSourceDOList": []
+	}],
+	"sign": null,
+	"pageSize": 20,
+	"pageNo": 1,
+	"pageCount": 0,
+	"totalCount": 0
+});

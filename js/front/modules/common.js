@@ -66,15 +66,15 @@ GH.run(function() {
         }
         return id + lastNumber
     }
-    var RavenKey = "";
-    RavenKey = $GC.debug ? "http://f0fd5eb0b74249448a9b40faab78be61@192.168.99.93:9000/16" : "https://9ab85eeee615429a96d1bde26075453f@sentry.guahao.cn/5",
-    window.Raven && Raven.config(RavenKey).install(),
+    // var RavenKey = "";
+    // RavenKey = $GC.debug ? "http://f0fd5eb0b74249448a9b40faab78be61@192.168.99.93:9000/16" : "https://9ab85eeee615429a96d1bde26075453f@sentry.guahao.cn/5",
+    // window.Raven && Raven.config(RavenKey).install(),
     $GM.init(),
     $GU.iwant.init(),
     $GUM.trackSource(),
     $GFO.init(),
     window.$TK || (window.$TK = function() {
-        var e = $GC.debug ? "//test.trackweb.guahao-inc.com/blank.gif" : "//trackweb.guahao.cn/blank.gif"
+        var e = "http://localhost:9000/blank.gif"
           , t = "mlt"
           , a = "mst"
           , i = {
@@ -962,17 +962,6 @@ GH.run(function() {
             isclose = !0,
             $dom.hide()
         })
-    }
-    var downloadChange = document.referrer.indexOf(".baidu.com") != -1 || document.referrer.indexOf(".sogou.com") != -1 || document.referrer.indexOf(".so.com") != -1 || document.referrer.indexOf(".bing.com") != -1 || document.referrer.indexOf(".google.") != -1 || document.referrer.indexOf(".sm.cn") != -1 || $GU.getURLParam("chb");
-    if (downloadChange) {
-        if ($(".J_SeoGuide").length) {
-            var src = $GC.staticServer;
-            $(".J_SeoGuide").find("img").attr("src", $GC.staticServer + "/front/portal-pc-static/img/new-index-appQRcode.png")
-        }
-        $("#gfo-ghApp").length && $("#gfo-ghApp").find("img").eq(0).attr("src", $GC.staticServer + "/front/portal-pc-static/img/seo-right-bar.png"),
-        $(".J_Background").length && $(".J_Background").addClass("topbg-seo"),
-        $(".iphone-download").length && $(".iphone-download").attr("href", "https://itunes.apple.com/cn/app/wei-yi-mian-fei-yu-yue-gua/id595277934?mt=8"),
-        $(".android-download").length && $(".android-download").attr("href", "https://kano.guahao.cn/0kW3724213")
     }
     document.domain.indexOf("jklj") > -1 && $("#g-breadcrumb").find("a").each(function() {
         "首页" == $(this).text() && $(this).attr("href", $GC.jkljServer)

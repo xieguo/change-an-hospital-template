@@ -1,4 +1,3 @@
-/*! portal-pc-static - git - 2019-05-21 15:39:35 */
 !function(t) {
     if ("object" == typeof exports && "undefined" != typeof module)
         module.exports = t();
