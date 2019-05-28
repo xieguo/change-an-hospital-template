@@ -1,4 +1,3 @@
-/*! portal-pc-static - git - 2019-05-21 15:39:35 */
 "undefined" != typeof String && "undefined" == typeof String.prototype.trim && (String.prototype.trim = function() {
     return this.replace(/^\s+/, "").replace(/\s+$/, "")
 }

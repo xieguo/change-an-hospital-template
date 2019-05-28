@@ -1,0 +1,205 @@
+<?php
+header('content-type:application/json;charset=utf-8');
+
+$provinces = [
+    [
+        "value"   => "2",
+        "text"    => "上海",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "1",
+        "text"    => "北京",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "29",
+        "text"    => "广东",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "22",
+        "text"    => "江苏",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "24",
+        "text"    => "浙江",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "9",
+        "text"    => "陕西",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "11",
+        "text"    => "甘肃",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "21",
+        "text"    => "山东",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "8",
+        "text"    => "山西",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "19",
+        "text"    => "湖北",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "30",
+        "text"    => "湖南",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "3",
+        "text"    => "天津",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "15",
+        "text"    => "四川",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "25",
+        "text"    => "江西",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "23",
+        "text"    => "安徽",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "20",
+        "text"    => "河南",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "16",
+        "text"    => "河北",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "12",
+        "text"    => "青海",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "5",
+        "text"    => "辽宁",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "18",
+        "text"    => "贵州",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "4",
+        "text"    => "重庆",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "7",
+        "text"    => "黑龙江",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "17",
+        "text"    => "云南",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "31",
+        "text"    => "广西",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "10",
+        "text"    => "宁夏",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "14",
+        "text"    => "西藏",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "33",
+        "text"    => "内蒙古",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "32",
+        "text"    => "海南",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "6",
+        "text"    => "吉林",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "13",
+        "text"    => "新疆",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "27",
+        "text"    => "福建",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "500",
+        "text"    => "香港",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+    [
+        "value"   => "501",
+        "text"    => "澳门",
+        "backUrl" => null,
+        "code"    => null,
+    ],
+];
+
+echo json_encode($provinces);

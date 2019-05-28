@@ -181,15 +181,16 @@ GreenLine.Util = {
         var n = i();
         n ? e.call(t, n) : GH.H5ApiRequest.ajax({
             type: "get",
-            url: $GC.gatewayServer + "/moduleoperate/location/get",
+            // url: $GC.gatewayServer + "/json/moduleoperate/location/get",
+            url: "http://localhost:9000/index.php",
             success: function(i) {
-                0 === +i.code && ($.cookie("_ipgeo", "province:" + (i.data.province || "上海") + "|city:" + (i.data.city || ""), {
+                0 === +i.code && ($.cookie("_ipgeo", "province:" + (i.data.province || "广东") + "|city:" + (i.data.city || "广州"), {
                     expires: 100,
                     path: "/"
                 }),
                 e.call(t, {
-                    province: i.data.province || "上海",
-                    city: i.data.city || ""
+                    province: i.data.province || "广东",
+                    city: i.data.city || "广州"
                 }))
             }
         })

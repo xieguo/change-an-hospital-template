@@ -909,195 +909,34 @@
 								<div class="fast-order">
 									<div class="title">
 										<span class="addr-icon zoomIn animated"></span>
-										<span class="province J_Province">广东</span>
-										<span class="city J_City">广州</span>
+										<span class="province J_Province"></span>
+										<span class="city J_City"></span>
 										<a href="javascript:;" class="switch J_AreaSwitch" monitor="home_order,fastorder,city">切换<i class="arrow-down"></i></a>
 									</div>
 									<div class="main">
 										<form action="#" method="post">
-											<input type="hidden" name="pi" value="29">
-											<input type="hidden" name="p" value="广东">
-											<input type="hidden" name="ci" value="79">
-											<input type="hidden" name="c" value="广州">
+											<input type="hidden" name="pi" value="">
+											<input type="hidden" name="p" value="">
+											<input type="hidden" name="ci" value="">
+											<input type="hidden" name="c" value="">
 											<div style="display:none">
-												<select class="province js-province" name="province" style="display:block">
-													<option value="">请选择...</option>
-												</select>
-												<select class="city js-city" name="city" style="display:block">
-												</select>
+												<select class="province js-province" name="province"></select>
+												<select class="city js-city" name="city"></select>
 											</div>
-											<select class="js-hospital J_Select2" name="hospital" multiple="" tabindex="-1" style="display: none;">
 
+											<select class="js-hospital J_Select2" name="hospital" multiple="multiple" tabindex="-1" style="display: none;">
+												<option value="">请选择...</option>
 											</select>
-											<!-- <span class="select2 select2-container select2-container--default" dir="ltr" style="width: 215px;">
-												<span class="selection">
-													<span class="select2-selection select2-selection--multiple" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-expanded="false" tabindex="0">
-														<ul class="select2-selection__rendered">
-															<li class="select2-selection__choice" title="xieguo广州医科大学附属第三医院[三级甲等]">
-																<span class="select2-selection__choice__remove" role="presentation">×</span>xieguo广州医科大学附属第三医院[三级甲等]
-															</li>
-															<li class="select2-search select2-search--inline" style="display: none;">
-																<input class="select2-search__field" type="search" tabindex="-1" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" placeholder="" style="width: 0.75em;">
-															</li>
-														</ul>
-													</span>
-												</span>
-												<span class="dropdown-wrapper" aria-hidden="true"></span>
-											</span> -->
-											<select class="js-dept J_Select2" name="hdid" multiple="" tabindex="-1" style="display: none;">
-												<optgroup label="营养科">
-													<option value="">营养门诊</option>
-													<option value="">临床营养科</option>
-												</optgroup>
-												<optgroup label="康复医学科">
-													<option value="">康复科</option>
-													<option value="">康复科门诊</option>
-												</optgroup>
-												<optgroup label="皮肤性病科">
-													<option value="">皮肤科门诊</option>
-													<option value="">皮肤科</option>
-													<option value="">性病室</option>
-												</optgroup>
-												<optgroup label="麻醉科">
-													<option value="">麻醉门诊</option>
-												</optgroup>
-												<optgroup label="内科">
-													<option value="">感染性疾病科</option>
-													<option value="">内科</option>
-													<option value="">普通内科</option>
-													<option value="">免疫室</option>
-													<option value="">消化内科</option>
-													<option value="">神内门诊</option>
-													<option value="">神经内科</option>
-													<option value="">心血管内科</option>
-													<option value="">泌尿内科</option>
-													<option value="">心内科</option>
-													<option value="">血液室</option>
-												</optgroup>
-												<optgroup label="急诊医学科">
-													<option value="">急诊外科</option>
-													<option value="">门急诊手术中心</option>
-													<option value="">眼科急诊</option>
-													<option value="">产科急诊</option>
-													<option value="">急诊内科</option>
-													<option value="">耳鼻喉急诊</option>
-													<option value="">急诊科</option>
-													<option value="">妇科急诊</option>
-												</optgroup>
-												<optgroup label="其他">
-													<option value="">病历工本费</option>
-													<option value="">门诊西药房</option>
-													<option value="">广三荔湾医院门诊</option>
-													<option value="">GCP办公室</option>
-													<option value="">输血科门诊</option>
-													<option value="">分子室</option>
-													<option value="">MR室</option>
-													<option value="">乳腺专科</option>
-													<option value="">预防保健科</option>
-													<option value="">生殖药房</option>
-													<option value="">胃肠外科门诊</option>
-													<option value="">疼痛门诊</option>
-													<option value="">临床试验药房</option>
-													<option value="">特需门诊</option>
-													<option value="">细菌室</option>
-													<option value="">中药房</option>
-													<option value="">入院接待处</option>
-												</optgroup>
-												<optgroup label="妇产科">
-													<option value="">产前诊断</option>
-													<option value="">生殖助孕</option>
-													<option value="">妇研室</option>
-													<option value="">产科</option>
-													<option value="">妇科</option>
-													<option value="">生殖医学中心</option>
-													<option value="">妇产科研究所</option>
-													<option value="">妇产科试验部</option>
-												</optgroup>
-												<optgroup label="口腔科">
-													<option value="">口腔急诊</option>
-													<option value="">口腔科</option>
-													<option value="">口腔科门诊</option>
-													<option value="">口腔门诊</option>
-												</optgroup>
-												<optgroup label="外科">
-													<option value="">外科门诊</option>
-													<option value="">医学美容科</option>
-													<option value="">外科</option>
-													<option value="">碎石室</option>
-												</optgroup>
-												<optgroup label="耳鼻咽喉头颈科">
-													<option value="">耳鼻喉科</option>
-													<option value="">耳鼻喉门诊</option>
-												</optgroup>
-												<optgroup label="医学影像科">
-													<option value="">CT室</option>
-													<option value="">介入放射科</option>
-													<option value="">ECT室</option>
-													<option value="">核医学免疫组</option>
-													<option value="">核医学临床组</option>
-													<option value="">超声科门诊</option>
-													<option value="">X光室</option>
-													<option value="">放射科</option>
-													<option value="">核医学科门诊</option>
-												</optgroup>
-												<optgroup label="体检科">
-													<option value="">肺功能室</option>
-												</optgroup>
-												<optgroup label="精神科">
-													<option value="">心理门诊</option>
-												</optgroup>
-												<optgroup label="中医科">
-													<option value="">中医门诊</option>
-													<option value="">正骨(中医)</option>
-													<option value="">中医科</option>
-												</optgroup>
-												<optgroup label="儿科">
-													<option value="">儿科急诊</option>
-													<option value="">儿童心理培训基地</option>
-													<option value="">儿科</option>
-													<option value="">儿科门诊</option>
-												</optgroup>
-												<optgroup label="病理科">
-													<option value="">病理门诊</option>
-												</optgroup>
-												<optgroup label="护理门诊">
-													<option value="">中心注射室</option>
-												</optgroup>
-												<optgroup label="骨科">
-													<option value="">骨外门诊</option>
-												</optgroup>
-												<optgroup label="眼科">
-													<option value="">眼科</option>
-													<option value="">眼科门诊</option>
-												</optgroup><optgroup label="医学检验科">
-													<option value="">临检</option>
-													<option value="">检验科</option>
-													<option value="">生化室</option>
-												</optgroup>
-												<optgroup label="全科医疗科">
-													<option value="">综合门诊</option>
-												</optgroup>
+											<select class="js-dept J_Select2" name="hdid" multiple="multiple" tabindex="-1" style="display: none;">
+												<option value="">请选择...</option>
 											</select>
-											<!-- <span class="select2 select2-container select2-container--default" dir="ltr" style="width: 215px;">
-												<span class="selection">
-													<span class="select2-selection select2-selection--multiple" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-expanded="false" tabindex="0">
-														<ul class="select2-selection__rendered">
-															<li class="select2-selection__choice" title="临床营养科">
-																<span class="select2-selection__choice__remove" role="presentation">×</span>临床营养科
-															</li>
-															<li class="select2-search select2-search--inline" style="display: none;">
-																<input class="select2-search__field" type="search" tabindex="-1" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" placeholder="" style="width: 0.75em;">
-															</li>
-														</ul>
-													</span>
-												</span>
-												<span class="dropdown-wrapper" aria-hidden="true"></span>
-											</span> -->
 											<a href="javascript:;" class="gbn gbt-orange js-btn" monitor="home_order, fastorder, fastorder">快速挂号</a>
-										
 										</form>
 									</div>
 								</div>
+
+
+
 								<div class="addr-wrap J_Area" style="z-index: 0; display: none;">
 									<div class="stick">
       									<a href="javascript:;" class="switch J_HideArea">切换<i class="arrow-down"></i></a>
@@ -1123,39 +962,7 @@
 										<div class="province J_ProvinceContainer">
 											<p class="content-title">请选择省份:</p>
 											<ul class="J_ProvinceUl">
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="2" data-nosub="0" title="上海">上海</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="1" data-nosub="0" title="北京">北京</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="29" data-nosub="0" title="广东">广东</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="22" data-nosub="0" title="江苏">江苏</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="24" data-nosub="0" title="浙江">浙江</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="9" data-nosub="0" title="陕西">陕西</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="11" data-nosub="0" title="甘肃">甘肃</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="21" data-nosub="0" title="山东">山东</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="8" data-nosub="0" title="山西">山西</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="19" data-nosub="0" title="湖北">湖北</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="30" data-nosub="0" title="湖南">湖南</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="3" data-nosub="0" title="天津">天津</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="15" data-nosub="0" title="四川">四川</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="25" data-nosub="0" title="江西">江西</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="23" data-nosub="0" title="安徽">安徽</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="20" data-nosub="0" title="河南">河南</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="16" data-nosub="0" title="河北">河北</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="12" data-nosub="0" title="青海">青海</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="5" data-nosub="0" title="辽宁">辽宁</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="18" data-nosub="0" title="贵州">贵州</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="4" data-nosub="0" title="重庆">重庆</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="7" data-nosub="0" title="黑龙江">黑龙江</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="17" data-nosub="0" title="云南">云南</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="31" data-nosub="0" title="广西">广西</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="10" data-nosub="0" title="宁夏">宁夏</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="14" data-nosub="0" title="西藏">西藏</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="33" data-nosub="0" title="内蒙古">内蒙古</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="32" data-nosub="0" title="海南">海南</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="6" data-nosub="0" title="吉林">吉林</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="13" data-nosub="0" title="新疆">新疆</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="27" data-nosub="0" title="福建">福建</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="500" data-nosub="0" title="香港">香港</a></li>
-												<li><a href="javascript:void(0);" name="province" class="J_ProvinceLink" data-val="501" data-nosub="0" title="澳门">澳门</a></li>
+												<!-- 异步取数据 -->
 											</ul>
 										</div>
 										<div class="city J_CityContainer">
@@ -2043,7 +1850,16 @@
 						</div>
 					</div>
 				</div>
-				<div class="helpqs-list hide"></div>
+				<div class="helpqs-list hide">
+					<!-- 常见问题 -->
+					<ul>
+					   <li><a target="_blank" href="" rel="nofollow">微医预约是否收费？</a></li>
+					   <li><a target="_blank" href="" rel="nofollow">网站预约什么时间更新？</a></li>
+					   <li><a target="_blank" href="" rel="nofollow">小孩子如何预约？</a></li>
+					   <li><a target="_blank" href="" rel="nofollow">我只知道哪里不舒服不知道该预约哪位医生？</a></li>
+					   <li><a target="_blank" href="" rel="nofollow">预约具体步骤？</a></li>
+					</ul>
+				</div>
 			</div>
 
 			<div id="gf">
@@ -2094,6 +1910,9 @@
 				</div>
 			</div>		
 		</div>
+
+	
+
 	</body>
 
 
@@ -2201,35 +2020,34 @@
 	<script type="text/javascript">
 		$GC = {
 			debug: false,
-			echartServer: '',
+			echartServer: "",
 			isLogined : false,
-			guahaoServer : '',
-			staticServer : '',
-			imageServer : '',
-			kanoServer: '',
-			serviceServer : '',
-			eopsServer : '',
-			wepayServer : '',
-			mobilevalidcodepwd : '',
-			version:"",
-			encodeId:"",
+			guahaoServer : "http://localhost:9000",
+			staticServer : "",
+			imageServer : "",
+			kanoServer: "",
+			serviceServer : "",
+			eopsServer : "",
+			wepayServer : "",
+			mobilevalidcodepwd : "",
+			version:"88888888",
+			encodeId:"1",
 			jsCPath:"js" + "/common/js",
 			jspath:"js" + "/front",
-			domainEnd:'',
-			bbsServer: '',
-			gatewayServer: '',
+			domainEnd:"",
+			bbsServer: "",
+			gatewayServer: "http://localhost:9000",
 			cloudcardServer: "",
-			jkljServer: '',
-			weiYiH5GuahaoServer: '',
-			bayAreaServer:'',
-			epayServer: ''
+			jkljServer: "",
+			weiYiH5GuahaoServer: "",
+			bayAreaServer:"",
+			epayServer: ""
 		};
 
-		// $GS { Array } - the init parameters for startup
 		$GS = [
-			$GC.jspath + "/plugins/scout.js",
-			// $GC.jspath + "/plugins/raven.js",
 			$GC.jsCPath + "/base/jquery-1.8.1.min.js",
+			// $GC.jspath + "/plugins/scout.js",
+			// $GC.jspath + "/plugins/raven.js",
 			$GC.jspath + "/base/GH.js",
 			$GC.jsCPath + "/plugins/validator.js",function(){
 

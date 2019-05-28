@@ -66,15 +66,12 @@ GH.run(function() {
         }
         return id + lastNumber
     }
-    // var RavenKey = "";
-    // RavenKey = $GC.debug ? "http://f0fd5eb0b74249448a9b40faab78be61@192.168.99.93:9000/16" : "https://9ab85eeee615429a96d1bde26075453f@sentry.guahao.cn/5",
-    // window.Raven && Raven.config(RavenKey).install(),
     $GM.init(),
     $GU.iwant.init(),
     $GUM.trackSource(),
     $GFO.init(),
     window.$TK || (window.$TK = function() {
-        var e = "http://localhost:9000/blank.gif"
+        var e = $GC.debug ? "/images/blank.gif" : "/images/blank.gif"
           , t = "mlt"
           , a = "mst"
           , i = {
