@@ -1673,7 +1673,7 @@ GreenLine.Flyout = {
                 id: "gfo-jkdh"
             })
               , i = this.check()
-              , n = "<div class='cw'><a href='http://www.chinahealthsummit.com/' target='_blank'></a></div>";
+              , n = "<div class='cw'><a href='http://localhost:9000' target='_blank'></a></div>";
             i && e(n, "_gfo_jkdh_disable"),
             i || GreenLine.Flyout.donextload()
         }
@@ -1979,7 +1979,7 @@ GreenLine.Flyout = {
                     $GD.init({
                         title: i,
                         extClass: "gm-correct-dialog",
-                        content: '<form action="javascript:;"><ul><li>请选择纠错类型：' + t + '</li><li><textarea  data-validcode="correctContent" name="desc" maxlength="500" data-required="1" pattern ="^(.|\n){1,500}$" data-message ="请输入1-500个字符" data-phtext="请指明纠错的内容"></textarea></li><li style="color:#F00">注：网站建议，预约挂号问题请联系<a href="https://www.guahao.com/feedback" target="_blank">网站客服</a></li><li><input type="email"    data-validcode="correctEmail" name="email" class="text js-correctEmail" value="" data-required="1" data-phtext="您的联系邮箱" /></li></ul></form><div class="success hide"><i></i><span>反馈成功！</span></div>',
+                        content: '<form action="javascript:;"><ul><li>请选择纠错类型：' + t + '</li><li><textarea  data-validcode="correctContent" name="desc" maxlength="500" data-required="1" pattern ="^(.|\n){1,500}$" data-message ="请输入1-500个字符" data-phtext="请指明纠错的内容"></textarea></li><li style="color:#F00">注：网站建议，预约挂号问题请联系<a href="https://localhost:9000/feedback" target="_blank">网站客服</a></li><li><input type="email"    data-validcode="correctEmail" name="email" class="text js-correctEmail" value="" data-required="1" data-phtext="您的联系邮箱" /></li></ul></form><div class="success hide"><i></i><span>反馈成功！</span></div>',
                         width: 460,
                         okCls: "gbn gbt-blue1",
                         okTxt: "提交",

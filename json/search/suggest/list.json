@@ -1,0 +1,135 @@
+{
+	"code": "0",
+	"flag": "0",
+	"message": "查询成功",
+	"pageNo": 1,
+	"pageSize": 10,
+	"pageCount": 1805,
+	"recordCount": 18043,
+	"items": [
+		{
+			"uuid": "7f687074-cff3-11e1-831f-5cf9dd2e7135",
+			"name": "口腔科",
+			"type": "department",
+			"hospitalAssociationItem": null,
+			"doctorAssociationItem": null
+		},
+		{
+			"uuid": "aac1d368-f3b7-11e8-bbc9-44a8420c5800",
+			"name": "咳嗽",
+			"type": "disease",
+			"hospitalAssociationItem": null,
+			"doctorAssociationItem": null
+		},
+		{
+			"uuid": "7f6912fe-cff3-11e1-831f-5cf9dd2e7135",
+			"name": "康复科",
+			"type": "department",
+			"hospitalAssociationItem": null,
+			"doctorAssociationItem": null
+		},
+		{
+			"uuid": "44306",
+			"name": "口腔溃疡",
+			"type": "disease",
+			"hospitalAssociationItem": null,
+			"doctorAssociationItem": null
+		},
+		{
+			"uuid": "a38dfa57-7243-433f-ae03-0a63f03f3aed000",
+			"name": "孔祥梅",
+			"type": "doctor",
+			"hospitalAssociationItem": null,
+			"doctorAssociationItem": {
+				"doctorId": "a38dfa57-7243-433f-ae03-0a63f03f3aed000",
+				"snsUserId": "",
+				"hospitalId": "",
+				"departmentId": "",
+				"doctorName": "孔祥梅",
+				"doctorCount": 2,
+				"openServicePackage": 0,
+				"tagNames": [],
+				"enableOrder": 0,
+				"consult": 0,
+				"topicCount": 0,
+				"lectureCount": 0,
+				"articleCount": 0,
+				"adminCircleCount": 0,
+				"topicHelpCount": 0,
+				"isHealth": 0
+			}
+		},
+		{
+			"uuid": "986d04f0-c720-11e1-913c-5cf9dd2e7135000",
+			"name": "空军乌鲁木齐医院",
+			"type": "hospital",
+			"hospitalAssociationItem": {
+				"hospitalName": "空军乌鲁木齐医院",
+				"hospitalId": "986d04f0-c720-11e1-913c-5cf9dd2e7135000",
+				"orderCount": 18765,
+				"featureDeptList": []
+			},
+			"doctorAssociationItem": null
+		},
+		{
+			"uuid": "986c8a85-c720-11e1-913c-5cf9dd2e7135000",
+			"name": "空军军医大学西京医院",
+			"type": "hospital",
+			"hospitalAssociationItem": {
+				"hospitalName": "空军军医大学西京医院",
+				"hospitalId": "986c8a85-c720-11e1-913c-5cf9dd2e7135000",
+				"orderCount": 0,
+				"featureDeptList": []
+			},
+			"doctorAssociationItem": null
+		},
+		{
+			"uuid": "140559342458315000",
+			"name": "昆山市中医医院",
+			"type": "hospital",
+			"hospitalAssociationItem": {
+				"hospitalName": "昆山市中医医院",
+				"hospitalId": "140559342458315000",
+				"orderCount": 9957,
+				"featureDeptList": []
+			},
+			"doctorAssociationItem": null
+		},
+		{
+			"uuid": "140559342456313000",
+			"name": "昆山市第一人民医院",
+			"type": "hospital",
+			"hospitalAssociationItem": {
+				"hospitalName": "昆山市第一人民医院",
+				"hospitalId": "140559342456313000",
+				"orderCount": 29299,
+				"featureDeptList": []
+			},
+			"doctorAssociationItem": null
+		},
+		{
+			"uuid": "baafd4d6-09d5-466d-8108-b217aa602e10000",
+			"name": "康非吾",
+			"type": "doctor",
+			"hospitalAssociationItem": null,
+			"doctorAssociationItem": {
+				"doctorId": "baafd4d6-09d5-466d-8108-b217aa602e10000",
+				"snsUserId": "uWyjl33232748",
+				"hospitalId": "5ff89d5d-5f01-4945-b687-fa47662fd5aa000",
+				"departmentId": "354424bd-e8f7-4096-a9da-1317a3c73046000",
+				"doctorName": "康非吾",
+				"doctorCount": 1,
+				"openServicePackage": 1,
+				"tagNames": ["阻生牙", "阻生齿", "牙颌面畸形", "口腔颌面部肿瘤"],
+				"enableOrder": 1,
+				"consult": 1,
+				"topicCount": 24,
+				"lectureCount": 0,
+				"articleCount": 0,
+				"adminCircleCount": 0,
+				"topicHelpCount": 64,
+				"isHealth": 1
+			}
+		}
+	]
+}

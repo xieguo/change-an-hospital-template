@@ -390,7 +390,7 @@ GH.run(function() {
         function n(e, t) {
             var a = $.trim(e.q);
             "" !== a ? GH.H5ApiRequest.ajax({
-                url: $GC.gatewayServer + "/common/searchsuggest/list.json",
+                url: $GC.gatewayServer + "/json/search/suggest/list.json",
                 data: {
                     q: a
                 },
