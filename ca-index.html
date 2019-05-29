@@ -33,7 +33,6 @@
 					token: "",
 					monitorLog : false
 				}
-				// 老的埋点，后面统一删除HTML上的埋点
 				function _smartlog(link,mod){return true;};
 				// 老的浏览器兼容H5标签
 				(function () {if (/MSIE [6-8]/.test(navigator.userAgent.toUpperCase())) {var tags = "header,footer,section,article,aside,details,summary,figure,figcaption,nav,menu".split(",");document.write("<style>" + tags.toString() + "{display:block}</style>");for (var i = 0; i < tags.length; document.createElement(tags[i]), i++);}})();
@@ -66,13 +65,7 @@
 				<div class="gh-nav">
 					<div class="container g-clear">
 						<div class="g-left">
-							<span class="text">您好！ 请</span>
-							<span class="login"></span>
-							<a href="" rel="nofollow">登录</a>
-							<span class="line">|</span>
-							<a href="" rel="nofollow">注册</a>
-							<span class="line">|</span>
-							<a href="" rel="nofollow"><i></i>我是医生</a>
+							<span class="text">您好！ </span>
 						</div>
 					  	<div class="g-right">
 				            <a href="javascript:;" rel="nofollow" class='dl-guide J_SeoGuide'>
@@ -120,7 +113,7 @@
 			  	</div>
 
 				<div class="gh-home-menu J_NewMenu">
-					<div class="container g-clear  ">
+					<div class="container g-clear">
 						<div class="home-menu-ctn">
 							<ul class="g-clear main-menu-nav">
 								<li class="hot"> <a target="_blank" class="own-tab" monitor="public_menu,home_menu,ask" href="">在线问诊</a></li>
@@ -801,7 +794,6 @@
 							<li><a href="" target="_blank" onmousedown="return _smartlog(this,'MNU')" monitor="public_menu,health,medical">微医严选</a></li>
 						</ul>
 					</div>
-					
 				</div>
 			</div>
 
