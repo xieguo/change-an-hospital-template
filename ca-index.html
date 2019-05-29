@@ -32,8 +32,7 @@
 					errorEventName:'portal_pc_js_error',
 					token: "",
 					monitorLog : false
-				}
-				function _smartlog(link,mod){return true;};
+				};
 				// 老的浏览器兼容H5标签
 				(function () {if (/MSIE [6-8]/.test(navigator.userAgent.toUpperCase())) {var tags = "header,footer,section,article,aside,details,summary,figure,figcaption,nav,menu".split(",");document.write("<style>" + tags.toString() + "{display:block}</style>");for (var i = 0; i < tags.length; document.createElement(tags[i]), i++);}})();
 				// 图片加载失败,error设置默认图片也加载失败避免死循环
@@ -43,19 +42,6 @@
 					img.onerror = null;
 				};
 			</script>
-
-<!--[if IE 6]>
-<link rel="stylesheet" type="text/css" media="screen" href="https://static.guahao.cn/front/portal-pc-static/css/ie6.css?v=1557150763ea2e3f"/>
-<![endif]-->
-<!--[if IE 7]>
-<link rel="stylesheet" type="text/css" media="screen" href="https://static.guahao.cn/front/portal-pc-static/css/ie7.css?v=1557150763ea2e3f"/>
-<![endif]-->
-<!--[if IE 8]>
-<link rel="stylesheet" type="text/css" media="screen" href="https://static.guahao.cn/front/portal-pc-static/css/ie8.css?v=1557150763ea2e3f"/>
-<![endif]-->
-<!--[if gt IE 8]>
-<div class="g-browser-update">你的浏览器实在太旧了，为了更加安全和方便地进行挂号，微医推荐您升级浏览器：<a target="_blank" href="http://browsehappy.com">立即升级</a></div>
-<![endif]-->
 
 	</head>
 	<body>
@@ -75,7 +61,7 @@
 				            	</span>
 				            </a>
 							<span class="line">|</span>
-							<a href="" rel="nofollow" onmousedown="return _smartlog(this,'TOP')" id="helpCenter" target="_blank" monitor="public_head,publick_head,cscenter">客服中心</a>
+							<a href="" rel="nofollow" id="helpCenter" target="_blank" monitor="public_head,publick_head,cscenter">客服中心</a>
 						</div>
 					</div>
 				</div>
@@ -128,60 +114,60 @@
 									<ul>
 										<li data-id="1">
 											<h5 class="title">
-												<i class="nk"></i><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">内科</a>
+												<i class="nk"></i><a target="_blank" href="">内科</a>
 											</h5>
 											<span class="sub-ds">
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">糖尿病</a>
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastselect,div,hotsick">高血压</a>
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastselect,div,hotsick">冠心病</a>
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">糖尿病</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">高血压</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">冠心病</a>
 											</span>
 										</li>
 										<li data-id="2">
 											<h5 class="title">
 												<i class="wk"></i>
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">外科</a>
+												<a target="_blank" href="">外科</a>
 											</h5>
 											<span class="sub-ds">
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">乳腺癌</a>
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastselect,div,hotsick">血管瘤</a>
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastselect,div,hotsick">肝癌</a>
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">乳腺癌</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">血管瘤</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">肝癌</a>
 											</span>
 										</li>
 										<li data-id="3">
 											<h5 class="title">
-												<i class="fck"></i><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">妇产科</a>
+												<i class="fck"></i><a target="_blank" href="">妇产科</a>
 											</h5>
 											<span class="sub-ds">
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">不孕</a><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastselect,div,hotsick">阴道炎</a><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastselect,div,hotsick">卵巢囊肿</a>
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">不孕</a><a target="_blank" href="" monitor="public_fastselect,div,hotsick">阴道炎</a><a target="_blank" href="" monitor="public_fastselect,div,hotsick">卵巢囊肿</a>
 											</span>
 										</li>
 										<li data-id="4">
 											<h5 class="title">
-												<i class="pfk"></i><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">皮肤性病科</a>
+												<i class="pfk"></i><a target="_blank" href="">皮肤性病科</a>
 											</h5>
 											<span class="sub-ds">
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">白癜风</a>
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastselect,div,hotsick">湿疹</a>
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastselect,div,hotsick">银屑病</a>
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">白癜风</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">湿疹</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">银屑病</a>
 											</span>
 										</li>
 										<li data-id="5">
 											<h5 class="title">
-												<i class="gk"></i><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">骨科</a>
+												<i class="gk"></i><a target="_blank" href="">骨科</a>
 											</h5>
 											<span class="sub-ds">
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">颈椎病</a>
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastselect,div,hotsick">腰椎间盘突出症</a>
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">颈椎病</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">腰椎间盘突出症</a>
 											</span>
 										</li>
 										<li data-id="6">
 											<h5 class="title">
-												<i class="wgk"></i><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">耳鼻咽喉科</a>
+												<i class="wgk"></i><a target="_blank" href="">耳鼻咽喉科</a>
 											</h5>
 											<span class="sub-ds">
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">鼻咽癌</a>
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastselect,div,hotsick">鼻炎</a>
-												<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastselect,div,hotsick">白内障</a>
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">鼻咽癌</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">鼻炎</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">白内障</a>
 											</span>
 										</li>
 										<li class="other" data-id="8">
@@ -195,127 +181,127 @@
 										<div class="sub-category-box J_SubBox">
 											<ul>
 												<li>
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">内科常见病</a></h5>
+													<h5><a target="_blank" href="">内科常见病</a></h5>
 													<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">甲亢</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乙肝</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胃炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">高血脂</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脑梗塞</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">强直性脊柱炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">癫痫</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">痛风</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">哮喘</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肺结核</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胃溃疡</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">克罗恩病</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝硬化</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲亢</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乙肝</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">胃炎</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">高血脂</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脑梗塞</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">强直性脊柱炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">癫痫</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">痛风</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">哮喘</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">肺结核</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胃溃疡</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">克罗恩病</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝硬化</a>
 													</p>
 												</li>
 												<li>
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">神经内科常见病</a></h5>
+													<h5><a target="_blank" href="">神经内科常见病</a></h5>
 													<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">脑梗塞</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">癫痫</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">面瘫</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">三叉神经痛</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">老年痴呆</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脑血栓形成</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">帕金森病</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脑供血不足</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">失眠</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">面肌抽搐</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">重症肌无力</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">脑梗塞</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">癫痫</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">面瘫</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">三叉神经痛</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">老年痴呆</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脑血栓形成</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">帕金森病</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脑供血不足</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">失眠</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">面肌抽搐</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">重症肌无力</a>
 													</p>
 												</li>
 												<li>
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">内分泌科常见病</a></h5>
+													<h5><a target="_blank" href="">内分泌科常见病</a></h5>
 													<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲亢</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">高尿酸血症</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">痛风</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">糖尿病足</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肥胖症</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">低血糖</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">甲减</a>
-											            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">亚甲炎</a>
-											            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺瘤</a>
-											            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">侏儒症</a>
-											            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">习惯性流产</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲亢</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">高尿酸血症</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">痛风</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">糖尿病足</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肥胖症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">低血糖</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲减</a>
+											            <a target="_blank" href="" monitor="public_fastsearch,div,sick">亚甲炎</a>
+											            <a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺瘤</a>
+											            <a target="_blank" href="" monitor="public_fastsearch,div,sick">侏儒症</a>
+											            <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">习惯性流产</a>
 													</p>
 												</li>
 										        <li class="last">
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">风湿免疫科常见病</a></h5>
+										            <h5><a target="_blank" href="">风湿免疫科常见病</a></h5>
 										            <p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">强直性脊柱炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">风湿病</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">类风湿性关节炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">干燥综合征</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">特发性关节痛综合征</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">硬皮病</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">系统性红斑狼疮</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">白塞病</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">强直性脊柱炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">风湿病</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">类风湿性关节炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">干燥综合征</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">特发性关节痛综合征</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">硬皮病</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">系统性红斑狼疮</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">白塞病</a>
 										            </p>
 										        </li>
 										        <li>
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">心血管内科常见病</a></h5>
+										            <h5><a target="_blank" href="">心血管内科常见病</a></h5>
 										            <p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">动脉硬化</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">心绞痛</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">窦性心动过速</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">低钾血症</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肺动脉高压</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肺栓塞</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">心脏神经官能症</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">心肌梗死</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">动脉硬化</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">心绞痛</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">窦性心动过速</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">低钾血症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺动脉高压</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺栓塞</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">心脏神经官能症</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">心肌梗死</a>
 										            </p>
 										        </li>
 										        <li>
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">呼吸内科常见病</a></h5>
+										            <h5><a target="_blank" href="">呼吸内科常见病</a></h5>
 										            <p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">过敏性咳嗽</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">气胸</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">流感</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">支气管扩张</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胸腔积液</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">慢性支气管炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">支气管哮喘</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">过敏性哮喘</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">急性支气管炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">过敏性咳嗽</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">气胸</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">流感</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">支气管扩张</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胸腔积液</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性支气管炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">支气管哮喘</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">过敏性哮喘</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">急性支气管炎</a>
 										            </p>
 										        </li>
 										        <li>
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">感染科常见病</a></h5>
+										            <h5><a target="_blank" href="">感染科常见病</a></h5>
 										            <p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">狂犬病</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">丹毒</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胸膜炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">麻疹</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">慢性结肠炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">硬下疳</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">伤寒</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">甲肝</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">小儿麻痹症</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">H7N9</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">白喉</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">气性坏疽</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">狂犬病</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">丹毒</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胸膜炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">麻疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性结肠炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">硬下疳</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">伤寒</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">甲肝</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿麻痹症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">H7N9</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">白喉</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">气性坏疽</a>
 										            </p>
 										        </li>
 										        <li>
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">消化内科常见病</a></h5>
+										            <h5><a target="_blank" href="">消化内科常见病</a></h5>
 										            <p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脂肪肝</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">便秘</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肠炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">结肠炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">蚕豆病</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">十二指肠溃疡</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">反流性食管炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">萎缩性胃炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">溃疡性结肠炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">痢疾</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">慢性肠炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脂肪肝</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">便秘</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肠炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">结肠炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">蚕豆病</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">十二指肠溃疡</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">反流性食管炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">萎缩性胃炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">溃疡性结肠炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">痢疾</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">慢性肠炎</a>
 										            </p>
 										        </li>
 											</ul>
@@ -326,128 +312,128 @@
 										<div class="sub-category-box J_SubBox">
 											<ul>
 												<li>
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">外科常见病</a></h5>
+													<h5><a target="_blank" href="">外科常见病</a></h5>
 													<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肺癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">痔疮</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺腺瘤</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">直肠癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肾结石</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">结肠癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胆囊结石</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胃癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">食管癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胆囊癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝血管瘤</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺炎</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肺癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">痔疮</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺腺瘤</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">直肠癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">肾结石</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">结肠癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">胆囊结石</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">胃癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">食管癌</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胆囊癌</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝血管瘤</a>
 													</p>
 												</li>
 												<li>
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">泌尿外科常见病</a></h5>
+													<h5><a target="_blank" href="">泌尿外科常见病</a></h5>
 													<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">前列腺炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">早泄</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肾结石</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">包皮过长</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">性功能障碍</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">男性不育症</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">尿路感染</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺增生</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肾积水</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">前列腺炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">早泄</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肾结石</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">包皮过长</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">性功能障碍</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">男性不育症</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">尿路感染</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺增生</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺癌</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肾积水</a>
 													</p>
 												</li>
 												<li>
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">乳腺外科常见病</a></h5>
+													<h5><a target="_blank" href="">乳腺外科常见病</a></h5>
 													<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳腺增生</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺纤维腺瘤</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺腺病</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">急性乳腺炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">多乳房</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺导管扩张症</a>
-											            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳腺纤维瘤</a>
-											            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳头内陷</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">乳房纤维瘤</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳腺增生</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺纤维腺瘤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺腺病</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">急性乳腺炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">多乳房</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺导管扩张症</a>
+											            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳腺纤维瘤</a>
+											            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳头内陷</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">乳房纤维瘤</a>
 													</p>
 												</li>
 												<li class="last">
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">普外科常见病</a></h5>
+													<h5><a target="_blank" href="">普外科常见病</a></h5>
 													<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胃癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺腺瘤</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胰腺炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲状腺癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">疝气</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胰腺癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脂肪瘤</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺结节样病变</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">阑尾炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胰腺囊肿</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">脾大</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胃癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺腺瘤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">胰腺炎</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲状腺癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">疝气</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胰腺癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脂肪瘤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺结节样病变</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">阑尾炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">胰腺囊肿</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">脾大</a>
 													</p>
 												</li>
 										        <li>
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">神经外科常见病</a></h5>
+										            <h5><a target="_blank" href="">神经外科常见病</a></h5>
 										            <p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脑血栓</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胶质瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">垂体瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脑垂体瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脑膜瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脑震荡</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脑动脉瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">烟雾病</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脑疝</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">植物人</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脊髓损伤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">瘫痪</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑血栓</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胶质瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">垂体瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑垂体瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑膜瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑震荡</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑动脉瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">烟雾病</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑疝</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">植物人</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脊髓损伤</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">瘫痪</a>
 										            </p>
 										        </li>
 										        <li>
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">肝胆外科常见病</a></h5>
+										            <h5><a target="_blank" href="">肝胆外科常见病</a></h5>
 										            <p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胆囊炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肝囊肿</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肝腹水</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胆管结石</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">海绵状血管瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">急性胆囊炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">腹膜癌</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">先天性巨结肠</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">慢性胰腺炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝脓肿</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胆囊炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肝囊肿</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肝腹水</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胆管结石</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">海绵状血管瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性胆囊炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">腹膜癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">先天性巨结肠</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性胰腺炎</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝脓肿</a>
 										            </p>
 										        </li>
 										        <li>
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">胸外科常见病</a></h5>
+										            <h5><a target="_blank" href="">胸外科常见病</a></h5>
 										            <p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">鸡胸</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肺结节</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肺大泡</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胸腺瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">法洛四联症</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肺空洞</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">纵膈肿瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">恶性间皮瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">张力性气胸</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">乳糜胸</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肺损伤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鸡胸</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺结节</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺大泡</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胸腺瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">法洛四联症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺空洞</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">纵膈肿瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">恶性间皮瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">张力性气胸</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">乳糜胸</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肺损伤</a>
 										            </p>
 										        </li>
 										        <li>
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">肛肠外科常见病</a></h5>
+										            <h5><a target="_blank" href="">肛肠外科常见病</a></h5>
 										            <p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肛周脓肿</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肛门息肉</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肠套叠</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">慢性阑尾炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">小肠癌</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">藏毛窦</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肠粘连</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">结肠腺癌</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肛乳头瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">胃肠功能紊乱</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肛周脓肿</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肛门息肉</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肠套叠</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性阑尾炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">小肠癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">藏毛窦</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肠粘连</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">结肠腺癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肛乳头瘤</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">胃肠功能紊乱</a>
 										            </p>
 										        </li>
 											</ul>
@@ -458,46 +444,46 @@
 										<div class="sub-category-box J_SubBox">
 											<ul>
 												<li class="last">
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">妇产科常见病</a></h5>
+													<h5><a target="_blank" href="">妇产科常见病</a></h5>
 													<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">月经不调</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">输卵管堵塞</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">阴道炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">多囊卵巢综合征</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">围绝经期综合征</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">盆腔炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈癌</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">月经不调</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">输卵管堵塞</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">阴道炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">多囊卵巢综合征</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">围绝经期综合征</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">盆腔炎</a>
 														<a class="focus" href="" monitor="public_fastsearch,div,sick">子宫内膜异位症</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜增生</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">宫外孕</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">子宫腺肌症</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">产后出血</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">早产</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">自然流产</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜增生</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫外孕</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫腺肌症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">产后出血</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">早产</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">自然流产</a>
 														<a class="focus" href="" monitor="public_fastsearch,div,sick">巧克力囊肿</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">子宫脱垂</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈癌前病变</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">子宫颈息肉</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">畸胎瘤</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">卵巢癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜息肉</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜癌</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">子宫肌瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">多囊卵巢综合症</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈囊肿</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈息肉</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">性冷淡</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">妇科炎症</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">人乳头瘤病毒</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">子宫息肉</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">外阴瘙痒</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">流产</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">羊水栓塞</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">先兆流产</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">子宫癌</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">异常分娩</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫脱垂</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈癌前病变</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫颈息肉</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">畸胎瘤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">卵巢癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜息肉</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫肌瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">多囊卵巢综合症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈囊肿</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈息肉</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">性冷淡</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">妇科炎症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">人乳头瘤病毒</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫息肉</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">外阴瘙痒</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">流产</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">羊水栓塞</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">先兆流产</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫癌</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">异常分娩</a>
 													</p>
 												</li>
 											</ul>
@@ -508,55 +494,55 @@
 										<div class="sub-category-box J_SubBox">
 											<ul>
 												<li class="last">
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">皮肤性病科常见病</a></h5>
+													<h5><a target="_blank" href="">皮肤性病科常见病</a></h5>
 													<p>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">尖锐湿疣</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">腋臭</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">灰指甲</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">胎记</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">扁平疣</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">带状疱疹</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">甲沟炎</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">黑色素瘤</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脂溢性皮炎</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">梅毒</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">尖锐湿疣</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">腋臭</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">灰指甲</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">胎记</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">扁平疣</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">带状疱疹</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲沟炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">黑色素瘤</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脂溢性皮炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">梅毒</a>
 													<a class="focus" href="" monitor="public_fastsearch,div,sick">寻常痤疮</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">毛囊炎</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤瘙痒症</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">神经性皮炎</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">外阴黏膜白斑</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">表皮痣</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">皮炎</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">色素痣</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">生殖器疱疹</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">鱼鳞病</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">毛囊炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤瘙痒症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">神经性皮炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">外阴黏膜白斑</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">表皮痣</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">皮炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">色素痣</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">生殖器疱疹</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">鱼鳞病</a>
 													<a class="focus" href="" monitor="public_fastsearch,div,sick">脚气</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">寻常疣</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">荨麻疹</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">鸡眼</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤过敏</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">痤疮</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">玫瑰糠疹</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">股癣</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脱发</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">纤维瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">丘疹性荨麻疹</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">阴囊湿疹</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">皮脂腺囊肿</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">痱子</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">蜘蛛痣</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">黄褐斑</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">湿疣</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">天花</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">股藓</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">单纯疱疹</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">粉瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">老年斑</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">慢性荨麻疹</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤癌</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">红血丝</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">传染性软疣</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">日光性皮炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">寻常疣</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">荨麻疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鸡眼</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤过敏</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">痤疮</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">玫瑰糠疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">股癣</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脱发</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">纤维瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">丘疹性荨麻疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">阴囊湿疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">皮脂腺囊肿</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">痱子</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">蜘蛛痣</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">黄褐斑</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">湿疣</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">天花</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">股藓</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">单纯疱疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">粉瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">老年斑</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性荨麻疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">红血丝</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">传染性软疣</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">日光性皮炎</a>
 													</p>
 												</li>
 											</ul>
@@ -567,60 +553,60 @@
 										<div class="sub-category-box J_SubBox">
 											<ul>
 												<li>
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">骨科常见病</a></h5>
+													<h5><a target="_blank" href="">骨科常见病</a></h5>
 													<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">骨质增生</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肩周炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">腱鞘炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">半月板损伤</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">滑膜炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">关节炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">慢性腰背痛</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">股骨头缺血性坏死</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">骨折</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">颈椎间盘突出症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨质增生</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肩周炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">腱鞘炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板损伤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">滑膜炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">关节炎</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">慢性腰背痛</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">股骨头缺血性坏死</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨折</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">颈椎间盘突出症</a>
 													</p>
 												</li>
 												<li>
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">脊柱外科常见病</a></h5>
+													<h5><a target="_blank" href="">脊柱外科常见病</a></h5>
 													<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">慢性腰背痛</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">颈椎间盘突出症</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">腰椎椎管狭窄症</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脊髓型颈椎病</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">神经根型颈椎病</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脊柱骨折</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">脊柱肿瘤</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">椎间盘突出</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性腰背痛</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">颈椎间盘突出症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">腰椎椎管狭窄症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊髓型颈椎病</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">神经根型颈椎病</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊柱骨折</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊柱肿瘤</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">椎间盘突出</a>
 													</p>
 												</li>
 												<li>
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">关节外科常见病</a></h5>
+													<h5><a target="_blank" href="">关节外科常见病</a></h5>
 													<p>
 														<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肩周炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">半月板损伤</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">滑膜炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">痛风性关节炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肩袖损伤</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肱骨外上髁炎</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肩周炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板损伤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">滑膜炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">痛风性关节炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">肩袖损伤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">肱骨外上髁炎</a>
 														<a class="focus" href="" monitor="public_fastsearch,div,sick">骨关节炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">先天性髋关节脱位</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肌腱炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">先天性髋关节脱位</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肌腱炎</a>
 													</p>
 												</li>
 												<li class="last">
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">创伤骨科常见病</a></h5>
+													<h5><a target="_blank" href="">创伤骨科常见病</a></h5>
 													<p>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">骨折</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">跟腱炎</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">半月板撕裂</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">跟腱断裂</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">腓总神经损伤</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">髌骨骨折</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">股骨颈骨折</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">踝关节骨折</a>
-														<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">膝外侧韧带损伤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨折</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">跟腱炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板撕裂</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">跟腱断裂</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">腓总神经损伤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">髌骨骨折</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">股骨颈骨折</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">踝关节骨折</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">膝外侧韧带损伤</a>
 													</p>
 												</li>
 											</ul>
@@ -631,69 +617,69 @@
 										<div class="sub-category-box J_SubBox">
 											<ul>
 										        <li>
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">耳鼻咽喉科常见疾病</a></h5>
+										            <h5><a target="_blank" href="">耳鼻咽喉科常见疾病</a></h5>
 										            <p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">鼻炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">鼻窦炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">中耳炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">三叉神经痛</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">鼻咽癌</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">鼻中隔偏曲</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">扁桃体炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">鼻息肉</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">声带息肉</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">美尼尔综合症</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">急性鼻炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">喉癌</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">鼓膜穿孔</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">咽异感症</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">慢性咽炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺结节</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">中耳炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">咽炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">咽喉癌</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">外耳道炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">慢性鼻炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">喉炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">声带小结</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">咽峡炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">分泌性中耳炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">桥本氏病</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">梅尼埃病</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">突发性耳聋</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">空鼻症</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">上颌窦炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">会厌囊肿</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">慢性扁桃体炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼻炎</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">鼻窦炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">中耳炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">三叉神经痛</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">鼻咽癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼻中隔偏曲</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">扁桃体炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼻息肉</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">声带息肉</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">美尼尔综合症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性鼻炎</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">喉癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼓膜穿孔</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽异感症</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">慢性咽炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺结节</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">中耳炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽喉癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">外耳道炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性鼻炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">喉炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">声带小结</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽峡炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">分泌性中耳炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">桥本氏病</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">梅尼埃病</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">突发性耳聋</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">空鼻症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">上颌窦炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">会厌囊肿</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">慢性扁桃体炎</a>
 										            </p>
 										        </li>
 												<li>
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">眼科常见疾病</a></h5>
+													<h5><a target="_blank" href="">眼科常见疾病</a></h5>
 													<p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">白内障</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">青光眼</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">近视</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">弱视</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">结膜炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">黄斑变性</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">玻璃体混浊</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">斜视</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">角膜炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">视网膜脱落</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">散光</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">葡萄膜炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">睑腺炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">沙眼</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">视神经炎</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">白内障</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">青光眼</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">近视</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">弱视</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">结膜炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">黄斑变性</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">玻璃体混浊</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">斜视</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">角膜炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">视网膜脱落</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">散光</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">葡萄膜炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">睑腺炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">沙眼</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">视神经炎</a>
 										            </p>
 												</li>
 										        <li class="last">
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">头颈外科常见疾病</a></h5>
+										            <h5><a target="_blank" href="">头颈外科常见疾病</a></h5>
 													<p>
-										            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲状腺癌</a>
-										            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">腮腺炎</a>
-										            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">咽部肿瘤</a>
-										            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href=""class="last"  monitor="public_fastsearch,div,sick">颈动脉瘤</a>
+										            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲状腺癌</a>
+										            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">腮腺炎</a>
+										            <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽部肿瘤</a>
+										            <a target="_blank" href=""class="last"  monitor="public_fastsearch,div,sick">颈动脉瘤</a>
 													</p>
 												</li>
 											</ul>
@@ -704,75 +690,75 @@
 										<div class="sub-category-box J_SubBox">
 											<ul>
 												<li>
-													<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">心内科常见病</a></h5>
+													<h5><a target="_blank" href="">心内科常见病</a></h5>
 													<p>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">心肌炎</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">心律失常</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">心肌缺血</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">房颤</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">心脏神经症</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">扩张型心肌病</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">肺心病</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">风湿性心脏病</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">心肌炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">心律失常</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">心肌缺血</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">房颤</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">心脏神经症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">扩张型心肌病</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">肺心病</a>
+													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">风湿性心脏病</a>
 													</p>
 												</li>
 												<li>
-												<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">儿科常见病</a></h5>
+												<h5><a target="_blank" href="">儿科常见病</a></h5>
 												<p>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">小儿哮喘</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">小儿癫痫</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">小儿抽动症</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">小儿支气管肺炎</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">小儿原发性肾病综合征</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">唐氏综合征</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">先天性斜颈</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">小儿疝气</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">小儿哮喘</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿癫痫</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿抽动症</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">小儿支气管肺炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿原发性肾病综合征</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">唐氏综合征</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">先天性斜颈</a>
+													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">小儿疝气</a>
 												</p>
 												</li>
 												<li>
-												<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">口腔科常见病</a></h5>
+												<h5><a target="_blank" href="">口腔科常见病</a></h5>
 												<p>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">牙周炎</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">龋齿</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">牙龈炎</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">口腔扁平苔藓</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">牙齿磨损</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">牙髓炎</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">颞下颌关节紊乱综合征</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">口腔癌</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">口腔黏膜白斑</a>
-										            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">口腔溃疡</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">牙周炎</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">龋齿</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">牙龈炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">口腔扁平苔藓</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">牙齿磨损</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">牙髓炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">颞下颌关节紊乱综合征</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">口腔癌</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">口腔黏膜白斑</a>
+										            <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">口腔溃疡</a>
 												</p>
 												</li>
 												<li class="last">
-												<h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">精神科常见病</a></h5>
+												<h5><a target="_blank" href="">精神科常见病</a></h5>
 												<p>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">抑郁症</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">小儿多动症</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">焦虑症</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">强迫性障碍</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">精神分裂症</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">心理障碍</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">产后抑郁症</a>
-													<a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">神经衰弱</a>
-										            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">强迫症</a>
-										            <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">精神分裂</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">抑郁症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿多动症</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">焦虑症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">强迫性障碍</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">精神分裂症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">心理障碍</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">产后抑郁症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">神经衰弱</a>
+										            <a target="_blank" href="" monitor="public_fastsearch,div,sick">强迫症</a>
+										            <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">精神分裂</a>
 												</p>
 										        </li>
 										        <li>
-										            <h5><a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="">男科常见病</a></h5>
+										            <h5><a target="_blank" href="">男科常见病</a></h5>
 										            <p>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">遗精</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">尿道炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">尿道感染</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">附睾炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">尿道下裂</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">前列腺囊肿</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">急性膀胱炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">蹼状阴茎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">尿道癌</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" monitor="public_fastsearch,div,sick">急性前列腺炎</a>
-										                <a onmousedown="return _smartlog(this,'NAV')" target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">睾丸肿瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">遗精</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道感染</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">附睾炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道下裂</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">前列腺囊肿</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性膀胱炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">蹼状阴茎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性前列腺炎</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">睾丸肿瘤</a>
 										            </p>
 										        </li>
 											</ul>
@@ -785,13 +771,13 @@
 				
 					<div class="sub-nav" id="sub-nav">
 						<ul class="consult" id="sub-nav-consult">
-							<li><a href="" target="_blank" onmousedown="return _smartlog(this,'MNUM')">免费咨询</a></li>
-							<li><a href="" target="_blank" onmousedown="return _smartlog(this,'MNUZ')">专家问诊</a></li>
-							<li><a href="" target="_blank" onmousedown="return _smartlog(this,'MNUY')">义诊专家</a></li>
+							<li><a href="" target="_blank">免费咨询</a></li>
+							<li><a href="" target="_blank">专家问诊</a></li>
+							<li><a href="" target="_blank">义诊专家</a></li>
 						</ul>
 						<ul class="consult" id="sub-nav-welife">
-							<li><a href="" target="_blank" onmousedown="return _smartlog(this,'MNU')" monitor="public_menu,health,medical">高端医疗</a></li>
-							<li><a href="" target="_blank" onmousedown="return _smartlog(this,'MNU')" monitor="public_menu,health,medical">微医严选</a></li>
+							<li><a href="" target="_blank" monitor="public_menu,health,medical">高端医疗</a></li>
+							<li><a href="" target="_blank" monitor="public_menu,health,medical">微医严选</a></li>
 						</ul>
 					</div>
 				</div>
@@ -834,10 +820,10 @@
 					<div class="side-container">
 						<div class="side-inner">
 							<div class="side-banner">
-								<a target="_blank" href="" rel="nofollow" onmousedown="return _smartlog(this,'BNA')">
+								<a target="_blank" href="" rel="nofollow">
 							        <img src="images/side-banner-gov.png" width="210" height="175" alt="">
 							    </a>
-								<a target="_blank" href="" onmousedown="return _smartlog(this,'BNB')">
+								<a target="_blank" href="">
 							        <img src="images/yxzx.png" height="175" alt="">
 							    </a>
 							</div>
@@ -972,35 +958,35 @@
 													<ul class="g-clear J_Nav">
 													<!-- 推荐医院地区静态数据 -->
 													<li data-id="2" style="width: 56px;" class="">
-														<a href="" target="_blank" class="on" onmousedown="return _smartlog(this,'HPT')" data-id="2" monitor="home_fastselect,hosprecommend,hospcity">上海</a>
+														<a href="" target="_blank" class="on" data-id="2" monitor="home_fastselect,hosprecommend,hospcity">上海</a>
 														<span></span>
 													</li>
 													<li data-id="1" style="width: 56px;">
-														<a href="" target="_blank" class="on" onmousedown="return _smartlog(this,'HPT')" data-id="1" monitor="home_fastselect,hosprecommend,hospcity">北京</a>
+														<a href="" target="_blank" class="on" data-id="1" monitor="home_fastselect,hosprecommend,hospcity">北京</a>
 														<span></span>
 													</li>
 													<li data-id="29" style="width: 56px;" class="on">
-														<a href="" target="_blank" class="on" onmousedown="return _smartlog(this,'HPT')" data-id="29" monitor="home_fastselect,hosprecommend,hospcity">广东</a>
+														<a href="" target="_blank" class="on" data-id="29" monitor="home_fastselect,hosprecommend,hospcity">广东</a>
 														<span></span>
 													</li>
 													<li data-id="22" style="width: 56px;">
-														<a href="" target="_blank" class="on" onmousedown="return _smartlog(this,'HPT')" data-id="22" monitor="home_fastselect,hosprecommend,hospcity">江苏</a>
+														<a href="" target="_blank" class="on" data-id="22" monitor="home_fastselect,hosprecommend,hospcity">江苏</a>
 														<span></span>
 													</li>
 													<li data-id="19" style="width: 56px;">
-														<a href="" target="_blank" class="on" onmousedown="return _smartlog(this,'HPT')" data-id="19" monitor="home_fastselect,hosprecommend,hospcity">湖北</a>
+														<a href="" target="_blank" class="on" data-id="19" monitor="home_fastselect,hosprecommend,hospcity">湖北</a>
 														<span></span>
 													</li>
 													<li data-id="21" style="width: 56px;">
-														<a href="" target="_blank" class="on" onmousedown="return _smartlog(this,'HPT')" data-id="21" monitor="home_fastselect,hosprecommend,hospcity">山东</a>
+														<a href="" target="_blank" class="on" data-id="21" monitor="home_fastselect,hosprecommend,hospcity">山东</a>
 														<span></span>
 													</li>
 													<li data-id="9" style="width: 56px;">
-														<a href="" target="_blank" class="on" onmousedown="return _smartlog(this,'HPT')" data-id="9" monitor="home_fastselect,hosprecommend,hospcity">陕西</a>
+														<a href="" target="_blank" class="on" data-id="9" monitor="home_fastselect,hosprecommend,hospcity">陕西</a>
 														<span></span>
 													</li>
 													<li data-id="999" style="width: 84px;">
-														<a href="" target="_blank" class="on" onmousedown="return _smartlog(this,'HPT')" data-id="999" monitor="home_fastselect,hosprecommend,hospcity">其他地区</a>
+														<a href="" target="_blank" class="on" data-id="999" monitor="home_fastselect,hosprecommend,hospcity">其他地区</a>
 														<span></span>
 													</li>					
 												</ul>
@@ -1019,7 +1005,7 @@
 									</h3>
 									<ul class="J_exportTeam">
 										<li>
-											<a href="" target="_blank" class="cover-bg team-item" onmousedown="return _smartlog(this,'MYTD')"></a>
+											<a href="" target="_blank" class="cover-bg team-item"></a>
 											<div class="teaminfo">
 												<dl>
 													<dt>
@@ -1039,13 +1025,13 @@
 													</span>
 												</strong>
 											</div> 
-											<a href="" class="expert-team" target="_blank" onmousedown="return _smartlog(this,'MYTD')" monitor="home_activity,doctordirect,spteam">
+											<a href="" class="expert-team" target="_blank" monitor="home_activity,doctordirect,spteam">
 												<span class="name">专家团队</span>
 												<i class="arrow"></i>
 											</a>
 										</li>
 										<li>
-											<a href="" target="_blank" class="cover-bg team-item" onmousedown="return _smartlog(this,'MYTD')"></a>
+											<a href="" target="_blank" class="cover-bg team-item"></a>
 											<div class="teaminfo">
 												<dl>
 													<dt>
@@ -1066,7 +1052,7 @@
 													</span>
 												</strong>
 											</div> 
-											<a href="" class="expert-team" target="_blank" onmousedown="return _smartlog(this,'MYTD')" monitor="home_activity,doctordirect,spteam">
+											<a href="" class="expert-team" target="_blank" monitor="home_activity,doctordirect,spteam">
 												<span class="name">专家团队</span>
 												<i class="arrow"></i>
 											</a>
@@ -1372,10 +1358,10 @@
 								</div>
 							</div>
 							<div class="g-grid-right">
-								<a target="_blank" href="" class="free seo-anchor-text" onmousedown="return _smartlog(this,'JRYZ')" monitor="preciseorder">
+								<a target="_blank" href="" class="free seo-anchor-text" monitor="preciseorder">
 									免费咨询
 								</a>
-								<a target="_blank" href="" class="volunteer seo-anchor-text" onmousedown="return _smartlog(this,'JRYZ')" monitor="home_activity,todayask,todayask">
+								<a target="_blank" href="" class="volunteer seo-anchor-text" monitor="home_activity,todayask,todayask">
 									今日义诊
 								</a>
 							</div>
@@ -1585,25 +1571,25 @@
 				                        </div>
 									</div>
 									<div class="news-item health-hot J_healthHot">
-										<a href="" target="_blank" class="jhztc-title" monitor="spteam_activity,spteam_head,spteam_topslider" onmousedown="return _smartlog(this,'MYZTC')">
+										<a href="" target="_blank" class="jhztc-title" monitor="spteam_activity,spteam_head,spteam_topslider">
 										    <h5>名医直通车</h5>
 										</a>
 		                                <div class="focus-single g-clear">
 		                                    <a target="_blank" href="" monitor="home_health_refer,doctordirect,doctor_text">
-		                                        <img src="https://kano.guahao.cn/DNJ52030987" alt="征战胰腺癌：抓住20%的机会！" onmousedown="return _smartlog(this,'INF')">
+		                                        <img src="https://kano.guahao.cn/DNJ52030987" alt="征战胰腺癌：抓住20%的机会！">
 		                                    </a>
 		                                    <div class="text">
-		                                        <a target="_blank" href="" class="title" onmousedown="return _smartlog(this,'INF')" monitor="home_health_refer,doctordirect,doctor_text">征战胰腺癌：抓住20%的机会！</a>
+		                                        <a target="_blank" href="" class="title" monitor="home_health_refer,doctordirect,doctor_text">征战胰腺癌：抓住20%的机会！</a>
 		                                        <span class="summary">
 													“确诊的时候，肯定是害怕的，但心里还是有着一点希望，毕竟现在医学那么发达，癌症也不是绝症了……但是了
-					                                <a target="_blank" href="" onmousedown="return _smartlog(this,'INF')" monitor="home_health_refer,doctordirect,doctor_text">[详细]</a>
+					                                <a target="_blank" href="" monitor="home_health_refer,doctordirect,doctor_text">[详细]</a>
 												</span>
 		                                    </div>
 		                                </div>
 	                                    <div class="focus-list">
 	                                    	<ul>
                                 	            <li>
-                                	                <a target="_blank" href="" class="title" title="" onmousedown="return _smartlog(this,'INF')" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
+                                	                <a target="_blank" href="" class="title" title="" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
                                 	                    <div class="focus-forhot">
                                 	                    多管齐下治“强直”，拯救苦难的脊背
                                 	                    </div>
@@ -1611,7 +1597,7 @@
                                 	                </a><span class="date">2019-01-07</span>
                                 	            </li>
                                 	            <li>
-                                	                <a target="_blank" href="" class="title" title="" onmousedown="return _smartlog(this,'INF')" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
+                                	                <a target="_blank" href="" class="title" title="" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
                                 	                    <div class="focus-forhot">
                                 	                    孩子尿床也可能是种病！你家孩子中枪了吗？
                                 	                    </div>
@@ -1619,7 +1605,7 @@
                                 	                </a><span class="date">2018-12-29</span>
                                 	            </li>
                                 	            <li>
-                                	                <a target="_blank" href="" class="title" title="" onmousedown="return _smartlog(this,'INF')" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
+                                	                <a target="_blank" href="" class="title" title="" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
                                 	                    <div class="focus-forhot">
                                 	                    身上成群水疱疼痛异常？是水痘“余毒”作恶？
                                 	                    </div>
@@ -1627,21 +1613,21 @@
                                 	                </a><span class="date">2018-11-29</span>
                                 	            </li>
                                 	            <li>
-                                	                <a target="_blank" href="" class="title" title="" onmousedown="return _smartlog(this,'INF')" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
+                                	                <a target="_blank" href="" class="title" title="" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
                                 	                    <div class="focus-forhot">
                                 	                    脾胃不好膏方来调！冬季进补正当时
                                 	                    </div>
                                 	                </a><span class="date">2018-11-22</span>
                                 	            </li>
                                 	            <li>
-                                	                <a target="_blank" href="" class="title" title="" onmousedown="return _smartlog(this,'INF')" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
+                                	                <a target="_blank" href="" class="title" title="" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
                                 	                    <div class="focus-forhot">
                                 	                    糖尿病也能治愈！它的最佳治愈期你错过了吗？
                                 	                    </div>
                                 	                </a><span class="date">2018-11-12</span>
                                 	            </li>
                                 	            <li>
-                                	                <a target="_blank" href="" class="title" title="" onmousedown="return _smartlog(this,'INF')" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
+                                	                <a target="_blank" href="" class="title" title="" monitor="home_health_refer,doctordirect,doctor_text"><i class="dot"></i>
                                 	                    <div class="focus-forhot">
                                 	                    男人排尿有问题是肾不好？可能是尿道出了问题！
                                 	                    </div>
@@ -1857,20 +1843,20 @@
 			<div id="gf">
 				<div class="g-container">
 					<div class="g-footer g-clear">
-		                <a class="logo g-left gov-foot-logo" href="" onmousedown="return _smartlog(this,'BTM')"></a>
+		                <a class="logo g-left gov-foot-logo" href=""></a>
 						<div class="links g-left">
 						    <dl class="one g-clear">
 								<dt>关于我们</dt>
-							    <dd><a href="" onmousedown="return _smartlog(this,'BTM')">关于我们</a></dd>
-							    <dd><a href="" onmousedown="return _smartlog(this,'BTM')">友情链接</a> </dd>
-							    <dd><a href="" onmousedown="return _smartlog(this,'BTM')">加入我们</a></dd>
-							    <dd><a href="" rel="nofollow" onmousedown="return _smartlog(this,'BTM')"> 版权声明</a></dd>
-						    	<dd><a href="" onmousedown="return _smartlog(this,'BTM')">联系我们</a></dd>
-								<dd class="last"><a href="" rel="nofollow" target="_blank" onmousedown="return _smartlog(this,'BTM')">新浪微博</a></dd>
+							    <dd><a href="">关于我们</a></dd>
+							    <dd><a href="">友情链接</a> </dd>
+							    <dd><a href="">加入我们</a></dd>
+							    <dd><a href="" rel="nofollow"> 版权声明</a></dd>
+						    	<dd><a href="">联系我们</a></dd>
+								<dd class="last"><a href="" rel="nofollow" target="_blank">新浪微博</a></dd>
 						    </dl>
 						    <dl class="two">
-						        <dd class="partner"><a href="" onmousedown="return _smartlog(this,'BTM')">医院合作</a></dd>
-						        <dd class="help"><a href="" onmousedown="return _smartlog(this,'BTM')">客服中心</a></dd>
+						        <dd class="partner"><a href="">医院合作</a></dd>
+						        <dd class="help"><a href="">客服中心</a></dd>
 						    </dl>
 						    <div class="clear"></div>
 						</div>
