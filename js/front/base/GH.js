@@ -266,6 +266,7 @@ GreenLine.Util = {
                     a.push(n + "&pos=" + e.pos + "&rows=" + e.row)
                 }),
                 a.forEach(function(e) {
+                    return; //todo
                     $.ajax({
                         url: e,
                         dataType: "json",

@@ -1,4 +1,3 @@
-/*! portal-pc-static - git - 2019-05-29 10:53:01 */
 .animation-hover-flash,.fix-pillar {
     overflow: hidden
 }
@@ -202,7 +201,7 @@ li {
 
 .grid-title .day-order i {
     position: absolute;
-    background: url(../img/hospital_2015/sp1.png) no-repeat
+    background: url("../images/hospital-sp.png") no-repeat
 }
 
 .grid-title .day-order .logo {
@@ -299,7 +298,6 @@ li {
     color: #fff;
     border-radius: 3px;
     border-color: #3277f1;
-    -webkit-transition: background-color .1s ease-out;
     transition: background-color .1s ease-out
 }
 
@@ -327,7 +325,6 @@ li {
 }
 
 .grid-form :focus {
-    -webkit-box-shadow: none;
     box-shadow: none;
     border-color: #377BED
 }
@@ -354,7 +351,8 @@ aside .grid-title h3 {
 }
 
 .fix-clear {
-    zoom:1}
+    zoom:1
+}
 
 .fix-clear:after {
     display: block;
@@ -379,7 +377,6 @@ aside .grid-title h3 {
     padding: 10px;
     resize: both;
     background: #fff;
-    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
     box-shadow: 0 0 30px 0 rgba(0,0,0,.2)
 }
 
@@ -409,7 +406,6 @@ aside .grid-title h3 {
     color: #71bfe3;
     line-height: 1;
     border-radius: 2px;
-    -webkit-transition: all .1s ease-out;
     transition: all .1s ease-out;
     text-decoration: none;
     font-size: 12px
@@ -441,7 +437,7 @@ aside .grid-title h3 {
 .tip-error i {
     width: 20px;
     height: 20px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -150px -196px no-repeat
+    background: url("../images/expert-sprite.png") -150px -196px no-repeat
 }
 
 .word-nowrap {
@@ -491,7 +487,6 @@ aside .grid-title h3 {
     margin-bottom: 5px;
     overflow: hidden;
     line-height: 22px;
-    -webkit-transition: height .3s ease-out;
     transition: height .3s ease-out
 }
 
@@ -514,8 +509,7 @@ aside .grid-title h3 {
     width: 12px;
     height: 12px;
     margin-left: 5px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) 0 -195px no-repeat;
-    -webkit-transition: background-position .3s cubic-bezier(1,0,0,1);
+    background: url("../images/expert-sprite.png") 0 -195px no-repeat;
     transition: background-position .3s cubic-bezier(1,0,0,1)
 }
 
@@ -610,13 +604,12 @@ article dd,article dir,article menu,article ol,article ul {
     top: 1px;
     width: 122px;
     height: 21px;
-    background: url(../img/expert_2015/stars.png) 0 -50px no-repeat
+    background: url("../images/expert-stars.png") 0 -50px no-repeat
 }
 
 .expert-rate .light,.hospital-rate .light {
     width: 0;
     background-position: 0 0;
-    -webkit-transition: width .8s ease-out;
     transition: width .8s ease-out
 }
 
@@ -625,7 +618,6 @@ article dd,article dir,article menu,article ol,article ul {
     font-weight: 400;
     color: #888;
     font-size: 16px;
-    -webkit-transition: opacity .3s ease-out;
     transition: opacity .3s ease-out
 }
 
@@ -674,7 +666,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-rms-jyzs ul li a i {
-    background: url(../img/hospital_2015/jyzs-icon.png) 0 -52px no-repeat;
+    background: url("../images/expert-jyzs-icon.png") 0 -52px no-repeat;
     width: 20px;
     height: 20px;
     position: absolute;
@@ -755,19 +747,19 @@ article dd,article dir,article menu,article ol,article ul {
     margin-top: 4px;
     color: red;
     float: left;
-    background: url(../img/expert_2015/impress.png) no-repeat
+    background: url("../images/expert-impress.png") no-repeat
 }
 
 .source-icon {
-    background: url(../img/expert_2015/source.png) no-repeat
+    background: url("../images/expert-source.png") no-repeat
 }
 
 .hospital-icon {
-    background: url(../img/expert_2015/hospital.png) no-repeat
+    background: url("../images/expert-hospital-icon.png") no-repeat
 }
 
 .tyranny-icon {
-    background: url(../img/expert_2015/tyranny.png) no-repeat
+    background: url("../images/expert-tyranny-icon.png") no-repeat
 }
 
 .noresults {
@@ -851,7 +843,7 @@ article dd,article dir,article menu,article ol,article ul {
     width: 14px;
     height: 14px;
     margin-right: 5px;
-    background: url(../img/expert_2015/icons.png) no-repeat
+    background: url("../images/expert-icons.png") no-repeat
 }
 
 .g-consult-form .health a {
@@ -867,7 +859,7 @@ article dd,article dir,article menu,article ol,article ul {
 .g-consult-form .desc .upload .upload-icon {
     padding-left: 20px;
     margin-left: 5px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -150px -550px no-repeat
+    background: url("../images/expert-sprite.png") -150px -550px no-repeat
 }
 
 .g-consult-form .desc .upload .swfupload {
@@ -897,7 +889,7 @@ article dd,article dir,article menu,article ol,article ul {
     margin-right: 5px;
     width: 14px;
     height: 14px;
-    background: url(../img/expert_2015/icons.png) 0 -18px no-repeat
+    background: url("../images/expert-icons.png") 0 -18px no-repeat
 }
 
 .gm-box-health .ck-list {
@@ -916,7 +908,6 @@ article dd,article dir,article menu,article ol,article ul {
 
 .expert-card {
     height: 275px;
-    -webkit-box-shadow: 0 0 3px 0 rgba(30,60,70,.1);
     box-shadow: 0 0 3px 0 rgba(30,60,70,.1)
 }
 
@@ -1010,7 +1001,7 @@ article dd,article dir,article menu,article ol,article ul {
     margin-left: -15px;
     width: 16px;
     height: 16px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) 0 4px no-repeat
+    background: url("../images/expert-sprite.png") 0 4px no-repeat
 }
 
 .expert-card .summary .mark a.active {
@@ -1044,7 +1035,6 @@ article dd,article dir,article menu,article ol,article ul {
     margin-top: 3px;
     border: 1px solid #ddd;
     background: #fff;
-    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
     box-shadow: 0 0 30px 0 rgba(0,0,0,.2)
 }
 
@@ -1056,7 +1046,7 @@ article dd,article dir,article menu,article ol,article ul {
     margin-left: -8px;
     width: 16px;
     height: 9px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) 0 -300px no-repeat
+    background: url("../images/expert-sprite.png") 0 -300px no-repeat
 }
 
 .expert-card .summary .qr span img {
@@ -1094,7 +1084,7 @@ article dd,article dir,article menu,article ol,article ul {
 .expert-card .detail h1 i {
     width: 25px;
     height: 22px;
-    background: url(../img/teacher/doctor-main.png) no-repeat;
+    background: url("../images/doctor-main.png") no-repeat;
     display: inline-block;
     border-radius: 3px;
     position: relative;
@@ -1116,7 +1106,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .expert-card .detail h1 .will-praise {
-    background: url(../img/expert_2015/praise1.png) 5px no-repeat
+    background: url("../images/expert-blue-heart.png") 5px no-repeat
 }
 
 .expert-card .detail h1 .will-praise span {
@@ -1151,7 +1141,6 @@ article dd,article dir,article menu,article ol,article ul {
     color: #71bfe3;
     line-height: 1;
     border-radius: 2px;
-    -webkit-transition: all .1s ease-out;
     transition: all .1s ease-out;
     text-decoration: none;
     font-size: 12px
@@ -1281,7 +1270,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .expert-card .status .service .guahao {
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -150px -100px no-repeat
+    background: url("../images/expert-sprite.png") -150px -100px no-repeat
 }
 
 .expert-card .status .service .guahao.active {
@@ -1290,11 +1279,11 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .expert-card .status .service .guahao:hover {
-    background: url(../img/expert_2015/icon-hover.png) no-repeat
+    background: url("../images/expert-icon-hover.png") no-repeat
 }
 
 .expert-card .status .service .tuwen {
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -199px -100px no-repeat
+    background: url("../images/expert-sprite.png") -199px -100px no-repeat
 }
 
 .expert-card .status .service .tuwen.active {
@@ -1303,11 +1292,11 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .expert-card .status .service .tuwen:hover {
-    background: url(../img/expert_2015/icon-hover.png) -75px 0 no-repeat
+    background: url("../images/expert-icon-hover.png") -75px 0 no-repeat
 }
 
 .expert-card .status .service .dianhua {
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -250px -100px no-repeat;
+    background: url("../images/expert-sprite.png") -250px -100px no-repeat;
     height: 0
 }
 
@@ -1317,7 +1306,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .expert-card .status .service .shipin {
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -300px -100px no-repeat
+    background: url("../images/expert-sprite.png") -300px -100px no-repeat
 }
 
 .expert-card .status .service .shipin.active {
@@ -1332,11 +1321,11 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .expert-card .status .service .shipin:hover {
-    background: url(../img/expert_2015/icon-hover.png) -155px 0 no-repeat
+    background: url("../images/expert-icon-hover.png") -155px 0 no-repeat
 }
 
 .expert-card .status .service .servicePkg {
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -350px -100px no-repeat
+    background: url("../images/expert-sprite.png") -350px -100px no-repeat
 }
 
 .expert-card .status .service .servicePkg.active {
@@ -1345,7 +1334,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .expert-card .status .service a.servicePkg:hover {
-    background: url(../img/expert_2015/icon-hover.png?20180418) -233px 1px no-repeat
+    background: url("../images/expert-icon-hover.png") -233px 1px no-repeat
 }
 
 .expert-card .status .service .service-popup-dianhua:after {
@@ -1388,7 +1377,7 @@ article dd,article dir,article menu,article ol,article ul {
     right: 0;
     width: 63px;
     height: 63px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) 0 -550px no-repeat;
+    background: url("../images/expert-sprite.png") 0 -550px no-repeat;
     font-size: 18px;
     color: #fff;
     text-align: center;
@@ -1396,7 +1385,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .expert-card .status .yizhen.off {
-    background: url(../img/expert_2015/sprite20170112.png?20180418) 0 -637px no-repeat
+    background: url("../images/expert-sprite.png") 0 -637px no-repeat
 }
 
 .expert-card .status .tips {
@@ -1404,7 +1393,7 @@ article dd,article dir,article menu,article ol,article ul {
     line-height: 20px;
     padding: 30px 0 30px 80px;
     color: #888;
-    background: url(../img/tips.png) 60px 34px no-repeat;
+    background: url("../images/expert-tips.png") 60px 34px no-repeat;
     position: absolute;
     left: 0;
     right: 0;
@@ -1439,7 +1428,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .expert-card .status .last-price {
-    color: #f9a821
+    color: #f9a821;
 }
 
 .expert-card .status .last-price strong {
@@ -1466,7 +1455,7 @@ article dd,article dir,article menu,article ol,article ul {
     left: 30px;
     top: 35px;
     padding-right: 30px;
-    background: url(../img/expert_2015/cutoff-line.png) center right no-repeat
+    background: url("../images/expert-cutoff-line.png") center right no-repeat
 }
 
 .expert-card .status .ask-tag p {
@@ -1477,7 +1466,7 @@ article dd,article dir,article menu,article ol,article ul {
     width: 40px;
     height: 40px;
     margin: 0 auto 10px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) no-repeat
+    background: url("../images/expert-sprite.png") no-repeat
 }
 
 .expert-card .status .ask-tag.tuwen .img {
@@ -1499,13 +1488,13 @@ article dd,article dir,article menu,article ol,article ul {
 .expert-card .status .ruxian {
     width: 169px;
     height: 35px;
-    background: url(../img/promotion/ruxian/pay-bg.png) no-repeat;
+    background: url("../images/expert-pay-bg.png") no-repeat;
     background-size: cover;
     margin: 8px auto
 }
 
 .expert-card .status .ruxian i {
-    background: url(../img/promotion/hp/gift-ok.png) center right no-repeat;
+    background: url("../images/expert-gift-ok.png") center right no-repeat;
     width: 30px;
     height: 100%;
     background-size: 13px 14px;
@@ -1525,7 +1514,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .expert-card .status .ruxian.full i {
     width: 20px;
-    background: url(../img/promotion/hp/gift-no.png) center right no-repeat
+    background: url("../images/expert-gift-no.png") center right no-repeat
 }
 
 .expert-card .status .ruxian.full .fulled {
@@ -1538,7 +1527,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .expert-card .status .ruxian.used i {
     width: 35px;
-    background: url(../img/promotion/hp/gift-no.png) center right no-repeat
+    background: url("../images/expert-gift-no.png") center right no-repeat
 }
 
 .expert-card .status .ruxian.used .use {
@@ -1589,7 +1578,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .expert-guahao .valid .tip-title i {
     top: 1px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -150px -200px no-repeat
+    background: url("../images/expert-sprite.png") -150px -200px no-repeat
 }
 
 .expert-guahao .valid .tip-title li {
@@ -1602,13 +1591,11 @@ article dd,article dir,article menu,article ol,article ul {
     background: #fff;
     z-index: 2;
     border: 1px solid #ccc;
-    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
     box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
     width: 560px;
     padding: 10px;
     color: #bcbcbc;
     display: none;
-    -webkit-transition: .3s ease-out;
     transition: .3s ease-out;
     -webkit-animation: slide-down .3s ease-out;
     animation: slide-down .3s ease-out
@@ -1671,7 +1658,6 @@ article dd,article dir,article menu,article ol,article ul {
     border: 1px solid #f5f5f5;
     color: #333;
     text-decoration: none;
-    -webkit-transition: all .1s ease-out;
     transition: all .1s ease-out
 }
 
@@ -1782,7 +1768,6 @@ article dd,article dir,article menu,article ol,article ul {
     text-align: center;
     font-size: 12px;
     cursor: pointer;
-    -webkit-transition: all .1s ease-out;
     transition: all .1s ease-out
 }
 
@@ -1866,9 +1851,8 @@ article dd,article dir,article menu,article ol,article ul {
     line-height: 50px;
     text-align: center;
     cursor: default;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) no-repeat;
+    background: url("../images/expert-sprite.png") no-repeat;
     opacity: 0;
-    -webkit-transition: opacity .5s ease-out;
     transition: opacity .5s ease-out;
     moz-user-select: -moz- none;
     -moz-user-select: none;
@@ -1901,12 +1885,10 @@ article dd,article dir,article menu,article ol,article ul {
     border: 1px solid #ccc;
     min-width: 12em;
     background: #fff;
-    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
     box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
     word-wrap: break-word;
     font-size: 12px;
     color: #888;
-    -webkit-transition: left .3s ease-out,width .3s ease-out;
     transition: left .3s ease-out,width .3s ease-out
 }
 
@@ -2032,12 +2014,10 @@ article dd,article dir,article menu,article ol,article ul {
     left: 0;
     top: 0;
     width: 10000%;
-    -webkit-transition: left .8s cubic-bezier(.2,1,.5,1);
     transition: left .8s cubic-bezier(.2,1,.5,1)
 }
 
 .aside-honor .send,.expert-guahao>.tip a {
-    -webkit-transition: background .1s ease-out;
     transition: background .1s ease-out;
     text-decoration: none
 }
@@ -2254,7 +2234,7 @@ article dd,article dir,article menu,article ol,article ul {
     display: block;
     width: 46px;
     height: 46px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) no-repeat;
+    background: url("../images/expert-sprite.png") no-repeat;
     margin: 0 auto
 }
 
@@ -2312,7 +2292,7 @@ article dd,article dir,article menu,article ol,article ul {
     top: 0;
     width: 100%;
     height: 100%;
-    background: url(/img/blank.gif)
+    background: url("../images/blank.gif")
 }
 
 .expert-consult .status .container .item.shipin {
@@ -2352,7 +2332,7 @@ article dd,article dir,article menu,article ol,article ul {
     width: 100%;
     height: 100%;
     z-index: 2;
-    background: url(/img/blank.gif)
+    background: url("../images/blank.gif")
 }
 
 .expert-consult .status .container .item.shipin-hover .wrap i {
@@ -2383,7 +2363,7 @@ article dd,article dir,article menu,article ol,article ul {
     width: 100%;
     height: 100%;
     z-index: 2;
-    background: url(/img/blank.gif)
+    background: url("../images/blank.gif")
 }
 
 .expert-consult .status .container .item.special-need.active {
@@ -2401,7 +2381,7 @@ article dd,article dir,article menu,article ol,article ul {
     width: 100%;
     height: 100%;
     z-index: 2;
-    background: url(/img/blank.gif)
+    background: url("../images/blank.gif")
 }
 
 .expert-consult .status .container .item.famous {
@@ -2424,7 +2404,7 @@ article dd,article dir,article menu,article ol,article ul {
     width: 100%;
     height: 100%;
     z-index: 2;
-    background: url(/img/blank.gif)
+    background: url("../images/blank.gif")
 }
 
 .expert-consult .status .container .item:before {
@@ -2493,7 +2473,7 @@ article dd,article dir,article menu,article ol,article ul {
     top: 3px;
     width: 34px;
     height: 34px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) 0 -100px no-repeat
+    background: url("../images/expert-sprite.png") 0 -100px no-repeat
 }
 
 .expert-consult .grid-content .content .date {
@@ -2606,7 +2586,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .expert-history-ask .grid-content .consult-show .ask .pre-icon {
-    background-image: url(../img/2015/home/home-sprite.png);
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -50px;
     width: 35px;
@@ -2637,7 +2617,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .expert-history-ask .grid-content .consult-show .answer .pre-icon {
-    background-image: url(../img/2015/home/home-sprite.png);
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -5px;
     width: 35px;
@@ -2786,7 +2766,7 @@ article dd,article dir,article menu,article ol,article ul {
 .expert-consult-ask .info .manage i {
     padding-left: 20px;
     margin-left: 5px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -150px -500px no-repeat
+    background: url("../images/expert-sprite.png") -150px -500px no-repeat
 }
 
 .expert-consult-ask .desc .upload {
@@ -2798,7 +2778,7 @@ article dd,article dir,article menu,article ol,article ul {
 .expert-consult-ask .desc .upload i {
     padding-left: 20px;
     margin-left: 5px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -150px -550px no-repeat
+    background: url("../images/expert-sprite.png") -150px -550px no-repeat
 }
 
 .expert-consult-ask .desc .upload .swfupload {
@@ -2953,7 +2933,7 @@ article dd,article dir,article menu,article ol,article ul {
     padding-right: 10px;
     border-right: 1px solid #ccc;
     cursor: pointer;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) 0 -448px no-repeat
+    background: url("../images/expert-sprite.png") 0 -448px no-repeat
 }
 
 .expert-article .content .like.active {
@@ -2963,7 +2943,7 @@ article dd,article dir,article menu,article ol,article ul {
 .expert-article .content .share {
     cursor: pointer;
     padding-left: 30px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -140px -450px no-repeat
+    background: url("../images/expert-sprite.png") -140px -450px no-repeat
 }
 
 .expert-article .content .moment .img,.expert-article .content .moment .text {
@@ -3061,7 +3041,7 @@ article dd,article dir,article menu,article ol,article ul {
 .expert-article-detail .share {
     padding-left: 30px;
     cursor: pointer;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -140px -450px no-repeat
+    background: url("../images/expert-sprite.png") -140px -450px no-repeat
 }
 
 .expert-article-detail .like {
@@ -3069,7 +3049,7 @@ article dd,article dir,article menu,article ol,article ul {
     padding-right: 10px;
     border-right: 1px solid #ccc;
     cursor: pointer;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) 0 -448px no-repeat
+    background: url("../images/expert-sprite.png") 0 -448px no-repeat
 }
 
 .expert-article-detail .like.active {
@@ -3149,7 +3129,7 @@ article dd,article dir,article menu,article ol,article ul {
 .expert-add-schedule .grid-content-right a i.add {
     width: 16px;
     height: 16px;
-    background: url(../img/dzyy/dzyy-icon.png) -22px -203px no-repeat;
+    background: url("../images/magnifying-glass-icon.png") -22px -203px no-repeat;
     position: absolute;
     left: 24px;
     top: 16px
@@ -3209,7 +3189,7 @@ article dd,article dir,article menu,article ol,article ul {
 .expert-add-schedule .grid-content a i.add {
     width: 16px;
     height: 16px;
-    background: url(../img/dzyy/dzyy-icon.png) -22px -203px no-repeat;
+    background: url("../images/magnifying-glass-icon.png") -22px -203px no-repeat;
     position: absolute;
     left: 24px;
     top: 16px
@@ -3269,7 +3249,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .aside-gd a i {
     top: -1px;
-    background: url(../img/show-detail.png) 0 3px no-repeat
+    background: url("../images/show-detail.png") 0 3px no-repeat
 }
 
 .aside-moment .grid-title span {
@@ -3309,7 +3289,7 @@ article dd,article dir,article menu,article ol,article ul {
 .aside-moment .total {
     padding-left: 20px;
     color: #888;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) 0 -448px no-repeat;
+    background: url("../images/expert-sprite.png") 0 -448px no-repeat;
     text-decoration: none
 }
 
@@ -3404,7 +3384,6 @@ article dd,article dir,article menu,article ol,article ul {
 
 .aside-card {
     padding: 30px 0 20px;
-    -webkit-box-shadow: 0 0 3px 0 rgba(30,60,70,.1);
     box-shadow: 0 0 3px 0 rgba(30,60,70,.1)
 }
 
@@ -3488,7 +3467,7 @@ article dd,article dir,article menu,article ol,article ul {
     display: block;
     width: 70px;
     height: 70px;
-    background: url(../img/tuwen-icon.png?v=20161219) no-repeat
+    background: url("../images/tuwen-icon.png") no-repeat
 }
 
 .aside-card .data .tuwen h5 {
@@ -3508,7 +3487,7 @@ article dd,article dir,article menu,article ol,article ul {
     left: 7px;
     width: 50px;
     height: 14px;
-    background: url(../img/yizhen.png?v=20161219) no-repeat;
+    background: url("../images/expert-yizhen.png") no-repeat;
     background-size: cover
 }
 
@@ -3589,7 +3568,7 @@ article dd,article dir,article menu,article ol,article ul {
     position: absolute;
     width: 37px;
     height: 13px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) 0 -50px no-repeat;
+    background: url("../images/expert-sprite.png") 0 -50px no-repeat;
     color: #5ca945
 }
 
@@ -3804,7 +3783,7 @@ article dd,article dir,article menu,article ol,article ul {
     position: absolute;
     left: 20px;
     top: 11px;
-    background: url(../img/hospital_2015/sprite.png?20170713) 0 -98px no-repeat
+    background: url("../images/expert-sprite-new.png") 0 -98px no-repeat
 }
 
 .gp-expert .hospital-notice .notice-complete {
@@ -3872,7 +3851,7 @@ article dd,article dir,article menu,article ol,article ul {
     top: -3px;
     width: 6px;
     height: 12px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) 0 -400px no-repeat
+    background: url("../images/expert-sprite.png") 0 -400px no-repeat
 }
 
 .gp-expert .toy-hook:before {
@@ -3892,7 +3871,6 @@ article dd,article dir,article menu,article ol,article ul {
     padding: 10px;
     width: 330px;
     background: #fff;
-    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
     box-shadow: 0 0 30px 0 rgba(0,0,0,.2)
 }
 
@@ -3962,7 +3940,6 @@ article dd,article dir,article menu,article ol,article ul {
     opacity: .8;
     filter: alpha(opacity=80);
     background: #000;
-    background: -webkit-gradient(linear,left top, left bottom,from(transparent),to(rgba(0,0,0,.5)));
     background: linear-gradient(top,transparent,rgba(0,0,0,.5))
 }
 
@@ -4014,7 +3991,7 @@ article dd,article dir,article menu,article ol,article ul {
     display: inline-block;
     width: 38px;
     height: 38px;
-    background: url(../img/education/play.png) no-repeat;
+    background: url("../images/education-play.png") no-repeat;
     background-size: cover;
     position: absolute;
     left: 50%;
@@ -4051,7 +4028,6 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-comment .expert-comment {
     min-height: 630px;
     padding: 15px 10px 0;
-    -webkit-box-shadow: 0 0 3px 0 rgba(30,60,70,.1);
     box-shadow: 0 0 3px 0 rgba(30,60,70,.1)
 }
 
@@ -4104,7 +4080,6 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-consult .expert-consult {
     min-height: 630px;
     padding: 15px 10px 0;
-    -webkit-box-shadow: 0 0 3px 0 rgba(30,60,70,.1);
     box-shadow: 0 0 3px 0 rgba(30,60,70,.1)
 }
 
@@ -4125,7 +4100,6 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-consult-detail .expert-consult-detail {
     min-height: 630px;
     padding: 15px 10px 30px;
-    -webkit-box-shadow: 0 0 3px 0 rgba(30,60,70,.1);
     box-shadow: 0 0 3px 0 rgba(30,60,70,.1)
 }
 
@@ -4253,7 +4227,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-consult-detail .list .private-image i {
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -200px -200px no-repeat;
+    background: url("../images/expert-sprite.png") -200px -200px no-repeat;
     margin-right: 5px
 }
 
@@ -4271,7 +4245,7 @@ article dd,article dir,article menu,article ol,article ul {
     width: 18px;
     height: 18px;
     margin-right: 5px;
-    background: url(../img/expert_2015/sprite20170112.png?20180418) -250px -200px no-repeat
+    background: url("../images/expert-sprite.png") -250px -200px no-repeat
 }
 
 .gp-consult-detail .list .private-audio:before {
@@ -4288,7 +4262,6 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-article .expert-article {
     min-height: 630px;
     padding: 15px 10px 30px;
-    -webkit-box-shadow: 0 0 3px 0 rgba(30,60,70,.1);
     box-shadow: 0 0 3px 0 rgba(30,60,70,.1)
 }
 
@@ -4303,7 +4276,6 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-article .video {
     height: 180px;
     padding: 20px 0;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-bottom: 1px solid #ddd
 }
@@ -4330,7 +4302,6 @@ article dd,article dir,article menu,article ol,article ul {
     opacity: .8;
     filter: alpha(opacity=80);
     background: #000;
-    background: -webkit-gradient(linear,left top, left bottom,from(transparent),to(rgba(0,0,0,.8)));
     background: linear-gradient(top,transparent,rgba(0,0,0,.8))
 }
 
@@ -4390,7 +4361,6 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-article-detail .expert-article-detail {
     min-height: 630px;
     padding: 15px 10px 0;
-    -webkit-box-shadow: 0 0 3px 0 rgba(30,60,70,.1);
     box-shadow: 0 0 3px 0 rgba(30,60,70,.1)
 }
 
@@ -4558,7 +4528,7 @@ article dd,article dir,article menu,article ol,article ul {
     margin-right: 10px;
     width: 46px;
     height: 46px;
-    background: url(../img/expert_2015/consult-service.png) no-repeat
+    background: url("../images/expert-consult-service.png") no-repeat
 }
 
 .gp-consult-v3 .ask-service .service-left .item-media.s2 {
@@ -4611,7 +4581,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .gp-consult-v3 .consult-notice {
     padding-top: 20px;
-    background: url(../img/expert_2015/notice.png) 90px 20px no-repeat;
+    background: url("../images/expert-notice.png") 90px 20px no-repeat;
     padding-left: 205px;
     font-size: 14px
 }
@@ -4641,7 +4611,7 @@ article dd,article dir,article menu,article ol,article ul {
     top: 30px;
     width: 17px;
     height: 34px;
-    background: url(../img/expert_2015/notice-arrow.png) no-repeat #fff
+    background: url("../images/expert-notice-arrow.png") no-repeat #fff
 }
 
 .gp-consult-v3 .consult-date span {
@@ -4663,7 +4633,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .gp-consult-v4 .wrap .grid-left .consult-notice {
     padding-top: 20px;
-    background: url(../img/expert_2015/notice.png) 55px 26px no-repeat;
+    background: url("../images/expert-notice.png") 55px 26px no-repeat;
     padding-left: 180px;
     font-size: 14px;
     padding-bottom: 25px;
@@ -4778,7 +4748,7 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-consult-ask .expert-consult-ask {
     margin-bottom: 0;
     border: none;
-    background: url(../img/expert_2015/consult_ask_bg.jpg) right 40px no-repeat #fff
+    background: url("../images/consult_ask_bg.jpg") right 40px no-repeat #fff
 }
 
 .gp-consult-ask .grid-group {
@@ -4800,7 +4770,7 @@ article dd,article dir,article menu,article ol,article ul {
     font-style: normal;
     top: auto;
     left: auto;
-    background: url(../img/expert_2015/add.png) center no-repeat;
+    background: url("../images/expert-add.png") center no-repeat;
     background-size: 50%;
     width: 45px;
     height: 45px;
@@ -4841,7 +4811,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .gp-consult-ask .preview-item .preview-mark {
     position: absolute;
-    background: url(../img/expert_2015/loading.gif) center no-repeat;
+    background: url("../images/expert-loading.gif") center no-repeat;
     background-size: 20px 20px;
     background-color: rgba(0,0,0,.4);
     width: 60px;
@@ -4867,7 +4837,7 @@ article dd,article dir,article menu,article ol,article ul {
     display: block;
     width: 16px;
     height: 16px;
-    background: url(../img/red-close.png) no-repeat
+    background: url("../images/red-close.png") no-repeat
 }
 
 .gp-consult-tel .new-upload {
@@ -4881,7 +4851,7 @@ article dd,article dir,article menu,article ol,article ul {
     font-style: normal;
     top: auto;
     left: auto;
-    background: url(../img/expert_2015/add.png) center no-repeat;
+    background: url("../images/expert-add.png") center no-repeat;
     background-size: 50%;
     width: 45px;
     height: 45px;
@@ -4922,7 +4892,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .gp-consult-tel .preview-item .preview-mark {
     position: absolute;
-    background: url(../img/expert_2015/loading.gif) center no-repeat;
+    background: url("../images/expert-loading.gif") center no-repeat;
     background-size: 20px 20px;
     background-color: rgba(0,0,0,.4);
     width: 60px;
@@ -4948,13 +4918,13 @@ article dd,article dir,article menu,article ol,article ul {
     display: block;
     width: 16px;
     height: 16px;
-    background: url(../img/red-close.png) no-repeat
+    background: url("../images/red-close.png") no-repeat
 }
 
 .gp-consult-tel .g-consult-form {
     margin-bottom: 0;
     border: none;
-    background: url(../img/expert_2015/consult_ask_bg.jpg) right 40px no-repeat #fff
+    background: url("../images/consult_ask_bg.jpg") right 40px no-repeat #fff
 }
 
 .gp-consult-tel .row {
@@ -5079,7 +5049,7 @@ article dd,article dir,article menu,article ol,article ul {
 .g-article-items ul li dt i {
     width: 14px;
     height: 14px;
-    background: url(../img/article-icon.png) 0 -62px no-repeat;
+    background: url("../images/article-icon.png") 0 -62px no-repeat;
     position: absolute;
     top: 4px;
     left: 0
@@ -5110,7 +5080,7 @@ article dd,article dir,article menu,article ol,article ul {
     display: inline-block;
     width: 13px;
     height: 9px;
-    background: url(../img/expert_2015/sprite.png) -460px -120px no-repeat
+    background: url("../images/expert-sprite-2.png") -460px -120px no-repeat
 }
 
 .g-article-items ul li .video dt i {
@@ -5160,7 +5130,6 @@ article dd,article dir,article menu,article ol,article ul {
     float: left;
     width: 50%;
     height: 200px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
     padding: 45px 0 0;
@@ -5282,7 +5251,6 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-expert .expert-online-consult .consult-type .item .service-popup-shipin .bd li {
     height: 40px;
     line-height: 40px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box
 }
 
@@ -5328,7 +5296,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-expert .expert-online-consult .consult-type .item.tuwen i {
-    background: url(../img/expert_2015/expert-icon.png) no-repeat
+    background: url("../images/expert-icon.png") no-repeat
 }
 
 .gp-expert .expert-online-consult .consult-type .item.shihua {
@@ -5336,7 +5304,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-expert .expert-online-consult .consult-type .item.shihua i {
-    background: url(../img/expert_2015/expert-icon.png) 0 -85px no-repeat
+    background: url("../images/expert-icon.png") 0 -85px no-repeat
 }
 
 .gp-expert .expert-online-consult .consult-type .item.off {
@@ -5353,11 +5321,11 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-expert .expert-online-consult .consult-type .item.on:hover.tuwen i {
-    background: url(../img/expert_2015/tuwen-hover.png) no-repeat
+    background: url("../images/tuwen-hover.png") no-repeat
 }
 
 .gp-expert .expert-online-consult .consult-type .item.on:hover.shihua i {
-    background: url(../img/expert_2015/shihua-hover.png) no-repeat
+    background: url("../images/shipin-hover.png") no-repeat
 }
 
 .gp-expert .expert-online-consult .consult-type .item.on:hover .describe:after {
@@ -5471,7 +5439,6 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-expert .expert-online-servicePkg .service-package ul .item {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
     cursor: pointer;
@@ -5846,4 +5813,4 @@ article dd,article dir,article menu,article ol,article ul {
 
 .jwy-gc-height {
     min-height: 0!important
-}
+}}
