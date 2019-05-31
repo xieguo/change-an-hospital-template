@@ -667,7 +667,7 @@
 }
 
 .gp-index .pagers a {
-    background: url("../images/index-banner.jpg") -122px -59px no-repeat;
+    background: url("../images/hp2.png") -122px -59px no-repeat;
     height: 11px;
     width: 11px;
     text-indent: -999px;
@@ -895,7 +895,8 @@
 
 .gp-index .booking-section .main-ctn {
     position: relative;
-    height: 310px
+    height: 260px;
+    /* height: 310px */
 }
 
 .gp-index .booking-section .g-grid-left {
@@ -1491,8 +1492,9 @@
     display: inline-block;
     padding: 10px 0 15px;
     line-height: 18px;
-    border-bottom: 1px dotted #e4e4e4;
-    width: 100%
+    border-top: 1px dotted #e4e4e4;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .gp-index .booking-section .gd-list ul li .teaminfo .claim span {
@@ -1532,7 +1534,7 @@
 }
 
 .gp-index .booking-section .gd-list ul li:last-child .claim {
-    border: 0
+    /* border: 0 */
 }
 
 .gp-index .consult-section {
@@ -1849,12 +1851,13 @@
     float: left;
     list-style: none;
     position: relative;
-    width: 199px;
+    /* width: 199px; */
+    width: 213px;
     margin-right: 23px;
     margin-bottom: 25px
 }
 
-.gp-index .consult-section .consult-list .dept-consult .doctor-show .quick-inquiry>li:nth-child(4n) {
+.gp-index .consult-section .consult-list .dept-consult .doctor-show .quick-inquiry>li:nth-child(5n) {
     margin-right: 0
 }
 
@@ -2709,4 +2712,31 @@
 
 .select2-dropdown {
     border-color: #c7d7eb!important
+}
+
+/* thank */
+.gp-index .main-ctn .consult-list-bar {
+    padding: 20px;
+    background-color: #F9FAFC;
+    border-top: 2px solid #74b334;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1)
+}
+
+.gp-index .booking-section .g-grid-full {
+    position: relative;
+    /* width: 886px; */
+    border: 1px solid #e4e4e4
+}
+.gp-index .booking-section .g-grid-team ul li {
+    position: relative;
+    width: 370px;
+    height: 180px;
+    float: left;
+    padding-top: 20px;
+    border-right: 1px dotted #e2dede;
+    margin-right: 21px;
+}
+.gp-index .booking-section .g-grid-team ul li:last-child {
+    border-right: 0;
+    margin-right: 0;
 }
