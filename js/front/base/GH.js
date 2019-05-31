@@ -178,22 +178,22 @@ GreenLine.Util = {
             }
             return null
         }
-        var n = i();
-        n ? e.call(t, n) : GH.H5ApiRequest.ajax({
-            type: "get",
-            // url: $GC.gatewayServer + "/json/moduleoperate/location/get",
-            url: "http://localhost:9000/index.php",
-            success: function(i) {
-                0 === +i.code && ($.cookie("_ipgeo", "province:" + (i.data.province || "广东") + "|city:" + (i.data.city || "广州"), {
-                    expires: 100,
-                    path: "/"
-                }),
-                e.call(t, {
-                    province: i.data.province || "广东",
-                    city: i.data.city || "广州"
-                }))
-            }
-        })
+        // var n = i();
+        // n ? e.call(t, n) : GH.H5ApiRequest.ajax({
+        //     type: "get",
+        //     // url: $GC.gatewayServer + "/json/moduleoperate/location/get",
+        //     url: "http://localhost:9000/index.php",
+        //     success: function(i) {
+        //         0 === +i.code && ($.cookie("_ipgeo", "province:" + (i.data.province || "广东") + "|city:" + (i.data.city || "广州"), {
+        //             expires: 100,
+        //             path: "/"
+        //         }),
+        //         e.call(t, {
+        //             province: i.data.province || "广东",
+        //             city: i.data.city || "广州"
+        //         }))
+        //     }
+        // })
     },
     iwant: {
         init: function() {
@@ -1565,6 +1565,7 @@ GreenLine.Flyout = {
             return !1
         },
         load: function() {
+            return true;
             function e() {
                 $.ajax({
                     url: $GC.serviceServer + "/json/white/operateResource.jsonp?resourceId=P-1.3",
@@ -2151,9 +2152,9 @@ GreenLine.featureLead = {
 GreenLine.Widget = {
     fastOrder: {
         urls: {
-            province: "/json/white/area/provinces",
-            city: "/json/white/area/citys",
-            hospital: "/json/white/fastorder/hospitals",
+            // province: "/json/white/area/provinces",
+            // city: "/json/white/area/citys",
+            // hospital: "/json/white/fastorder/hospitals",
             dept: "/json/white/fastorder/depts"
         },
         init: function(e) {
@@ -2178,21 +2179,21 @@ GreenLine.Widget = {
                 e.lbs || (t.needLbs = !1),
                 "" != $(this).val() && t._updateSelect("hospital")
             }),
-            t.province = e.find(".js-province").change(function(e) {
-                t._cleanSelect(t.city, "" != $(this).val()),
-                t._cleanSelect(t.hospital),
-                t._cleanSelect(t.dept),
-                e.lbs || (t.needLbs = !1),
-                "" != $(this).val() && t._updateSelect("city")
-            }),
+            // t.province = e.find(".js-province").change(function(e) {
+            //     t._cleanSelect(t.city, "" != $(this).val()),
+            //     t._cleanSelect(t.hospital),
+            //     t._cleanSelect(t.dept),
+            //     e.lbs || (t.needLbs = !1),
+            //     "" != $(this).val() && t._updateSelect("city")
+            // }),
             t.btn = e.find(".js-btn").click(function(e) {
                 var i = t._getUrl();
                 return $(this).attr("href", i),
                 $GUM.link(i, "QCK"),
                 t._setUserChoice(),
                 !0
-            }),
-            t._updateSelect("province")
+            })
+            // t._updateSelect("province")
         },
         _setUserChoice: function() {
             var e = this

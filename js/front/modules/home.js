@@ -157,9 +157,9 @@ GH.run(function() {
     var e = {
         loaded: !1,
         urls: {
-            province: "/json/white/area/provinces",
-            city: "/json/white/area/citys",
-            hospital: "/json/white/fastorder/hospitals",
+            // province: "/json/white/area/provinces",
+            // city: "/json/white/area/citys",
+            // hospital: "/json/white/fastorder/hospitals",
             dept: "/json/white/fastorder/depts"
         },
         init: function(e) {
@@ -174,50 +174,50 @@ GH.run(function() {
                 t.dept = e.find(".js-dept").change(function(e) {
                     e.lbs || (t.needLbs = !1)
                 }),
-                t.hospital = e.find(".js-hospital").change(function(e) {
-                    t._cleanSelect(t.dept, !0),
-                    e.lbs || (t.needLbs = !1),
-                    "" != $(this).val() && t._updateSelect("dept")
-                }),
-                t.city = e.find(".js-city").change(function(e) {
-                    if (t._cleanSelect(t.hospital, !0),
-                    t._cleanSelect(t.dept, !0),
-                    e.lbs || (t.needLbs = !1),
-                    $(this).val()) {
-                        var i = $(".J_AreaFilter form")
-                          , n = i.find("input[name='ci']").val();
-                        if (n)
-                            $(".J_City").text(i.find("input[name='c']").val()),
-                            $(this).val(n);
-                        else {
-                            var o = $(this).find("option:selected").text();
-                            $(".J_City").text(o),
-                            i.find("input[name='ci']").val($(this).val()),
-                            i.find("input[name='c']").val(o)
-                        }
-                        t._updateSelect("hospital")
-                    }
-                }),
-                t.province = e.find(".js-province").change(function(e) {
-                    if (t._cleanSelect(t.city, "" != $(this).val()),
-                    t._cleanSelect(t.hospital, !0),
-                    t._cleanSelect(t.dept, !0),
-                    e.lbs || (t.needLbs = !1),
-                    $(this).val()) {
-                        var i = $(".J_AreaFilter form")
-                          , n = i.find("input[name='pi']").val();
-                        if (n)
-                            $(".J_Province").text(i.find("input[name='p']").val()),
-                            $(this).val(n);
-                        else {
-                            var o = $(this).find("option:selected").text();
-                            $(".J_Province").text(o),
-                            i.find("input[name='pi']").val($(this).val()),
-                            i.find("input[name='p']").val(o)
-                        }
-                        t._updateSelect("city")
-                    }
-                }),
+                // t.hospital = e.find(".js-hospital").change(function(e) {
+                //     t._cleanSelect(t.dept, !0),
+                //     e.lbs || (t.needLbs = !1),
+                //     "" != $(this).val() && t._updateSelect("dept")
+                // }),
+                // t.city = e.find(".js-city").change(function(e) {
+                //     if (t._cleanSelect(t.hospital, !0),
+                //     t._cleanSelect(t.dept, !0),
+                //     e.lbs || (t.needLbs = !1),
+                //     $(this).val()) {
+                //         var i = $(".J_AreaFilter form")
+                //           , n = i.find("input[name='ci']").val();
+                //         if (n)
+                //             $(".J_City").text(i.find("input[name='c']").val()),
+                //             $(this).val(n);
+                //         else {
+                //             var o = $(this).find("option:selected").text();
+                //             $(".J_City").text(o),
+                //             i.find("input[name='ci']").val($(this).val()),
+                //             i.find("input[name='c']").val(o)
+                //         }
+                //         t._updateSelect("hospital")
+                //     }
+                // }),
+                // t.province = e.find(".js-province").change(function(e) {
+                //     if (t._cleanSelect(t.city, "" != $(this).val()),
+                //     t._cleanSelect(t.hospital, !0),
+                //     t._cleanSelect(t.dept, !0),
+                //     e.lbs || (t.needLbs = !1),
+                //     $(this).val()) {
+                //         var i = $(".J_AreaFilter form")
+                //           , n = i.find("input[name='pi']").val();
+                //         if (n)
+                //             $(".J_Province").text(i.find("input[name='p']").val()),
+                //             $(this).val(n);
+                //         else {
+                //             var o = $(this).find("option:selected").text();
+                //             $(".J_Province").text(o),
+                //             i.find("input[name='pi']").val($(this).val()),
+                //             i.find("input[name='p']").val(o)
+                //         }
+                //         t._updateSelect("city")
+                //     }
+                // }),
                 t.btn = e.find(".js-btn").click(function() {
                     var e = t._getUrl();
                     return $(this).attr("href", e),
@@ -227,41 +227,41 @@ GH.run(function() {
                 });
                 var i = t.container.find(".js-hospital")
                   , n = t.container.find(".js-dept");
-                i.select2({
-                    placeholder: "请输入你要预约的医院",
-                    maximumSelectionLength: 1,
-                    width: 215
-                }),
-                i.on("select2:select", function() {
-                    $(this).next().find(".select2-search--inline").hide(),
-                    i.data("doSel", !0)
-                }),
-                i.on("select2:unselect", function() {
-                    $(this).val(null).trigger("change"),
-                    $(this).next().find(".select2-search--inline").show(),
-                    n.next().find(".select2-search--inline").show()
-                }),
-                i.on("select2:afterUpdate", function() {
-                    $(this).val() && $(this).next().find(".select2-search--inline").hide()
-                }),
-                n.select2({
-                    placeholder: "请选择科室",
-                    maximumSelectionLength: 1,
-                    width: 215
-                }),
-                n.on("select2:select", function() {
-                    $(this).next().find(".select2-search--inline").hide()
-                }),
-                n.on("select2:unselect", function() {
-                    $(this).val(null).trigger("change"),
-                    $(this).next().find(".select2-search--inline").show()
-                }),
-                n.on("select2:afterUpdate", function() {
-                    var e = $(this).next().find(".select2-selection__choice").length;
-                    e > 1 && $(this).next().find(".select2-selection__choice:first").remove(),
-                    $(this).val() && $(this).next().find(".select2-search--inline").hide()
-                }),
-                t._updateSelect("province"),
+                // i.select2({
+                //     placeholder: "请输入你要预约的医院",
+                //     maximumSelectionLength: 1,
+                //     width: 215
+                // }),
+                // i.on("select2:select", function() {
+                //     $(this).next().find(".select2-search--inline").hide(),
+                //     i.data("doSel", !0)
+                // }),
+                // i.on("select2:unselect", function() {
+                //     $(this).val(null).trigger("change"),
+                //     $(this).next().find(".select2-search--inline").show(),
+                //     n.next().find(".select2-search--inline").show()
+                // }),
+                // i.on("select2:afterUpdate", function() {
+                //     $(this).val() && $(this).next().find(".select2-search--inline").hide()
+                // }),
+                // n.select2({
+                //     placeholder: "请选择科室",
+                //     maximumSelectionLength: 1,
+                //     width: 215
+                // }),
+                // n.on("select2:select", function() {
+                //     $(this).next().find(".select2-search--inline").hide()
+                // }),
+                // n.on("select2:unselect", function() {
+                //     $(this).val(null).trigger("change"),
+                //     $(this).next().find(".select2-search--inline").show()
+                // }),
+                // n.on("select2:afterUpdate", function() {
+                //     var e = $(this).next().find(".select2-selection__choice").length;
+                //     e > 1 && $(this).next().find(".select2-selection__choice:first").remove(),
+                //     $(this).val() && $(this).next().find(".select2-search--inline").hide()
+                // }),
+                // t._updateSelect("province"),
                 $(".J_AreaFilter").data("loaded", !0);
                 var o = e.find(".J_exportTeam");
                 o.find(".team-item").hover(function() {
