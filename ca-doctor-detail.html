@@ -13,1238 +13,1176 @@
 
 		<link rel="shortcut icon" href="favicon.ico" />
 		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/expert.css" />
 
 
-<script  type="text/javascript">
-	$GF = [];
-	GreenLine = {};
-	//打点日志全局变量
-	GreenLine.Log = {
-		url:'https://track.guahao.cn/blank.gif?',
-		requestMethod:'GET',
-		loginId:'',
-		perSessiionId:'1559113000841201780671510',
-		shortSessionId:'1559232448493',
-		referurl:'https://www.guahao.com/expert/all/%E5%85%A8%E5%9B%BD/all/%E4%B8%8D%E9%99%90',
-		userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
-		errorEventName:'portal_pc_js_error',
-		token: "",
-		monitorLog : false
-	}
-	// 老的埋点，后面统一删除HTML上的埋点
-	function _smartlog(link,mod){return true;};
-	// 老的浏览器兼容H5标签
-	(function () {if (/MSIE [6-8]/.test(navigator.userAgent.toUpperCase())) {var tags = "header,footer,section,article,aside,details,summary,figure,figcaption,nav,menu".split(",");document.write("<style>" + tags.toString() + "{display:block}</style>");for (var i = 0; i < tags.length; document.createElement(tags[i]), i++);}})();
-	// 图片加载失败,error设置默认图片也加载失败避免死循环
-	window.NoFind = function(src) {
-		var img = event.srcElement;
-		img.src = src;
-		img.onerror = null;
-	};
-</script>
-
-
-        					<link rel="stylesheet" href="https://static.guahao.cn/front/portal-pc-static/css/expert_v2.css?v=1557150763ea2e3f" type="text/css"/>
-					<link rel="stylesheet" href="https://static.guahao.cn/front/portal-pc-static/css/areahome.css?v=1557150763ea2e3f" type="text/css"/>
-  
+		<script  type="text/javascript">
+			$GF = [];
+			GreenLine = {};
+			//打点日志全局变量
+			GreenLine.Log = {
+				url:'http://localhost:9000/blank.gif?',
+				requestMethod:'GET',
+				loginId:'',
+				perSessiionId:'1559113000841201780671510',
+				shortSessionId:'1559232448493',
+				referurl:'',
+				userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+				errorEventName:'portal_pc_js_error',
+				token: "",
+				monitorLog : false
+			};
+			// 老的浏览器兼容H5标签
+			(function () {if (/MSIE [6-8]/.test(navigator.userAgent.toUpperCase())) {var tags = "header,footer,section,article,aside,details,summary,figure,figcaption,nav,menu".split(",");document.write("<style>" + tags.toString() + "{display:block}</style>");for (var i = 0; i < tags.length; document.createElement(tags[i]), i++);}})();
+			// 图片加载失败,error设置默认图片也加载失败避免死循环
+			window.NoFind = function(src) {
+				var img = event.srcElement;
+				img.src = src;
+				img.onerror = null;
+			};
+		</script>
 	</head>
-<body class="g-1200px">
-	<div id="g-wrapper" class="g-wrapper g-page-1200"> 
-		<div id="gh">
-			<div class="gh-nav">
-				<div class="container g-clear">
-					<div class="g-left">
-						<span class="text">您好！ </span>
-					</div>
-				  	<div class="g-right">
-			            <a href="javascript:;" rel="nofollow" class='dl-guide J_SeoGuide'>
-			            	关注公众号
-			            	<span>
-			            		<img src="images/office-account-qrcode.png" alt="">
-			            	</span>
-			            </a>
-						<span class="line">|</span>
-						<a href="" rel="nofollow" id="helpCenter" target="_blank" monitor="public_head,publick_head,cscenter">客服中心</a>
+	<body class="g-1200px">
+		<div id="g-wrapper" class="g-wrapper g-page-1200"> 
+			<div id="gh">
+				<div class="gh-nav">
+					<div class="container g-clear">
+						<div class="g-left">
+							<span class="text">您好！ </span>
+						</div>
+					  	<div class="g-right">
+				            <a href="javascript:;" rel="nofollow" class='dl-guide J_SeoGuide'>
+				            	关注公众号
+				            	<span>
+				            		<img src="images/office-account-qrcode.png" alt="">
+				            	</span>
+				            </a>
+							<span class="line">|</span>
+							<a href="" rel="nofollow" id="helpCenter" target="_blank" monitor="public_head,publick_head,cscenter">客服中心</a>
+						</div>
 					</div>
 				</div>
-			</div>
-		  	<div class="gh-main">
-		  		<div class="container g-clear">
-  			    	<div class="gh-logo ">
-							<a  href="http://02022222222.com"  class="logo gov-logo"></a>
-							<img src="https://static.guahao.cn/front/portal-pc-static/img/2015/wy.png" alt="微医" class="wy-logo">
-  			    	</div>
+			  	<div class="gh-main">
+			  		<div class="container g-clear">
+	  			    	<div class="gh-logo ">
+								<a  href="http://02022222222.com"  class="logo gov-logo"></a>
+								<img src="https://static.guahao.cn/front/portal-pc-static/img/2015/wy.png" alt="微医" class="wy-logo">
+	  			    	</div>
 
-					<div class="gh-search gh-web-search gh-search-left gh-search-gov">
-						<form class="gh-search-form" action="" name="qform">
-							<span class="gh-search-input">
-								<span class="search-icon"></span>
-				    			<input type="text" name="q" value="" autocomplete="off"  maxlength="50" class="J_SearchQ"  placeholder="请输入疾病名、科室名、医院名或医生名"/> 
-				    			<input type="hidden" name="searchType" value="search" class="J_SearchType"> 
-							</span> 
-								<a class="gbn gbt-green2 radius-right big-search-bt" href="javascript:void(0);">搜索</a>
-								<div class="clear"></div>
-						</form>
-						<div class="search-key">  
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="腋臭专家联盟" monitor-click-rank="0"  href="" target="_blank"  class=" J_SearchHot" > 腋臭专家联盟 </a>
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="拜拜脂肪君" monitor-click-rank="1"  href="" target="_blank"  class=" J_SearchHot" > 拜拜脂肪君 </a> 
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="流感" monitor-click-rank="2"  href="" class=" J_SearchHot" > 流感 </a>
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="心肌梗塞" monitor-click-rank="3"  href="" class=" J_SearchHot" > 心肌梗塞 </a>
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="骨折" monitor-click-rank="4"  href="" class=" J_SearchHot" > 骨折 </a>
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="心肌炎" monitor-click-rank="5"  href="" class=" J_SearchHot" > 心肌炎 </a>
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="结膜炎" monitor-click-rank="6"  href="" class=" J_SearchHot" > 结膜炎 </a> 
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="支气管炎" monitor-click-rank="7"  href="" class=" J_SearchHot" > 支气管炎 </a>
-				    	</div> 
-					</div> 
-					<span class="gh-search-tips"></span>
-		  		</div>
-		  	</div>
-			<div class="gh-home-menu J_NewMenu">
-				<div class="container g-clear container-small">
-					<div class="home-menu-ctn">
-						<ul class="g-clear main-menu-nav">
-							<li class="hot"> <a target="_blank" class="own-tab" monitor="public_menu,home_menu,ask" href="">在线问诊</a></li>
-							<li><a target="_blank" href="" rel="nofollow"  monitor="public_menu,home_menu,fastpoder">预约挂号</a></li>
-							<li class="fast" ><a target="_blank"  href="" class="own-tab" rel="nofollow"  monitor="public_menu,home_menu,preciseorder">极速问诊</a></li>
-			                <li><a target="_blank" href=""  monitor="public_menu,home_menu,spteam">专家团队</a></li>
-							<li><a target="_blank" href="" rel="nofollow" >健康资讯</a></li>
-						</ul>
-						<div class="main-category-nav J_DiseaseCategory">
-							<h3><i></i>帮你快速找医生</h3>
-							<div class="nav-cats-wrapper J_FastCategory" style="display:none">
-								<ul>
-									<li data-id="1">
-										<h5 class="title">
-											<i class="nk"></i><a target="_blank" href="">内科</a>
-										</h5>
-										<span class="sub-ds">
-											<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">糖尿病</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">高血压</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">冠心病</a>
-										</span>
-									</li>
-									<li data-id="2">
-										<h5 class="title">
-											<i class="wk"></i>
-											<a target="_blank" href="">外科</a>
-										</h5>
-										<span class="sub-ds">
-											<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">乳腺癌</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">血管瘤</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">肝癌</a>
-										</span>
-									</li>
-									<li data-id="3">
-										<h5 class="title">
-											<i class="fck"></i><a target="_blank" href="">妇产科</a>
-										</h5>
-										<span class="sub-ds">
-											<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">不孕</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">阴道炎</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">卵巢囊肿</a>
-										</span>
-									</li>
-									<li data-id="4">
-										<h5 class="title">
-											<i class="pfk"></i><a target="_blank" href="">皮肤性病科</a>
-										</h5>
-										<span class="sub-ds">
-											<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">白癜风</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">湿疹</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">银屑病</a>
-										</span>
-									</li>
-									<li data-id="5">
-										<h5 class="title">
-											<i class="gk"></i><a target="_blank" href="">骨科</a>
-										</h5>
-										<span class="sub-ds">
-											<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">颈椎病</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">腰椎间盘突出症</a>
-										</span>
-									</li>
-									<li data-id="6">
-										<h5 class="title">
-											<i class="wgk"></i><a target="_blank" href="">耳鼻咽喉科</a>
-										</h5>
-										<span class="sub-ds">
-											<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">鼻咽癌</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">鼻炎</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">白内障</a>
-										</span>
-									</li>
-									<li class="other" data-id="8">
-										<h5 class="title"><i class="qt"></i>其它科室</h5>
-									</li>
-								</ul>
-							</div>
-
-							<div class="nav-subcats-wrapper">
-								<div class="subcats-item J_FastSubCategory" data-id="1">
-									<div class="sub-category-box J_SubBox">
-										<ul>
-											<li>
-												<h5><a target="_blank" href="">内科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲亢</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乙肝</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">胃炎</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">高血脂</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脑梗塞</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">强直性脊柱炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">癫痫</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">痛风</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">哮喘</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">肺结核</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胃溃疡</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">克罗恩病</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝硬化</a>
-												</p>
-											</li>
-											<li>
-												<h5><a target="_blank" href="">神经内科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">脑梗塞</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">癫痫</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">面瘫</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">三叉神经痛</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">老年痴呆</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脑血栓形成</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">帕金森病</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脑供血不足</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">失眠</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">面肌抽搐</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">重症肌无力</a>
-												</p>
-											</li>
-											<li>
-												<h5><a target="_blank" href="">内分泌科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲亢</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">高尿酸血症</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">痛风</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">糖尿病足</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肥胖症</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">低血糖</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲减</a>
-										            <a target="_blank" href="" monitor="public_fastsearch,div,sick">亚甲炎</a>
-										            <a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺瘤</a>
-										            <a target="_blank" href="" monitor="public_fastsearch,div,sick">侏儒症</a>
-										            <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">习惯性流产</a>
-												</p>
-											</li>
-									        <li class="last">
-									            <h5><a target="_blank" href="">风湿免疫科常见病</a></h5>
-									            <p>
-									                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">强直性脊柱炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">风湿病</a>
-									                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">类风湿性关节炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">干燥综合征</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">特发性关节痛综合征</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">硬皮病</a>
-									                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">系统性红斑狼疮</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">白塞病</a>
-									            </p>
-									        </li>
-									        <li>
-									            <h5><a target="_blank" href="">心血管内科常见病</a></h5>
-									            <p>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">动脉硬化</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">心绞痛</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">窦性心动过速</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">低钾血症</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺动脉高压</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺栓塞</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">心脏神经官能症</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">心肌梗死</a>
-									            </p>
-									        </li>
-									        <li>
-									            <h5><a target="_blank" href="">呼吸内科常见病</a></h5>
-									            <p>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">过敏性咳嗽</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">气胸</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">流感</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">支气管扩张</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胸腔积液</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性支气管炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">支气管哮喘</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">过敏性哮喘</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">急性支气管炎</a>
-									            </p>
-									        </li>
-									        <li>
-									            <h5><a target="_blank" href="">感染科常见病</a></h5>
-									            <p>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">狂犬病</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">丹毒</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胸膜炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">麻疹</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性结肠炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">硬下疳</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">伤寒</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">甲肝</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿麻痹症</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">H7N9</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">白喉</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">气性坏疽</a>
-									            </p>
-									        </li>
-									        <li>
-									            <h5><a target="_blank" href="">消化内科常见病</a></h5>
-									            <p>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脂肪肝</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">便秘</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肠炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">结肠炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">蚕豆病</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">十二指肠溃疡</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">反流性食管炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">萎缩性胃炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">溃疡性结肠炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">痢疾</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">慢性肠炎</a>
-									            </p>
-									        </li>
-										</ul>
-									</div>
+						<div class="gh-search gh-web-search gh-search-left gh-search-gov">
+							<form class="gh-search-form" action="" name="qform">
+								<span class="gh-search-input">
+									<span class="search-icon"></span>
+					    			<input type="text" name="q" value="" autocomplete="off"  maxlength="50" class="J_SearchQ"  placeholder="请输入疾病名、科室名、医院名或医生名"/> 
+					    			<input type="hidden" name="searchType" value="search" class="J_SearchType"> 
+								</span> 
+									<a class="gbn gbt-green2 radius-right big-search-bt" href="javascript:void(0);">搜索</a>
+									<div class="clear"></div>
+							</form>
+							<div class="search-key">  
+			    				<a monitor="public_search,public_search,searchhot" monitor-search-q="腋臭专家联盟" monitor-click-rank="0"  href="" target="_blank"  class=" J_SearchHot" > 腋臭专家联盟 </a>
+			    				<a monitor="public_search,public_search,searchhot" monitor-search-q="拜拜脂肪君" monitor-click-rank="1"  href="" target="_blank"  class=" J_SearchHot" > 拜拜脂肪君 </a> 
+			    				<a monitor="public_search,public_search,searchhot" monitor-search-q="流感" monitor-click-rank="2"  href="" class=" J_SearchHot" > 流感 </a>
+			    				<a monitor="public_search,public_search,searchhot" monitor-search-q="心肌梗塞" monitor-click-rank="3"  href="" class=" J_SearchHot" > 心肌梗塞 </a>
+			    				<a monitor="public_search,public_search,searchhot" monitor-search-q="骨折" monitor-click-rank="4"  href="" class=" J_SearchHot" > 骨折 </a>
+			    				<a monitor="public_search,public_search,searchhot" monitor-search-q="心肌炎" monitor-click-rank="5"  href="" class=" J_SearchHot" > 心肌炎 </a>
+			    				<a monitor="public_search,public_search,searchhot" monitor-search-q="结膜炎" monitor-click-rank="6"  href="" class=" J_SearchHot" > 结膜炎 </a> 
+			    				<a monitor="public_search,public_search,searchhot" monitor-search-q="支气管炎" monitor-click-rank="7"  href="" class=" J_SearchHot" > 支气管炎 </a>
+					    	</div> 
+						</div> 
+						<span class="gh-search-tips"></span>
+			  		</div>
+			  	</div>
+				<div class="gh-home-menu J_NewMenu">
+					<div class="container g-clear container-small">
+						<div class="home-menu-ctn">
+							<ul class="g-clear main-menu-nav">
+								<li class="hot"> <a target="_blank" class="own-tab" monitor="public_menu,home_menu,ask" href="">在线问诊</a></li>
+								<li><a target="_blank" href="" rel="nofollow"  monitor="public_menu,home_menu,fastpoder">预约挂号</a></li>
+								<li class="fast" ><a target="_blank"  href="" class="own-tab" rel="nofollow"  monitor="public_menu,home_menu,preciseorder">极速问诊</a></li>
+				                <li><a target="_blank" href=""  monitor="public_menu,home_menu,spteam">专家团队</a></li>
+								<li><a target="_blank" href="" rel="nofollow" >健康资讯</a></li>
+							</ul>
+							<div class="main-category-nav J_DiseaseCategory">
+								<h3><i></i>帮你快速找医生</h3>
+								<div class="nav-cats-wrapper J_FastCategory" style="display:none">
+									<ul>
+										<li data-id="1">
+											<h5 class="title">
+												<i class="nk"></i><a target="_blank" href="">内科</a>
+											</h5>
+											<span class="sub-ds">
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">糖尿病</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">高血压</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">冠心病</a>
+											</span>
+										</li>
+										<li data-id="2">
+											<h5 class="title">
+												<i class="wk"></i>
+												<a target="_blank" href="">外科</a>
+											</h5>
+											<span class="sub-ds">
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">乳腺癌</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">血管瘤</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">肝癌</a>
+											</span>
+										</li>
+										<li data-id="3">
+											<h5 class="title">
+												<i class="fck"></i><a target="_blank" href="">妇产科</a>
+											</h5>
+											<span class="sub-ds">
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">不孕</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">阴道炎</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">卵巢囊肿</a>
+											</span>
+										</li>
+										<li data-id="4">
+											<h5 class="title">
+												<i class="pfk"></i><a target="_blank" href="">皮肤性病科</a>
+											</h5>
+											<span class="sub-ds">
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">白癜风</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">湿疹</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">银屑病</a>
+											</span>
+										</li>
+										<li data-id="5">
+											<h5 class="title">
+												<i class="gk"></i><a target="_blank" href="">骨科</a>
+											</h5>
+											<span class="sub-ds">
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">颈椎病</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">腰椎间盘突出症</a>
+											</span>
+										</li>
+										<li data-id="6">
+											<h5 class="title">
+												<i class="wgk"></i><a target="_blank" href="">耳鼻咽喉科</a>
+											</h5>
+											<span class="sub-ds">
+												<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">鼻咽癌</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">鼻炎</a>
+												<a target="_blank" href="" monitor="public_fastselect,div,hotsick">白内障</a>
+											</span>
+										</li>
+										<li class="other" data-id="8">
+											<h5 class="title"><i class="qt"></i>其它科室</h5>
+										</li>
+									</ul>
 								</div>
 
-								<div class="subcats-item J_FastSubCategory" data-id="2">
-									<div class="sub-category-box J_SubBox">
-										<ul>
-											<li>
-												<h5><a target="_blank" href="">外科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺炎</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肺癌</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">痔疮</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺腺瘤</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">直肠癌</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">肾结石</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">结肠癌</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">胆囊结石</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">胃癌</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">食管癌</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胆囊癌</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝血管瘤</a>
-												</p>
-											</li>
-											<li>
-												<h5><a target="_blank" href="">泌尿外科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">前列腺炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">早泄</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肾结石</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">包皮过长</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">性功能障碍</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">男性不育症</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">尿路感染</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺增生</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺癌</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肾积水</a>
-												</p>
-											</li>
-											<li>
-												<h5><a target="_blank" href="">乳腺外科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳腺增生</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺纤维腺瘤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺腺病</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">急性乳腺炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">多乳房</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺导管扩张症</a>
-										            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳腺纤维瘤</a>
-										            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳头内陷</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">乳房纤维瘤</a>
-												</p>
-											</li>
-											<li class="last">
-												<h5><a target="_blank" href="">普外科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胃癌</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺腺瘤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">胰腺炎</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲状腺癌</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">疝气</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胰腺癌</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脂肪瘤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺结节样病变</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">阑尾炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">胰腺囊肿</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">脾大</a>
-												</p>
-											</li>
-									        <li>
-									            <h5><a target="_blank" href="">神经外科常见病</a></h5>
-									            <p>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑血栓</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胶质瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">垂体瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑垂体瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑膜瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑震荡</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑动脉瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">烟雾病</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑疝</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">植物人</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脊髓损伤</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">瘫痪</a>
-									            </p>
-									        </li>
-									        <li>
-									            <h5><a target="_blank" href="">肝胆外科常见病</a></h5>
-									            <p>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胆囊炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肝囊肿</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肝腹水</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胆管结石</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">海绵状血管瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性胆囊炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">腹膜癌</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">先天性巨结肠</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性胰腺炎</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝脓肿</a>
-									            </p>
-									        </li>
-									        <li>
-									            <h5><a target="_blank" href="">胸外科常见病</a></h5>
-									            <p>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鸡胸</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺结节</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺大泡</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胸腺瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">法洛四联症</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺空洞</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">纵膈肿瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">恶性间皮瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">张力性气胸</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">乳糜胸</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肺损伤</a>
-									            </p>
-									        </li>
-									        <li>
-									            <h5><a target="_blank" href="">肛肠外科常见病</a></h5>
-									            <p>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肛周脓肿</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肛门息肉</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肠套叠</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性阑尾炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">小肠癌</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">藏毛窦</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肠粘连</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">结肠腺癌</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肛乳头瘤</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">胃肠功能紊乱</a>
-									            </p>
-									        </li>
-										</ul>
-									</div>
-								</div>
-				
-								<div class="subcats-item show-bg J_FastSubCategory" data-id="3">
-									<div class="sub-category-box J_SubBox">
-										<ul>
-											<li class="last">
-												<h5><a target="_blank" href="">妇产科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈癌</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">月经不调</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">输卵管堵塞</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">阴道炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">多囊卵巢综合征</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">围绝经期综合征</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">盆腔炎</a>
-													<a class="focus" href="" monitor="public_fastsearch,div,sick">子宫内膜异位症</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜增生</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫外孕</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫腺肌症</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">产后出血</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">早产</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">自然流产</a>
-													<a class="focus" href="" monitor="public_fastsearch,div,sick">巧克力囊肿</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫脱垂</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈癌前病变</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫颈息肉</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">畸胎瘤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">卵巢癌</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜息肉</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜癌</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫肌瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">多囊卵巢综合症</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈囊肿</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈息肉</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">性冷淡</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">妇科炎症</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">人乳头瘤病毒</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫息肉</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">外阴瘙痒</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">流产</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">羊水栓塞</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">先兆流产</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫癌</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">异常分娩</a>
-												</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-
-								<div class="subcats-item show-bg J_FastSubCategory" data-id="4">
-									<div class="sub-category-box J_SubBox">
-										<ul>
-											<li class="last">
-												<h5><a target="_blank" href="">皮肤性病科常见病</a></h5>
-												<p>
-												<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">尖锐湿疣</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">腋臭</a>
-												<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">灰指甲</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">胎记</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">扁平疣</a>
-												<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">带状疱疹</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲沟炎</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">黑色素瘤</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">脂溢性皮炎</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">梅毒</a>
-												<a class="focus" href="" monitor="public_fastsearch,div,sick">寻常痤疮</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">毛囊炎</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤瘙痒症</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">神经性皮炎</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">外阴黏膜白斑</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">表皮痣</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">皮炎</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">色素痣</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">生殖器疱疹</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">鱼鳞病</a>
-												<a class="focus" href="" monitor="public_fastsearch,div,sick">脚气</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">寻常疣</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">荨麻疹</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鸡眼</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤过敏</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">痤疮</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">玫瑰糠疹</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">股癣</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脱发</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">纤维瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">丘疹性荨麻疹</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">阴囊湿疹</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">皮脂腺囊肿</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">痱子</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">蜘蛛痣</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">黄褐斑</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">湿疣</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">天花</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">股藓</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">单纯疱疹</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">粉瘤</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">老年斑</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性荨麻疹</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤癌</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">红血丝</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">传染性软疣</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">日光性皮炎</a>
-												</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-
-								<div class="subcats-item J_FastSubCategory" data-id="5">
-									<div class="sub-category-box J_SubBox">
-										<ul>
-											<li>
-												<h5><a target="_blank" href="">骨科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨质增生</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肩周炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">腱鞘炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板损伤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">滑膜炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">关节炎</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">慢性腰背痛</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">股骨头缺血性坏死</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨折</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">颈椎间盘突出症</a>
-												</p>
-											</li>
-											<li>
-												<h5><a target="_blank" href="">脊柱外科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性腰背痛</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">颈椎间盘突出症</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">腰椎椎管狭窄症</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊髓型颈椎病</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">神经根型颈椎病</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊柱骨折</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊柱肿瘤</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">椎间盘突出</a>
-												</p>
-											</li>
-											<li>
-												<h5><a target="_blank" href="">关节外科常见病</a></h5>
-												<p>
+								<div class="nav-subcats-wrapper">
+									<div class="subcats-item J_FastSubCategory" data-id="1">
+										<div class="sub-category-box J_SubBox">
+											<ul>
+												<li>
+													<h5><a target="_blank" href="">内科常见病</a></h5>
 													<p>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肩周炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板损伤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">滑膜炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">痛风性关节炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">肩袖损伤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">肱骨外上髁炎</a>
-													<a class="focus" href="" monitor="public_fastsearch,div,sick">骨关节炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">先天性髋关节脱位</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肌腱炎</a>
-												</p>
-											</li>
-											<li class="last">
-												<h5><a target="_blank" href="">创伤骨科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨折</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">跟腱炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板撕裂</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">跟腱断裂</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">腓总神经损伤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">髌骨骨折</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">股骨颈骨折</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">踝关节骨折</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">膝外侧韧带损伤</a>
-												</p>
-											</li>
-										</ul>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲亢</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乙肝</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">胃炎</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">高血脂</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脑梗塞</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">强直性脊柱炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">癫痫</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">痛风</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">哮喘</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">肺结核</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胃溃疡</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">克罗恩病</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝硬化</a>
+													</p>
+												</li>
+												<li>
+													<h5><a target="_blank" href="">神经内科常见病</a></h5>
+													<p>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">脑梗塞</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">癫痫</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">面瘫</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">三叉神经痛</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">老年痴呆</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脑血栓形成</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">帕金森病</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脑供血不足</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">失眠</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">面肌抽搐</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">重症肌无力</a>
+													</p>
+												</li>
+												<li>
+													<h5><a target="_blank" href="">内分泌科常见病</a></h5>
+													<p>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲亢</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">高尿酸血症</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">痛风</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">糖尿病足</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肥胖症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">低血糖</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲减</a>
+											            <a target="_blank" href="" monitor="public_fastsearch,div,sick">亚甲炎</a>
+											            <a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺瘤</a>
+											            <a target="_blank" href="" monitor="public_fastsearch,div,sick">侏儒症</a>
+											            <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">习惯性流产</a>
+													</p>
+												</li>
+										        <li class="last">
+										            <h5><a target="_blank" href="">风湿免疫科常见病</a></h5>
+										            <p>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">强直性脊柱炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">风湿病</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">类风湿性关节炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">干燥综合征</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">特发性关节痛综合征</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">硬皮病</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">系统性红斑狼疮</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">白塞病</a>
+										            </p>
+										        </li>
+										        <li>
+										            <h5><a target="_blank" href="">心血管内科常见病</a></h5>
+										            <p>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">动脉硬化</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">心绞痛</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">窦性心动过速</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">低钾血症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺动脉高压</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺栓塞</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">心脏神经官能症</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">心肌梗死</a>
+										            </p>
+										        </li>
+										        <li>
+										            <h5><a target="_blank" href="">呼吸内科常见病</a></h5>
+										            <p>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">过敏性咳嗽</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">气胸</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">流感</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">支气管扩张</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胸腔积液</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性支气管炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">支气管哮喘</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">过敏性哮喘</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">急性支气管炎</a>
+										            </p>
+										        </li>
+										        <li>
+										            <h5><a target="_blank" href="">感染科常见病</a></h5>
+										            <p>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">狂犬病</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">丹毒</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胸膜炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">麻疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性结肠炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">硬下疳</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">伤寒</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">甲肝</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿麻痹症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">H7N9</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">白喉</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">气性坏疽</a>
+										            </p>
+										        </li>
+										        <li>
+										            <h5><a target="_blank" href="">消化内科常见病</a></h5>
+										            <p>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脂肪肝</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">便秘</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肠炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">结肠炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">蚕豆病</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">十二指肠溃疡</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">反流性食管炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">萎缩性胃炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">溃疡性结肠炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">痢疾</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">慢性肠炎</a>
+										            </p>
+										        </li>
+											</ul>
+										</div>
 									</div>
-								</div>
 
-								<div class="subcats-item show-bg J_FastSubCategory" data-id="6">
-									<div class="sub-category-box J_SubBox">
-										<ul>
-									        <li>
-									            <h5><a target="_blank" href="">耳鼻咽喉科常见疾病</a></h5>
-									            <p>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼻炎</a>
-									                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">鼻窦炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">中耳炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">三叉神经痛</a>
-									                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">鼻咽癌</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼻中隔偏曲</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">扁桃体炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼻息肉</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">声带息肉</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">美尼尔综合症</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性鼻炎</a>
-									                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">喉癌</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼓膜穿孔</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽异感症</a>
-									                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">慢性咽炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺结节</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">中耳炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽喉癌</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">外耳道炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性鼻炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">喉炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">声带小结</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽峡炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">分泌性中耳炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">桥本氏病</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">梅尼埃病</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">突发性耳聋</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">空鼻症</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">上颌窦炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">会厌囊肿</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">慢性扁桃体炎</a>
-									            </p>
-									        </li>
-											<li>
-												<h5><a target="_blank" href="">眼科常见疾病</a></h5>
-												<p>
-									                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">白内障</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">青光眼</a>
-									                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">近视</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">弱视</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">结膜炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">黄斑变性</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">玻璃体混浊</a>
-									                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">斜视</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">角膜炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">视网膜脱落</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">散光</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">葡萄膜炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">睑腺炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">沙眼</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">视神经炎</a>
-									            </p>
-											</li>
-									        <li class="last">
-									            <h5><a target="_blank" href="">头颈外科常见疾病</a></h5>
-												<p>
-									            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲状腺癌</a>
-									            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">腮腺炎</a>
-									            <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽部肿瘤</a>
-									            <a target="_blank" href=""class="last"  monitor="public_fastsearch,div,sick">颈动脉瘤</a>
-												</p>
-											</li>
-										</ul>
+									<div class="subcats-item J_FastSubCategory" data-id="2">
+										<div class="sub-category-box J_SubBox">
+											<ul>
+												<li>
+													<h5><a target="_blank" href="">外科常见病</a></h5>
+													<p>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺炎</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肺癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">痔疮</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺腺瘤</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">直肠癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">肾结石</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">结肠癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">胆囊结石</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">胃癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">食管癌</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胆囊癌</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝血管瘤</a>
+													</p>
+												</li>
+												<li>
+													<h5><a target="_blank" href="">泌尿外科常见病</a></h5>
+													<p>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">前列腺炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">早泄</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肾结石</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">包皮过长</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">性功能障碍</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">男性不育症</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">尿路感染</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺增生</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">前列腺癌</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肾积水</a>
+													</p>
+												</li>
+												<li>
+													<h5><a target="_blank" href="">乳腺外科常见病</a></h5>
+													<p>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳腺增生</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺纤维腺瘤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺腺病</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">急性乳腺炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">多乳房</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">乳腺导管扩张症</a>
+											            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳腺纤维瘤</a>
+											            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">乳头内陷</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">乳房纤维瘤</a>
+													</p>
+												</li>
+												<li class="last">
+													<h5><a target="_blank" href="">普外科常见病</a></h5>
+													<p>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胃癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺腺瘤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">胰腺炎</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲状腺癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">疝气</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">胰腺癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脂肪瘤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺结节样病变</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">阑尾炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">胰腺囊肿</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">脾大</a>
+													</p>
+												</li>
+										        <li>
+										            <h5><a target="_blank" href="">神经外科常见病</a></h5>
+										            <p>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑血栓</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胶质瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">垂体瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑垂体瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑膜瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑震荡</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑动脉瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">烟雾病</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脑疝</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">植物人</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脊髓损伤</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">瘫痪</a>
+										            </p>
+										        </li>
+										        <li>
+										            <h5><a target="_blank" href="">肝胆外科常见病</a></h5>
+										            <p>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胆囊炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肝囊肿</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肝腹水</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胆管结石</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">海绵状血管瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性胆囊炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">腹膜癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">先天性巨结肠</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性胰腺炎</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肝脓肿</a>
+										            </p>
+										        </li>
+										        <li>
+										            <h5><a target="_blank" href="">胸外科常见病</a></h5>
+										            <p>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鸡胸</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺结节</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺大泡</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">胸腺瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">法洛四联症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肺空洞</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">纵膈肿瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">恶性间皮瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">张力性气胸</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">乳糜胸</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肺损伤</a>
+										            </p>
+										        </li>
+										        <li>
+										            <h5><a target="_blank" href="">肛肠外科常见病</a></h5>
+										            <p>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肛周脓肿</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肛门息肉</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肠套叠</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性阑尾炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">小肠癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">藏毛窦</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肠粘连</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">结肠腺癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">肛乳头瘤</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">胃肠功能紊乱</a>
+										            </p>
+										        </li>
+											</ul>
+										</div>
 									</div>
-								</div>
+					
+									<div class="subcats-item show-bg J_FastSubCategory" data-id="3">
+										<div class="sub-category-box J_SubBox">
+											<ul>
+												<li class="last">
+													<h5><a target="_blank" href="">妇产科常见病</a></h5>
+													<p>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈癌</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">月经不调</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">输卵管堵塞</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">阴道炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">多囊卵巢综合征</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">围绝经期综合征</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">盆腔炎</a>
+														<a class="focus" href="" monitor="public_fastsearch,div,sick">子宫内膜异位症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜增生</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫外孕</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫腺肌症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">产后出血</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">早产</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">自然流产</a>
+														<a class="focus" href="" monitor="public_fastsearch,div,sick">巧克力囊肿</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫脱垂</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈癌前病变</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫颈息肉</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">畸胎瘤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">卵巢癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜息肉</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜癌</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫肌瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">多囊卵巢综合症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈囊肿</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">宫颈息肉</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">性冷淡</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">妇科炎症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">人乳头瘤病毒</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫息肉</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">外阴瘙痒</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">流产</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">羊水栓塞</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">先兆流产</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫内膜炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">子宫癌</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">异常分娩</a>
+													</p>
+												</li>
+											</ul>
+										</div>
+									</div>
 
-								<div class="subcats-item J_FastSubCategory" data-id="8">
-									<div class="sub-category-box J_SubBox">
-										<ul>
-											<li>
-												<h5><a target="_blank" href="">心内科常见病</a></h5>
+									<div class="subcats-item show-bg J_FastSubCategory" data-id="4">
+										<div class="sub-category-box J_SubBox">
+											<ul>
+												<li class="last">
+													<h5><a target="_blank" href="">皮肤性病科常见病</a></h5>
+													<p>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">尖锐湿疣</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">腋臭</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">灰指甲</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">胎记</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">扁平疣</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">带状疱疹</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">甲沟炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">黑色素瘤</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脂溢性皮炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">梅毒</a>
+													<a class="focus" href="" monitor="public_fastsearch,div,sick">寻常痤疮</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">毛囊炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤瘙痒症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">神经性皮炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">外阴黏膜白斑</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">表皮痣</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">皮炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">色素痣</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">生殖器疱疹</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">鱼鳞病</a>
+													<a class="focus" href="" monitor="public_fastsearch,div,sick">脚气</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">寻常疣</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">荨麻疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鸡眼</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤过敏</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">痤疮</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">玫瑰糠疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">股癣</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">脱发</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">纤维瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">丘疹性荨麻疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">阴囊湿疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">皮脂腺囊肿</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">痱子</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">蜘蛛痣</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">黄褐斑</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">湿疣</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">天花</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">股藓</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">单纯疱疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">粉瘤</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">老年斑</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性荨麻疹</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">皮肤癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">红血丝</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">传染性软疣</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">日光性皮炎</a>
+													</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="subcats-item J_FastSubCategory" data-id="5">
+										<div class="sub-category-box J_SubBox">
+											<ul>
+												<li>
+													<h5><a target="_blank" href="">骨科常见病</a></h5>
+													<p>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨质增生</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肩周炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">腱鞘炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板损伤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">滑膜炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">关节炎</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">慢性腰背痛</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">股骨头缺血性坏死</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨折</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">颈椎间盘突出症</a>
+													</p>
+												</li>
+												<li>
+													<h5><a target="_blank" href="">脊柱外科常见病</a></h5>
+													<p>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性腰背痛</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">颈椎间盘突出症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">腰椎椎管狭窄症</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊髓型颈椎病</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">神经根型颈椎病</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊柱骨折</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊柱肿瘤</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">椎间盘突出</a>
+													</p>
+												</li>
+												<li>
+													<h5><a target="_blank" href="">关节外科常见病</a></h5>
+													<p>
+														<p>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肩周炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板损伤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">滑膜炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">痛风性关节炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">肩袖损伤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">肱骨外上髁炎</a>
+														<a class="focus" href="" monitor="public_fastsearch,div,sick">骨关节炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">先天性髋关节脱位</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肌腱炎</a>
+													</p>
+												</li>
+												<li class="last">
+													<h5><a target="_blank" href="">创伤骨科常见病</a></h5>
+													<p>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨折</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">跟腱炎</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板撕裂</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">跟腱断裂</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">腓总神经损伤</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">髌骨骨折</a>
+														<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">股骨颈骨折</a>
+														<a target="_blank" href="" monitor="public_fastsearch,div,sick">踝关节骨折</a>
+														<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">膝外侧韧带损伤</a>
+													</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="subcats-item show-bg J_FastSubCategory" data-id="6">
+										<div class="sub-category-box J_SubBox">
+											<ul>
+										        <li>
+										            <h5><a target="_blank" href="">耳鼻咽喉科常见疾病</a></h5>
+										            <p>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼻炎</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">鼻窦炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">中耳炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">三叉神经痛</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">鼻咽癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼻中隔偏曲</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">扁桃体炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼻息肉</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">声带息肉</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">美尼尔综合症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性鼻炎</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">喉癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">鼓膜穿孔</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽异感症</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">慢性咽炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">甲状腺结节</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">中耳炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽喉癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">外耳道炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性鼻炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">喉炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">声带小结</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽峡炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">分泌性中耳炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">桥本氏病</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">梅尼埃病</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">突发性耳聋</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">空鼻症</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">上颌窦炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">会厌囊肿</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">慢性扁桃体炎</a>
+										            </p>
+										        </li>
+												<li>
+													<h5><a target="_blank" href="">眼科常见疾病</a></h5>
+													<p>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">白内障</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">青光眼</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">近视</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">弱视</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">结膜炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">黄斑变性</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">玻璃体混浊</a>
+										                <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">斜视</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">角膜炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">视网膜脱落</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">散光</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">葡萄膜炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">睑腺炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">沙眼</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">视神经炎</a>
+										            </p>
+												</li>
+										        <li class="last">
+										            <h5><a target="_blank" href="">头颈外科常见疾病</a></h5>
+													<p>
+										            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">甲状腺癌</a>
+										            <a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">腮腺炎</a>
+										            <a target="_blank" href="" monitor="public_fastsearch,div,sick">咽部肿瘤</a>
+										            <a target="_blank" href=""class="last"  monitor="public_fastsearch,div,sick">颈动脉瘤</a>
+													</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="subcats-item J_FastSubCategory" data-id="8">
+										<div class="sub-category-box J_SubBox">
+											<ul>
+												<li>
+													<h5><a target="_blank" href="">心内科常见病</a></h5>
+													<p>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">心肌炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">心律失常</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">心肌缺血</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">房颤</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">心脏神经症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">扩张型心肌病</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">肺心病</a>
+													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">风湿性心脏病</a>
+													</p>
+												</li>
+												<li>
+												<h5><a target="_blank" href="">儿科常见病</a></h5>
 												<p>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">心肌炎</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">心律失常</a>
-												<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">心肌缺血</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">房颤</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">心脏神经症</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">扩张型心肌病</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">肺心病</a>
-												<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">风湿性心脏病</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">小儿哮喘</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿癫痫</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿抽动症</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">小儿支气管肺炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿原发性肾病综合征</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">唐氏综合征</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">先天性斜颈</a>
+													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">小儿疝气</a>
 												</p>
-											</li>
-											<li>
-											<h5><a target="_blank" href="">儿科常见病</a></h5>
-											<p>
-												<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">小儿哮喘</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿癫痫</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿抽动症</a>
-												<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">小儿支气管肺炎</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿原发性肾病综合征</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">唐氏综合征</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">先天性斜颈</a>
-												<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">小儿疝气</a>
-											</p>
-											</li>
-											<li>
-											<h5><a target="_blank" href="">口腔科常见病</a></h5>
-											<p>
-												<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">牙周炎</a>
-												<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">龋齿</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">牙龈炎</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">口腔扁平苔藓</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">牙齿磨损</a>
-												<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">牙髓炎</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">颞下颌关节紊乱综合征</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">口腔癌</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">口腔黏膜白斑</a>
-									            <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">口腔溃疡</a>
-											</p>
-											</li>
-											<li class="last">
-											<h5><a target="_blank" href="">精神科常见病</a></h5>
-											<p>
-												<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">抑郁症</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿多动症</a>
-												<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">焦虑症</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">强迫性障碍</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">精神分裂症</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">心理障碍</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">产后抑郁症</a>
-												<a target="_blank" href="" monitor="public_fastsearch,div,sick">神经衰弱</a>
-									            <a target="_blank" href="" monitor="public_fastsearch,div,sick">强迫症</a>
-									            <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">精神分裂</a>
-											</p>
-									        </li>
-									        <li>
-									            <h5><a target="_blank" href="">男科常见病</a></h5>
-									            <p>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">遗精</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道感染</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">附睾炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道下裂</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">前列腺囊肿</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性膀胱炎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">蹼状阴茎</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道癌</a>
-									                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性前列腺炎</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">睾丸肿瘤</a>
-									            </p>
-									        </li>
-										</ul>
+												</li>
+												<li>
+												<h5><a target="_blank" href="">口腔科常见病</a></h5>
+												<p>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">牙周炎</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">龋齿</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">牙龈炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">口腔扁平苔藓</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">牙齿磨损</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">牙髓炎</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">颞下颌关节紊乱综合征</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">口腔癌</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">口腔黏膜白斑</a>
+										            <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">口腔溃疡</a>
+												</p>
+												</li>
+												<li class="last">
+												<h5><a target="_blank" href="">精神科常见病</a></h5>
+												<p>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">抑郁症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">小儿多动症</a>
+													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">焦虑症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">强迫性障碍</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">精神分裂症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">心理障碍</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">产后抑郁症</a>
+													<a target="_blank" href="" monitor="public_fastsearch,div,sick">神经衰弱</a>
+										            <a target="_blank" href="" monitor="public_fastsearch,div,sick">强迫症</a>
+										            <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">精神分裂</a>
+												</p>
+										        </li>
+										        <li>
+										            <h5><a target="_blank" href="">男科常见病</a></h5>
+										            <p>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">遗精</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道感染</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">附睾炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道下裂</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">前列腺囊肿</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性膀胱炎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">蹼状阴茎</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">尿道癌</a>
+										                <a target="_blank" href="" monitor="public_fastsearch,div,sick">急性前列腺炎</a>
+										                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">睾丸肿瘤</a>
+										            </p>
+										        </li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			
-				<div class="sub-nav" id="sub-nav">
-					<ul class="consult" id="sub-nav-consult">
-						<li><a href="" target="_blank">免费咨询</a></li>
-						<li><a href="" target="_blank">专家问诊</a></li>
-						<li><a href="" target="_blank">义诊专家</a></li>
-					</ul>
-					<ul class="consult" id="sub-nav-welife">
-						<li><a href="" target="_blank" monitor="public_menu,health,medical">高端医疗</a></li>
-						<li><a href="" target="_blank" monitor="public_menu,health,medical">微医严选</a></li>
-					</ul>
-				</div>
 				
+					<div class="sub-nav" id="sub-nav">
+						<ul class="consult" id="sub-nav-consult">
+							<li><a href="" target="_blank">免费咨询</a></li>
+							<li><a href="" target="_blank">专家问诊</a></li>
+							<li><a href="" target="_blank">义诊专家</a></li>
+						</ul>
+						<ul class="consult" id="sub-nav-welife">
+							<li><a href="" target="_blank" monitor="public_menu,health,medical">高端医疗</a></li>
+							<li><a href="" target="_blank" monitor="public_menu,health,medical">微医严选</a></li>
+						</ul>
+					</div>
+					
+				</div>
 			</div>
-		</div>
-		<div id="gc">
-			<div id="g-cfg" class="gp-expert" data-module="expert" data-top-ads="1">
-			    <div class="gp-breadcrumb-background">
-			        <div id="g-breadcrumb">
-			            <a href="" monitor="div_head,div_head,home">首页</a>&gt;
-			            <a href="/hospital/1/%E5%8C%97%E4%BA%AC/all/%e4%b8%8d%e9%99%90">北京</a>&gt;
-			            <a href="/hospital/1/%E5%8C%97%E4%BA%AC/3328/%E4%B8%9C%E5%9F%8E%E5%8C%BA">东城区</a>&gt;
-			            <a href="/hospital/17634310-b567-4d21-8a02-20dc15e90da5000">北京协和医院</a>&gt;
-			            <a href="/department/19c8dd79-244a-41b5-b06a-af960837834b000">特需妇科门诊</a>&gt;
-			            <span>万希润</span>
-			        </div>
-			    </div>
-			    <div class="grid-group">
-			        <div class="grid-section expert-card fix-clear">
-			            <div class="info">
-			                <div class="summary">
-			                    <p>
-			                        <img src="https://kano.guahao.cn/7rc2830324_image140.jpg" alt="万希润" onerror="NoFind('images/doc-m-l.png')" class="photo"/>
-			                    </p>
-			                    <p class="mark g-clear">
-			                    	<input name='csrf_token' type='hidden' value='11kf4x2y96tzb'>
-			                        <a href="javascript:;" data-active="/my/favorite/experts/d458f15f-8757-4bfa-b183-e543d5bd31f7000"
-			                           data-inactive="/my/favorite/experts/delete/d458f15f-8757-4bfa-b183-e543d5bd31f7000"
-			                           class="" id="card-mark" monitor="doctor,doctor_info,doctor_follow">
-			                         	<i></i><span>关注</span>
-			                        </a>
-			                        <span class="mark-count">37</span>
-			                    </p>
-		                        <p class="qr" monitor="doctor,doctor_info,doctor_barcode">
-		                            <img src="https://static.guahao.cn/front/portal-pc-static/img/expert_2015/scan.png?_20161207" alt=""
-		                                 class="qr-scan">
-		                            <span>
-			                            <img src="https://img.guahao.cn/pay_upload/qrcode/weixin/20160727/gQEy8ToAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL29uWHBycUxsRDNGMjVSZE1FVm13AAIEstOcVAMEAAAAAA==.jpg"
-		                                     onerror="this.src='https://www.guahao.com/qrcode/gener?qrIndex=qrApp3';this.removeAttribute('onerror');"/>
-			                        </span>
-		                        </p>
-			                </div>
-			                <div class="detail word-break">
-			                    <h1>
-			                        <strong class="J_ExpertName">万希润</strong>
-			                        <span> 主任医师</span>
-			                        <span>/</span>
-			                        <span>教授</span>
-			                    </h1>
+			<div id="gc">
+				<div id="g-cfg" class="gp-expert" data-module="expert" data-top-ads="1">
+				    <div class="gp-breadcrumb-background">
+				        <div id="g-breadcrumb">
+				            <a href="" monitor="div_head,div_head,home">首页</a>&gt;
+				            <a href="/hospital/1/%E5%8C%97%E4%BA%AC/all/%e4%b8%8d%e9%99%90">北京</a>&gt;
+				            <a href="/hospital/1/%E5%8C%97%E4%BA%AC/3328/%E4%B8%9C%E5%9F%8E%E5%8C%BA">东城区</a>&gt;
+				            <a href="/hospital/17634310-b567-4d21-8a02-20dc15e90da5000">北京协和医院</a>&gt;
+				            <a href="/department/19c8dd79-244a-41b5-b06a-af960837834b000">特需妇科门诊</a>&gt;
+				            <span>万希润</span>
+				        </div>
+				    </div>
+				    <div class="grid-group">
+				        <div class="grid-section expert-card fix-clear">
+				            <div class="info">
+				                <div class="summary">
+				                    <p>
+				                        <img src="https://kano.guahao.cn/7rc2830324_image140.jpg" alt="万希润" onerror="NoFind('images/doc-m-l.png')" class="photo"/>
+				                    </p>
+				                    <p class="mark g-clear">
+				                    	<input name='csrf_token' type='hidden' value='11kf4x2y96tzb'>
+				                        <a href="javascript:;" data-active="/my/favorite/experts/d458f15f-8757-4bfa-b183-e543d5bd31f7000"
+				                           data-inactive="/my/favorite/experts/delete/d458f15f-8757-4bfa-b183-e543d5bd31f7000"
+				                           class="" id="card-mark" monitor="doctor,doctor_info,doctor_follow">
+				                         	<i></i><span>关注</span>
+				                        </a>
+				                        <span class="mark-count">37</span>
+				                    </p>
+			                        <p class="qr" monitor="doctor,doctor_info,doctor_barcode">
+			                            <img src="https://static.guahao.cn/front/portal-pc-static/img/expert_2015/scan.png?_20161207" alt=""
+			                                 class="qr-scan">
+			                            <span>
+				                            <img src="https://img.guahao.cn/pay_upload/qrcode/weixin/20160727/gQEy8ToAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL29uWHBycUxsRDNGMjVSZE1FVm13AAIEstOcVAMEAAAAAA==.jpg"
+			                                     onerror="this.src='https://www.guahao.com/qrcode/gener?qrIndex=qrApp3';this.removeAttribute('onerror');"/>
+				                        </span>
+			                        </p>
+				                </div>
+				                <div class="detail word-break">
+				                    <h1>
+				                        <strong class="J_ExpertName">万希润</strong>
+				                        <span> 主任医师</span>
+				                        <span>/</span>
+				                        <span>教授</span>
+				                    </h1>
 
-			                    <div class="hospital" id="card-hospital">
-                                    <p>
-                                        <a title="北京协和医院"
-                                           href="https://www.guahao.com/hospital/17634310-b567-4d21-8a02-20dc15e90da5000" target="_blank"
-                                           onmousedown="return _smartlog(this,'YIYUAN')"
-                                           monitor="doctor,doctor_info,hospital"
-                                           monitor-hosp-id="17634310-b567-4d21-8a02-20dc15e90da5000">
-                                        	北京协和医院
-                                        </a>
-                                        <span> - </span>
-                                        <a href="https://www.guahao.com/department/19c8dd79-244a-41b5-b06a-af960837834b000" target="_blank"
-                                           nmousedown="return _smartlog(this,'KESHI')" monitor="doctor,doctor_info,div"
-                                           monitor-div-id="19c8dd79-244a-41b5-b06a-af960837834b000">
-                                            特需妇科门诊
-                                        </a>
-                                    </p>
-			                    </div>
-			                    <div class="keys">
-								   	 <a class="gb2 gb2-orange disease-bt" href="/disease/44317" target="_blank" hidefocus="true" title="卵巢囊肿"> 卵巢囊肿 </a>
-								   	 <a class="gb2 gb2-orange disease-bt" href="/disease/44316" target="_blank" hidefocus="true" title="卵巢癌"> 卵巢癌 </a>
-			                    </div>
-			                    <div class="goodat">
-			                        <b>擅长：</b>
-			                        <span>妇科良、恶性肿瘤（如子宫肌瘤、子宫内膜异位症、卵巢囊肿、子宫内膜癌、卵巢癌、宫颈癌等），特别是滋养细胞疾病（如葡萄胎、绒癌等）。</span>
-			                    </div>
-			                    <div class="about">
-			                        <b>简介：</b>
-			                        <span>万希润，北京协和医院妇产科主任医师。1988年毕业于北京医科大学，1994年获中国协和医科大学医学博士学位，1998-1999年先后赴香港中文大学威尔斯亲王医院...</span>
-			                        <a href="javascript:;" data-description="万希润，北京协和医院妇产科主任医师。1988年毕业于北京医科大学，1994年获中国协和医科大学医学博士学位，1998-1999年先后赴香港中文大学威尔斯亲王医院和美国密西根大学医学院做访问学者。1988年起在北京协和医院妇产科工作，主要从事妇科肿瘤专业，专长于各类妇科良、恶性肿瘤，特别是滋养细胞疾病（葡萄胎、绒癌等）的诊治。《基础医学与临床》、《生殖医学》编委，九三学社北京市医疗卫生委员会委员，北京市住院医师规范化培训委员会妇产科专委会副主任委员，全国继续医学教育委员会委员。" class="J_MorePre"
-			                           monitor="doctor,info,introduce_more">更多</a>
-			                    </div>
-			                </div>
-			            </div>
-			            <div class="status">
-			                <div class="service" id="service">
-			                    <a href="javascript:;" rel="nofollow" class="guahao "
-			                       data-scroll-target=".J_Tguahao" title="预约挂号" monitor="doctor,page_pitch,order">挂号</a>
-			                    <a href="javascript:;" rel="nofollow"
-			                       class="tuwen active" title="图文问诊"
-			                       monitor="doctor,page_pitch,picask" data-scroll-target=".J_Tconsult">图文</a>
-			                    <a rel="nofollow" href="javascript:;"class="shipin" title="视讯问诊" monitor="doctor,page_pitch,vpask" data-scroll-target=".J_Tconsult" disable>视话</a>
-			                </div>
-			                <div class="data">
-			                    <div class="expert-rate" id="expert-rate">
-			                        <a href="javascript:;">
-			                            <p class="dark"></p>
-			                            <p class="light"></p>
-			                            <strong>10.0</strong>
-			                        </a>
-			                    </div>
-			                    <div class="total fix-clear">
-			                        <span>预约量</span>
-			                        <strong>
-			                            暂无</strong>
-			                        <span>问诊量</span>
-			                        <strong>9</strong>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
-			    </div>
-			    <div class="wrap">
-			        <div class="grid-group" style="padding-bottom: 30px;margin-bottom: 0;">
-			            <div class="grid-left">
-			                <div class="toy-hook"></div>
-							<section class="grid-section expert-guahao J_Tguahao J_ExpertGuahao">
-							    <div class="grid-title">
-							        <h2 style="display: inline;font-size: 24px;color: #000;line-height: 44px;">预约挂号</h2>
-							                <span class="fee-tips">
-							        	费用由医院自行设定，平台不收取任何额外费用
-									</span>
-							    </div>
-							    <div class="grid-content">
-							        <div class="valid">
-							            <div class="tip-title-all J_tipTitleAll">
-							                
-							            </div>
-							            <div class="schedules" id="schedules" data-eid="d458f15f-8757-4bfa-b183-e543d5bd31f7000" data-url="/expert/new/shiftcase/">
-							                <div class="item hospital">	
-							                    <label for="">医院：</label>
+				                    <div class="hospital" id="card-hospital">
+	                                    <p>
+	                                        <a title="北京协和医院"
+	                                           href="https://www.guahao.com/hospital/17634310-b567-4d21-8a02-20dc15e90da5000" target="_blank"
+	                                           monitor="doctor,doctor_info,hospital"
+	                                           monitor-hosp-id="17634310-b567-4d21-8a02-20dc15e90da5000">
+	                                        	北京协和医院
+	                                        </a>
+	                                        <span> - </span>
+	                                        <a href="https://www.guahao.com/department/19c8dd79-244a-41b5-b06a-af960837834b000" target="_blank"
+	                                           monitor="doctor,doctor_info,div"
+	                                           monitor-div-id="19c8dd79-244a-41b5-b06a-af960837834b000">
+	                                            特需妇科门诊
+	                                        </a>
+	                                    </p>
+				                    </div>
+				                    <div class="keys">
+									   	 <a class="gb2 gb2-orange disease-bt" href="/disease/44317" target="_blank" hidefocus="true" title="卵巢囊肿"> 卵巢囊肿 </a>
+									   	 <a class="gb2 gb2-orange disease-bt" href="/disease/44316" target="_blank" hidefocus="true" title="卵巢癌"> 卵巢癌 </a>
+				                    </div>
+				                    <div class="goodat">
+				                        <b>擅长：</b>
+				                        <span>妇科良、恶性肿瘤（如子宫肌瘤、子宫内膜异位症、卵巢囊肿、子宫内膜癌、卵巢癌、宫颈癌等），特别是滋养细胞疾病（如葡萄胎、绒癌等）。</span>
+				                    </div>
+				                    <div class="about">
+				                        <b>简介：</b>
+				                        <span>万希润，北京协和医院妇产科主任医师。1988年毕业于北京医科大学，1994年获中国协和医科大学医学博士学位，1998-1999年先后赴香港中文大学威尔斯亲王医院...</span>
+				                        <a href="javascript:;" data-description="万希润，北京协和医院妇产科主任医师。1988年毕业于北京医科大学，1994年获中国协和医科大学医学博士学位，1998-1999年先后赴香港中文大学威尔斯亲王医院和美国密西根大学医学院做访问学者。1988年起在北京协和医院妇产科工作，主要从事妇科肿瘤专业，专长于各类妇科良、恶性肿瘤，特别是滋养细胞疾病（葡萄胎、绒癌等）的诊治。《基础医学与临床》、《生殖医学》编委，九三学社北京市医疗卫生委员会委员，北京市住院医师规范化培训委员会妇产科专委会副主任委员，全国继续医学教育委员会委员。" class="J_MorePre"
+				                           monitor="doctor,info,introduce_more">更多</a>
+				                    </div>
+				                </div>
+				            </div>
+				            <div class="status">
+				                <div class="service" id="service">
+				                    <a href="javascript:;" rel="nofollow" class="guahao "
+				                       data-scroll-target=".J_Tguahao" title="预约挂号" monitor="doctor,page_pitch,order">挂号</a>
+				                    <a href="javascript:;" rel="nofollow"
+				                       class="tuwen active" title="图文问诊"
+				                       monitor="doctor,page_pitch,picask" data-scroll-target=".J_Tconsult">图文</a>
+				                    <a rel="nofollow" href="javascript:;"class="shipin" title="视讯问诊" monitor="doctor,page_pitch,vpask" data-scroll-target=".J_Tconsult" disable>视话</a>
+				                </div>
+				                <div class="data">
+				                    <div class="expert-rate" id="expert-rate">
+				                        <a href="javascript:;">
+				                            <p class="dark"></p>
+				                            <p class="light"></p>
+				                            <strong>10.0</strong>
+				                        </a>
+				                    </div>
+				                    <div class="total fix-clear">
+				                        <span>预约量</span>
+				                        <strong>
+				                            暂无</strong>
+				                        <span>问诊量</span>
+				                        <strong>9</strong>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+				    <div class="wrap">
+				        <div class="grid-group" style="padding-bottom: 30px;margin-bottom: 0;">
+				            <div class="grid-left">
+				                <div class="toy-hook"></div>
+								<section class="grid-section expert-guahao J_Tguahao J_ExpertGuahao">
+								    <div class="grid-title">
+								        <h2 style="display: inline;font-size: 24px;color: #000;line-height: 44px;">预约挂号</h2>
+								                <span class="fee-tips">
+								        	费用由医院自行设定，平台不收取任何额外费用
+										</span>
+								    </div>
+								    <div class="grid-content">
+								        <div class="valid">
+								            <div class="tip-title-all J_tipTitleAll">
+								                
+								            </div>
+								            <div class="schedules" id="schedules" data-eid="d458f15f-8757-4bfa-b183-e543d5bd31f7000" data-url="/expert/new/shiftcase/">
+								                <div class="item hospital">	
+								                    <label for="">医院：</label>
 
-							                    <div class="contain" id="schedules-hospital">
-							                        <a href="javascript:;" data-hospId="17634310-b567-4d21-8a02-20dc15e90da5000" title="北京协和医院" monitor="doctor,doctor_service,order_hospital" monitor-hosp-id="17634310-b567-4d21-8a02-20dc15e90da5000">
-							                            北京协和医院
-							                        </a><br>
-							                    </div>
-							                </div>
-							                <div class="item dept">
-							                    <label for="">科室：</label>
-							                    <div class="contain" id="schedules-dept">
-						                            <a href="javascript:;" data-deptId="19c8dd79-244a-41b5-b06a-af960837834b000" data-hospId="17634310-b567-4d21-8a02-20dc15e90da5000" monitor="doctor,doctor_service,order_div" monitor-div-id="19c8dd79-244a-41b5-b06a-af960837834b000">
-						                                特需妇科门诊
-						                            </a>
-							                    </div>
-							                </div>
-							                <div class="item list">
-							                    <label for="">排班：</label>
+								                    <div class="contain" id="schedules-hospital">
+								                        <a href="javascript:;" data-hospId="17634310-b567-4d21-8a02-20dc15e90da5000" title="北京协和医院" monitor="doctor,doctor_service,order_hospital" monitor-hosp-id="17634310-b567-4d21-8a02-20dc15e90da5000">
+								                            北京协和医院
+								                        </a><br>
+								                    </div>
+								                </div>
+								                <div class="item dept">
+								                    <label for="">科室：</label>
+								                    <div class="contain" id="schedules-dept">
+							                            <a href="javascript:;" data-deptId="19c8dd79-244a-41b5-b06a-af960837834b000" data-hospId="17634310-b567-4d21-8a02-20dc15e90da5000" monitor="doctor,doctor_service,order_div" monitor-div-id="19c8dd79-244a-41b5-b06a-af960837834b000">
+							                                特需妇科门诊
+							                            </a>
+								                    </div>
+								                </div>
+								                <div class="item list">
+								                    <label for="">排班：</label>
 
-							                    <div class="contain">
-							                        <div class="type" id="schedules-label">
-							                            <div class="label label-normal J_LabelNormal">
-							                                <span class="dot-expert">专家门诊</span>
-							                                <span class="dot-normal">普通门诊</span>
-							                                <span class="dot-special">特需门诊</span>
-							                                <span class="dot-paste J_LabelPaste" style="display:none;">膏方门诊</span>
-							                                <span class="dot-others J_LabelOthers" style="display:none;">其他门诊</span>
-							                                <span class="dot-cannot">不可约</span>
+								                    <div class="contain">
+								                        <div class="type" id="schedules-label">
+								                            <div class="label label-normal J_LabelNormal">
+								                                <span class="dot-expert">专家门诊</span>
+								                                <span class="dot-normal">普通门诊</span>
+								                                <span class="dot-special">特需门诊</span>
+								                                <span class="dot-paste J_LabelPaste" style="display:none;">膏方门诊</span>
+								                                <span class="dot-others J_LabelOthers" style="display:none;">其他门诊</span>
+								                                <span class="dot-cannot">不可约</span>
+								                            </div>
+								                            <div class="label label-sszx J_LabelSSZX">
+								                                <span class="dot-sszx">手术中心预约</span>
+								                                <span class="dot-cannot">不可约</span>
+								                            </div>
+								                            <div class="label label-not-login J_LabelNotLogin">
+								                                <span><em>登录</em>即可查看实时号源状态</span>
+								                            </div>
+								                        </div>
+								                        <div class="box" id="schedules-list">
+								                            <div class="container">
+								                                <ul class="fix-clear"></ul>
+								                                <div class="tip" id="schedules-tip"></div>
+								                            </div>
+								                            <div class="prev"></div>
+								                            <div class="next"></div>
+								                            <div class="detail" style="width:307px;"></div>
+								                        </div>
+								                    </div>
+								                </div>
+								            </div>
+								            <div class="info" id="schedules-reaservationRule" style="font-size: 13px;color: #aaa;line-height: 1.8;">
+								            </div>
+								        </div>
+
+								    </div>
+								    <div class="tip hide J_JyTips" id="jyTips">
+
+								    </div>
+								</section>
+								<div class="hide J_FreeConsultContent">
+								    <form class="" action="/json/bconsult/asksubmit" method="post" name="consult" id="J_FormConsult">
+								        <input name='csrf_token' type='hidden' value='s4dcgtb7tiyg'>
+								        <p class="light">问诊人信息：</p>
+								        <div class="">
+								            <div class="">
+
+								            </div>
+
+								            <div class="">
+								                <a href="https://www.guahao.com/my/patients" class="manage" target="_blank" monitor="freeask_ask,freeask_ask,addinfo"><span>添加新的就诊人并完善资料</span><span class="info-manage-icon"></span></a>
+								            </div>
+								        </div>  
+								        <p class="light">请选择您需要咨询的疾病类型：</p>
+								        <ul class="J_FreeConsultUl disease-list g-clear">
+								        
+								            <li >子宫内膜癌</li>
+								            <li >卵巢癌</li>
+								            <li >子宫内膜异位症</li>
+								            <li >子宫肌瘤</li>
+								            <li >宫颈癌</li>
+								            <li >绒癌</li>
+								            <li >卵巢囊肿</li>
+								            <li >葡萄胎</li>
+								        </ul>
+								        <div class="">
+								            <textarea name="consultContent" class="long J_Textarea" data-message="请输入10-500个字" pattern="^(.|\n){10,500}$" data-required="1" placeholder="请先选择标签或直接输入您想咨询的问题。"></textarea>
+								                
+								        </div>
+								        
+								    </form>
+								</div>
+								<section id="expert-online-consult" class="grid-section expert-online-consult J_ExpertOnlineConsult J_Tconsult" data-doctoruserid="34532482">
+								    <div class="grid-title">
+								        <h2 style="display: inline;font-size: 24px;color: #000;line-height: 44px;">在线问诊</h2>
+								    </div>
+								    <div class="grid-content g-clear">
+								        <div class="consult-type">
+								            <ul>   
+							                    <li class="item tuwen on ">
+							                        <a href="/expert/consult/ask?expertId=d458f15f-8757-4bfa-b183-e543d5bd31f7000" rel="nofollow" monitor="doctor,ask,picask">
+							                            <div class="main g-clear">
+							                                <i></i>
+							                                <div class="text">
+							                                    <p>
+							                                        <span class="tit">图文问诊</span>
+							    
+							                                    </p>
+							                                    <p class="current-price">￥990</p> 
+							                                    
+							                                </div>
 							                            </div>
-							                            <div class="label label-sszx J_LabelSSZX">
-							                                <span class="dot-sszx">手术中心预约</span>
-							                                <span class="dot-cannot">不可约</span>
-							                            </div>
-							                            <div class="label label-not-login J_LabelNotLogin">
-							                                <span><em>登录</em>即可查看实时号源状态</span>
-							                            </div>
-							                        </div>
-							                        <div class="box" id="schedules-list">
-							                            <div class="container">
-							                                <ul class="fix-clear"></ul>
-							                                <div class="tip" id="schedules-tip"></div>
-							                            </div>
-							                            <div class="prev"></div>
-							                            <div class="next"></div>
-							                            <div class="detail" style="width:307px;"></div>
-							                        </div>
-							                    </div>
-							                </div>
-							            </div>
-							            <div class="info" id="schedules-reaservationRule" style="font-size: 13px;color: #aaa;line-height: 1.8;">
-							            </div>
-							        </div>
-
-							    </div>
-							    <div class="tip hide J_JyTips" id="jyTips">
-
-							    </div>
-							</section>
-							<div class="hide J_FreeConsultContent">
-							    <form class="" action="/json/bconsult/asksubmit" method="post" name="consult" id="J_FormConsult">
-							        <input name='csrf_token' type='hidden' value='s4dcgtb7tiyg'>
-							        <p class="light">问诊人信息：</p>
-							        <div class="">
-							            <div class="">
-
-							            </div>
-
-							            <div class="">
-							                <a href="https://www.guahao.com/my/patients" class="manage" target="_blank" monitor="freeask_ask,freeask_ask,addinfo"><span>添加新的就诊人并完善资料</span><span class="info-manage-icon"></span></a>
-							            </div>
-							        </div>  
-							        <p class="light">请选择您需要咨询的疾病类型：</p>
-							        <ul class="J_FreeConsultUl disease-list g-clear">
-							        
-							            <li >子宫内膜癌</li>
-							            <li >卵巢癌</li>
-							            <li >子宫内膜异位症</li>
-							            <li >子宫肌瘤</li>
-							            <li >宫颈癌</li>
-							            <li >绒癌</li>
-							            <li >卵巢囊肿</li>
-							            <li >葡萄胎</li>
-							        </ul>
-							        <div class="">
-							            <textarea name="consultContent" class="long J_Textarea" data-message="请输入10-500个字" pattern="^(.|\n){10,500}$" data-required="1" placeholder="请先选择标签或直接输入您想咨询的问题。"></textarea>
-							                
-							        </div>
-							        
-							    </form>
-							</div>
-							<section id="expert-online-consult" class="grid-section expert-online-consult J_ExpertOnlineConsult J_Tconsult" data-doctoruserid="34532482">
-							    <div class="grid-title">
-							        <h2 style="display: inline;font-size: 24px;color: #000;line-height: 44px;">在线问诊</h2>
-							    </div>
-							    <div class="grid-content g-clear">
-							        <div class="consult-type">
-							            <ul>   
-						                    <li class="item tuwen on ">
-						                        <a href="/expert/consult/ask?expertId=d458f15f-8757-4bfa-b183-e543d5bd31f7000" rel="nofollow" monitor="doctor,ask,picask">
-						                            <div class="main g-clear">
-						                                <i></i>
-						                                <div class="text">
-						                                    <p>
-						                                        <span class="tit">图文问诊</span>
-						    
-						                                    </p>
-						                                    <p class="current-price">￥990</p> 
-						                                    
-						                                </div>
-						                            </div>
-						                            <div class="describe">通过文字、图片、语音进行问诊</div>
-						                        </a>
-						                    </li>
-							                <li class="shihua item off">
-							                    <div class="main g-clear">
-							                        <i></i>
-							                        <div class="text">
-							                            <p>
-							                                <span class="tit">视话问诊</span>
-							                            </p>
-							                            <p class="not-open">暂未开通</p>
-							                        </div>
-							                    </div>
-							                    <div class="describe">预约时间与医生进行电话、视讯问诊</div>
+							                            <div class="describe">通过文字、图片、语音进行问诊</div>
+							                        </a>
+							                    </li>
+								                <li class="shihua item off">
+								                    <div class="main g-clear">
+								                        <i></i>
+								                        <div class="text">
+								                            <p>
+								                                <span class="tit">视话问诊</span>
+								                            </p>
+								                            <p class="not-open">暂未开通</p>
+								                        </div>
+								                    </div>
+								                    <div class="describe">预约时间与医生进行电话、视讯问诊</div>
+								                </li>
+								            </ul>
+								        </div>
+								        <div class="consult-desc">
+								            <p class="title">在线问诊须知</p>
+								            <p>1、医生开通图文问诊服务：您可通过文字/图片/语音进行问诊， 医生利用业余时间为您解答。</p>
+								            <p>2、医生开通视话问诊服务：在预约时间内，医生根据候诊顺序，通过电话、视讯与您进行沟通。</p>
+								            <p>3、医生的回复仅为建议，具体诊疗需前往医院进行。</p>
+								        </div>
+								    </div>
+								</section>
+	            			</div>
+	            			<aside class="grid-right">
+	                			<div class="toy-hook"></div>
+								<section class="section grid-section aside-same-dept">
+								    <div class="grid-title">
+								        <h2 style="display: inline;font-size: 20px;color: #000;line-height: 44px;">同科室医生</h2>
+								        <a href="/department/shiftcase/19c8dd79-244a-41b5-b06a-af960837834b000" class="more"
+								           monitor="doctor_activity,doctor_div,doctor_div_more">更多</a>
+								    </div>
+								    <div class="grid-content">
+								        <ul>
+							                <li>
+							                    <a href="/expert/deb7a1ec-97da?hospDeptId=19">
+						                            <img src="https://kano.guahao.cn/qOL39628181_image140.jpg"
+						                                 monitor="doctor_activity,doctor_div,doctor"
+						                                 monitor-doctor-id="deb7a1ec-97da-4c2d-a404-900b55835c46000" alt="史宏晖"
+						                                 onerror="this.src='images/doc-unknow-l.png';"
+						                                 class="photo"/>
+							                    </a>
+							                    <h5>
+							                        <a title="史宏晖" monitor="doctor_activity,doctor_div,doctor"
+							                             monitor-doctor-id="deb7a1ec-97da-4c2d-a404-900b55835c46000"  
+							                             href="/expert/deb7a1ec?hospDeptId=19c" target="_blank">
+							                            史宏晖
+							                        </a>
+							                        <span>主任医师 </span>
+							                    </h5>
+							                    <p class="hospital">
+							                        <span> 北京协和医院 </span>
+							                    </p>
+							                    <p class="total"> 累计预约 <strong>0</strong>人次 </p>
 							                </li>
-							            </ul>
-							        </div>
-							        <div class="consult-desc">
-							            <p class="title">在线问诊须知</p>
-							            <p>1、医生开通图文问诊服务：您可通过文字/图片/语音进行问诊， 医生利用业余时间为您解答。</p>
-							            <p>2、医生开通视话问诊服务：在预约时间内，医生根据候诊顺序，通过电话、视讯与您进行沟通。</p>
-							            <p>3、医生的回复仅为建议，具体诊疗需前往医院进行。</p>
-							        </div>
-							    </div>
-							</section>
-            			</div>
-            			<aside class="grid-right">
-                			<div class="toy-hook"></div>
-							<section class="section grid-section aside-same-dept">
-							    <div class="grid-title">
-							        <h2 style="display: inline;font-size: 20px;color: #000;line-height: 44px;">同科室医生</h2>
-							        <a href="/department/shiftcase/19c8dd79-244a-41b5-b06a-af960837834b000" class="more"
-							           monitor="doctor_activity,doctor_div,doctor_div_more">更多</a>
-							    </div>
-							    <div class="grid-content">
-							        <ul>
-						                <li>
-						                    <a href="/expert/deb7a1ec-97da?hospDeptId=19">
-					                            <img src="https://kano.guahao.cn/qOL39628181_image140.jpg"
-					                                 monitor="doctor_activity,doctor_div,doctor"
-					                                 monitor-doctor-id="deb7a1ec-97da-4c2d-a404-900b55835c46000" alt="史宏晖"
-					                                 onerror="this.src='images/doc-unknow-l.png';"
-					                                 class="photo"/>
-						                    </a>
-						                    <h5>
-						                        <a title="史宏晖" monitor="doctor_activity,doctor_div,doctor"
-						                             monitor-doctor-id="deb7a1ec-97da-4c2d-a404-900b55835c46000"  
-						                             href="/expert/deb7a1ec?hospDeptId=19c" target="_blank">
-						                            史宏晖
-						                        </a>
-						                        <span>主任医师 </span>
-						                    </h5>
-						                    <p class="hospital">
-						                        <span> 北京协和医院 </span>
-						                    </p>
-						                    <p class="total"> 累计预约 <strong>0</strong>人次 </p>
-						                </li>
-							        </ul>
-							    </div>
-							</section>
-							<div class="g-ads-side J_Promotions" data-pos="2" data-rows="3"></div>          
- 						</aside>
-        			</div>
-    			</div>
+								        </ul>
+								    </div>
+								</section>
+								<div class="g-ads-side J_Promotions" data-pos="2" data-rows="3"></div>          
+	 						</aside>
+	        			</div>
+	    			</div>
+				</div>
+				<script>
+				    window.monitorVisitConfig = {
+				        'doctor-id': 'd458f15f-8757-4bfa-b183-e543d5bd31f7000'
+				    }
+				</script>
 			</div>
-			<script>
-			    window.monitorVisitConfig = {
-			        'doctor-id': 'd458f15f-8757-4bfa-b183-e543d5bd31f7000'
-			    }
-			</script>
-		</div>
-		<div id="gf">
-			<div class="g-container">
-				<div class="g-footer g-clear">
-	                <a class="logo g-left gov-foot-logo" href=""></a>
-					<div class="links g-left">
-					    <dl class="one g-clear">
-							<dt>关于我们</dt>
-						    <dd><a href="">关于我们</a></dd>
-						    <dd><a href="">友情链接</a> </dd>
-						    <dd><a href="">加入我们</a></dd>
-						    <dd><a href="" rel="nofollow"> 版权声明</a></dd>
-					    	<dd><a href="">联系我们</a></dd>
-							<dd class="last"><a href="" rel="nofollow" target="_blank">新浪微博</a></dd>
-					    </dl>
-					    <dl class="two">
-					        <dd class="partner"><a href="">医院合作</a></dd>
-					        <dd class="help"><a href="">客服中心</a></dd>
-					    </dl>
-					    <div class="clear"></div>
+			<div id="gf">
+				<div class="g-container">
+					<div class="g-footer g-clear">
+		                <a class="logo g-left gov-foot-logo" href=""></a>
+						<div class="links g-left">
+						    <dl class="one g-clear">
+								<dt>关于我们</dt>
+							    <dd><a href="">关于我们</a></dd>
+							    <dd><a href="">友情链接</a> </dd>
+							    <dd><a href="">加入我们</a></dd>
+							    <dd><a href="" rel="nofollow"> 版权声明</a></dd>
+						    	<dd><a href="">联系我们</a></dd>
+								<dd class="last"><a href="" rel="nofollow" target="_blank">新浪微博</a></dd>
+						    </dl>
+						    <dl class="two">
+						        <dd class="partner"><a href="">医院合作</a></dd>
+						        <dd class="help"><a href="">客服中心</a></dd>
+						    </dl>
+						    <div class="clear"></div>
+						</div>
+						<div class="code g-left">
+							<a class="cha" href="" rel="nofollow" target="_blank">中国医院协会<br>门急诊管理专业委员会</a>
+							<a class="fudanmed" href="" rel="nofollow" target="_blank">上海复旦医院管理公司</a>
+							<a class="cfnews" href="" rel="nofollow" target="_blank">中国家庭报<br>卫计委人口文化发展中心</a>
+							<div class="clear"></div>
+						</div>
+						<div class="internation g-right">
+							<a href="" rel="nofollow" target="_blank"><i></i>
+							    <h3>国际互联网医疗大会</h3>
+							    <p>International Conference</p>
+							    <p>on Internet Healthcare</p>
+							</a>
+						</div>
 					</div>
-					<div class="code g-left">
-						<a class="cha" href="" rel="nofollow" target="_blank">中国医院协会<br>门急诊管理专业委员会</a>
-						<a class="fudanmed" href="" rel="nofollow" target="_blank">上海复旦医院管理公司</a>
-						<a class="cfnews" href="" rel="nofollow" target="_blank">中国家庭报<br>卫计委人口文化发展中心</a>
-						<div class="clear"></div>
-					</div>
-					<div class="internation g-right">
-						<a href="" rel="nofollow" target="_blank"><i></i>
-						    <h3>国际互联网医疗大会</h3>
-						    <p>International Conference</p>
-						    <p>on Internet Healthcare</p>
-						</a>
+					<div style="width:550px;margin:0 420px; padding:20px 0;">
+					    <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
+					        <a target="_blank" href="" rel="nofollow" style="display:inline-block;text-decoration:none;height:20px;line-height:20px; color:#939393">
+					            &nbsp;浙ICP备15034772号-1
+					        </a>&nbsp;
+					        <a target="_blank" href="" rel="nofollow" style="display:inline-block;text-decoration:none;height:20px;line-height:20px; color:#939393">
+					            <img src="https://static.guahao.cn/img/ghs.png" style="float:left;">&nbsp;浙公网安备
+					            33048302000103号
+					        </a>
+					    </p>
 					</div>
 				</div>
-				<div style="width:550px;margin:0 420px; padding:20px 0;">
-				    <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
-				        <a target="_blank" href="" rel="nofollow" style="display:inline-block;text-decoration:none;height:20px;line-height:20px; color:#939393">
-				            &nbsp;浙ICP备15034772号-1
-				        </a>&nbsp;
-				        <a target="_blank" href="" rel="nofollow" style="display:inline-block;text-decoration:none;height:20px;line-height:20px; color:#939393">
-				            <img src="https://static.guahao.cn/img/ghs.png" style="float:left;">&nbsp;浙公网安备
-				            33048302000103号
-				        </a>
-				    </p>
-				</div>
 			</div>
-		</div>
-    </div>
+	    </div>
+	    <script type="text/javascript">
+	    	$GC = {
+	    		debug: false,
+	    		echartServer: "",
+	    		isLogined : false,
+	    		guahaoServer : "http://localhost:9000",
+	    		staticServer : "",
+	    		imageServer : "",
+	    		kanoServer: "",
+	    		serviceServer : "",
+	    		eopsServer : "",
+	    		wepayServer : "",
+	    		mobilevalidcodepwd : "",
+	    		version:"1559057087354",
+	    		encodeId:"1",
+	    		jsCPath:"js" + "/common/js",
+	    		jspath:"js" + "/front",
+	    		domainEnd:"",
+	    		bbsServer: "",
+	    		gatewayServer: "http://localhost:9000",
+	    		cloudcardServer: "",
+	    		jkljServer: "",
+	    		weiYiH5GuahaoServer: "",
+	    		bayAreaServer:"",
+	    		epayServer: ""
+	    	};
 
-   <!--  <script type="text/javascript">
-    	$GC = {
-    		debug: false,
-    		echartServer: '//im-web.guahao.cn',
-    		isLogined : false,
-    		guahaoServer : 	'https://www.guahao.com',
-    		staticServer : 'https://static.guahao.cn',
-    		imageServer : 'https://h2img.guahao.com',
-    		kanoServer: 'https://kano.guahao.cn',
-    		serviceServer : 'https://service.guahao.com',
-    		eopsServer : 'http://doctor.guahao.com',
-    		wepayServer : 'https://wepay.guahao.com',
-    		mobilevalidcodepwd : 'lvxian95169124',
-    		version:"1557150763ea2e3f",
-    		encodeId:"",
-    		jsCPath:"https://static.guahao.cn" + "/common/js",
-    		jspath:"https://static.guahao.cn" + "/front/portal-pc-static/js",
-    		domainEnd:'guahao.com',
-    		bbsServer: 'https://bbs.guahao.com',
-    		gatewayServer: 'https://api-gateway.guahao.com',
-    		cloudcardServer: "https://service-api-finance.guahao.com",
-    		jkljServer: 'https://www.healthhlj.cn',
-    		weiYiH5GuahaoServer: 'https://wy.guahao.com',
-    		bayAreaServer:'https://www.h.gov.cn',
-    		epayServer: 'https://pay.guahao.com'
-    	};
+	    	$GS = [
+	    		$GC.jsCPath + "/base/jquery-1.8.1.min.js",
+	    		// $GC.jspath + "/plugins/scout.js",
+	    		// $GC.jspath + "/plugins/raven.js",
+	    		$GC.jspath + "/base/GH.js",
+	    		$GC.jsCPath + "/plugins/validator.js",function(){
 
-    	// $GS { Array } - the init parameters for startup
-    	$GS = [
-    		// $GC.jspath + "/plugins/scout.js?_=1557150763ea2e3f",
-    		// $GC.jspath + "/plugins/raven.js?_=1557150763ea2e3f",
-    		$GC.jsCPath + "/base/jquery-1.8.1.min.js",
-    		$GC.jspath + "/base/GH.js?_=1557150763ea2e3f",
-    		$GC.jsCPath + "/plugins/validator.js?_=20160129",function(){
+	    		 // load common module
+	    		 GL.load([GH.adaptModule("common")]);
 
-    		 // load common module
-    		 GL.load([GH.adaptModule("common")]);
+	    		 // load the modules defined in page
+	    		 var moduleName = $("#g-cfg").data("module");
+	    		 if(moduleName){
+	    		 	var module = GH.modules[moduleName];
+	    		 	if(!module) {
+	    		 		module = GH.adaptModule(moduleName);
+	    		 	}
+	    		 	if(module) {
+	    		 		GL.load([module]);
+	    		 	}
+	    		}
 
-    		 // load the modules defined in page
-    		 var moduleName = $("#g-cfg").data("module");
-    		 if(moduleName){
-    		 	var module = GH.modules[moduleName];
-    		 	if(!module) {
-    		 		module = GH.adaptModule(moduleName);
-    		 	}
-    		 	if(module) {
-    		 		GL.load([module]);
-    		 	}
-    		}
-    	}];
-    </script> -->
-    <script type="text/javascript">
-    	$GC = {
-    		debug: false,
-    		echartServer: "",
-    		isLogined : false,
-    		guahaoServer : "http://localhost:9000",
-    		staticServer : "",
-    		imageServer : "",
-    		kanoServer: "",
-    		serviceServer : "",
-    		eopsServer : "",
-    		wepayServer : "",
-    		mobilevalidcodepwd : "",
-    		version:"1559057087354",
-    		encodeId:"1",
-    		jsCPath:"js" + "/common/js",
-    		jspath:"js" + "/front",
-    		domainEnd:"",
-    		bbsServer: "",
-    		gatewayServer: "http://localhost:9000",
-    		cloudcardServer: "",
-    		jkljServer: "",
-    		weiYiH5GuahaoServer: "",
-    		bayAreaServer:"",
-    		epayServer: ""
-    	};
-
-    	$GS = [
-    		$GC.jsCPath + "/base/jquery-1.8.1.min.js",
-    		// $GC.jspath + "/plugins/scout.js",
-    		// $GC.jspath + "/plugins/raven.js",
-    		$GC.jspath + "/base/GH.js",
-    		$GC.jsCPath + "/plugins/validator.js",function(){
-
-    		 // load common module
-    		 GL.load([GH.adaptModule("common")]);
-
-    		 // load the modules defined in page
-    		 var moduleName = $("#g-cfg").data("module");
-    		 if(moduleName){
-    		 	var module = GH.modules[moduleName];
-    		 	if(!module) {
-    		 		module = GH.adaptModule(moduleName);
-    		 	}
-    		 	if(module) {
-    		 		GL.load([module]);
-    		 	}
-    		}
-
-    	}];
-    </script>
-<script type="text/javascript" src="js/front/base/GL.js" ></script>
-<!-- <script type="text/javascript" src="https://static.guahao.cn/front/portal-pc-static/js/base/GL.js?_=1557150763ea2e3f" ></script> -->
-
-
+	    	}];
+	    </script>
+		<script type="text/javascript" src="js/front/base/GL.js" ></script>
 	</body>
 </html>
