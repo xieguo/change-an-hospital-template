@@ -2740,3 +2740,44 @@
     border-right: 0;
     margin-right: 0;
 }
+
+.main-ctn .department {
+    border: 1px solid #e4e4e4
+}
+.main-ctn .department {
+    height: 145px;
+    overflow: hidden
+}
+
+.main-ctn .department ul {
+    width: 1300px;
+    padding: 15px
+}
+
+.main-ctn .department ul li {
+    float: left;
+    width: 81px;
+    margin: 0 33px;
+    text-align: center;
+    font-size: 14px
+}
+
+.main-ctn .department ul li img {
+    max-width: 100%;
+    max-height: 81px
+}
+
+.main-ctn .department ul li span {
+    display: block;
+    line-height: 22px;
+    margin-top: 6px;
+    color: #333
+}
+
+.main-ctn .department ul li a {
+    color: #333
+}
+
+.gp-index .department-section {
+    margin-top: 55px;
+}

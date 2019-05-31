@@ -7941,7 +7941,7 @@ input.tipIt,textarea.tipIt {
 }
 
 .gh-search-tips {
-    background: url("../images/platform-logo-new.png") no-repeat;
+    /* background: url("../images/platform-logo-new.png") no-repeat; */
     width: 182px;
     height: 31px;
     margin-top: 10px;
