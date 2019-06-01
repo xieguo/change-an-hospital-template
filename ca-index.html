@@ -1,48 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-		<head>
-			<link rel="dns-prefetch" href="http://02022222222.com">
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<head>
+		<link rel="dns-prefetch" href="http://02022222222.com">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
+		<title>广州长安互联网医院-互联网医院在线诊疗平台</title>
+		<meta name="keywords" content="挂号网,微医,互联网医院,预约挂号,网上预约,网上挂号,网上预约挂号,在线问诊,在线咨询,健康资讯,医院挂号,医院预约,专家门诊" />
+		<meta name="description" content="互联网医院国家试点平台,聚合了全国1900家重点医院。" />
+	
+		<link rel="canonical" href="http://02022222222.com"/>
+		<meta http-equiv="Cache-Control" content="no-transform" />
 
-			<title>广州长安互联网医院-互联网医院在线诊疗平台</title>
-			<meta name="keywords" content="挂号网,微医,互联网医院,预约挂号,网上预约,网上挂号,网上预约挂号,在线问诊,在线咨询,健康资讯,医院挂号,医院预约,专家门诊" />
-			<meta name="description" content="互联网医院国家试点平台,聚合了全国1900家重点医院。" />
-		
-			<link rel="canonical" href="http://02022222222.com"/>
-			<meta http-equiv="Cache-Control" content="no-transform" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/index.css" />
 
-			<link rel="shortcut icon" href="favicon.ico" />
-			<link rel="stylesheet" href="css/base.css" />
-			<link rel="stylesheet" href="css/index.css" />
-
-			<script type="text/javascript">
-				$GF = [];
-				GreenLine = {};
-				//打点日志全局变量
-				GreenLine.Log = {
-					url:'http://localhost:9000/images/blank.gif?',
-					requestMethod:'GET',
-					loginId:'',
-					perSessiionId:'',
-					shortSessionId:'',
-					referurl:'',
-					userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
-					errorEventName:'portal_pc_js_error',
-					token: "",
-					monitorLog : false
-				};
-				// 老的浏览器兼容H5标签
-				(function () {if (/MSIE [6-8]/.test(navigator.userAgent.toUpperCase())) {var tags = "header,footer,section,article,aside,details,summary,figure,figcaption,nav,menu".split(",");document.write("<style>" + tags.toString() + "{display:block}</style>");for (var i = 0; i < tags.length; document.createElement(tags[i]), i++);}})();
-				// 图片加载失败,error设置默认图片也加载失败避免死循环
-				window.NoFind = function(src) {
-					var img = event.srcElement;
-					img.src = src;
-					img.onerror = null;
-				};
-			</script>
-
+		<script type="text/javascript">
+			$GF = [];
+			GreenLine = {};
+			//打点日志全局变量
+			GreenLine.Log = {
+				url:'http://localhost:9000/images/blank.gif?',
+				requestMethod:'GET',
+				loginId:'',
+				perSessiionId:'',
+				shortSessionId:'',
+				referurl:'',
+				userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+				errorEventName:'portal_pc_js_error',
+				token: "",
+				monitorLog : false
+			};
+			// 老的浏览器兼容H5标签
+			(function () {if (/MSIE [6-8]/.test(navigator.userAgent.toUpperCase())) {var tags = "header,footer,section,article,aside,details,summary,figure,figcaption,nav,menu".split(",");document.write("<style>" + tags.toString() + "{display:block}</style>");for (var i = 0; i < tags.length; document.createElement(tags[i]), i++);}})();
+			// 图片加载失败,error设置默认图片也加载失败避免死循环
+			window.NoFind = function(src) {
+				var img = event.srcElement;
+				img.src = src;
+				img.onerror = null;
+			};
+		</script>
 	</head>
 	<body>
 		
@@ -70,7 +68,7 @@
 			  		<div class="container g-clear">
 	  			    	<div class="gh-logo ">
   							<a  href="http://02022222222.com"  class="logo gov-logo"></a>
-  							<img src="https://static.guahao.cn/front/portal-pc-static/img/2015/wy.png" alt="微医" class="wy-logo">
+  							<!-- <img src="https://static.guahao.cn/front/portal-pc-static/img/2015/wy.png" alt="微医" class="wy-logo"> -->
 	  			    	</div>
 
 						<div class="gh-search gh-web-search gh-search-left gh-search-gov">
@@ -1297,11 +1295,7 @@
 				</div>
 			</div>		
 		</div>
-
-	
-
 	</body>
-
 
 	<script id="J_quickInquiry" type="text/x-jquery-tmpl">
 		<ul class="g-doctor-card g-clear J_DoctorList quick-inquiry">
@@ -1309,7 +1303,7 @@
 			<li>
 				<div class="card-inner">
 					<a class="doctor-avatar" href="javascript:;">
-						  <img src="{{= doctor.photo}}" alt="{{= doctor.name }}" onerror="this.src='https://static.guahao.cn/img/character/doc-f-l.png?_=20121223';" title="{{= doctor.name }}"/>
+						  <img src="{{= doctor.photo}}" alt="{{= doctor.name }}" onerror="this.src='http://localhost:9000/images/doc-f-l.png';" title="{{= doctor.name }}"/>
 						  {{if doctor.consult == 2 }}<i class='opened'></i>{{/if}}
 					</a>
 

@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-	<title>专家在线问诊挂号</title>
+	<title>医生列表</title>
    	<meta name="description" content="" />
    	<meta name="keywords" content="医生预约挂号,医生在线预约,医生排名,专家大全,专家门诊,专家网上咨询" />
 	<link rel="canonical" href="https://www.guahao.com/expert/all/全车/all/不限"/>
@@ -13,32 +13,23 @@
 	<link rel="stylesheet" href="css/base.css" />
 	<link rel="stylesheet" href="css/doctor-list-base.css" />
 
+	<script  type="text/javascript">
+		$GF = [];
 
-	<!-- <link rel="stylesheet" href="https://static.guahao.cn/front/portal-pc-static/css/portal.basic.min.css?v=1557150763ea2e3f" type="text/css"/> -->
-	<!-- <link rel="stylesheet" href="https://static.guahao.cn/front/portal-pc-static/css/portal.hdd.min.css?v=1557150763ea2e3f" type="text/css"/> -->
-	<!-- <link rel="stylesheet" href="https://static.guahao.cn/front/portal-pc-static/css/portal.content.min.css?v=1557150763ea2e3f" type="text/css"/> -->
-	<!-- <link rel="stylesheet" href="https://static.guahao.cn/front/portal-pc-static/css/style.min.css?v=1557150763ea2e3f" type="text/css"/> -->
-	<!-- <link rel="stylesheet" href="https://static.guahao.cn/common/css/animate.min.css?v=20141222" type="text/css"/> -->
-
-<script  type="text/javascript">
-	$GF = [];
-
-	GreenLine = {};
-	// 打点日志全局变量
-	GreenLine.Log = {
-		url:'https://track.guahao.cn/blank.gif?',
-		requestMethod:'POST',
-		loginId:'',
-		perSessiionId:'1559113000841201780671510',
-		shortSessionId:'1559221256198',
-		referurl:'https://www.guahao.com/expert/61409/%E5%86%85%E7%A7%91',
-		userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
-		errorEventName:'portal_pc_js_error',
-		token: "",
-		monitorLog : false
-	}
-</script>
-      
+		GreenLine = {};
+		GreenLine.Log = {
+			url:'http://localhost:9000/images/blank.gif?',
+			requestMethod:'GET',
+			loginId:'',
+			perSessiionId:'',
+			shortSessionId:'',
+			referurl:'',
+			userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+			errorEventName:'portal_pc_js_error',
+			token: "",
+			monitorLog : false
+		};
+	</script>
 </head>
 <body class="g-1200px g-page-1200"> 
 	
@@ -47,7 +38,7 @@
 			<div class="gh-nav">
 				<div class="container g-clear">
 					<div class="g-left">
-						<span class="text">您好！ </span>
+						<span class="text">您好！ 欢迎来到长安互联网医院！！！</span>
 					</div>
 				  	<div class="g-right">
 			            <a href="javascript:;" rel="nofollow" class='dl-guide J_SeoGuide'>
@@ -64,8 +55,7 @@
 		  	<div class="gh-main">
 		  		<div class="container g-clear">
   			    	<div class="gh-logo ">
-							<a  href="http://02022222222.com"  class="logo gov-logo"></a>
-							<img src="https://static.guahao.cn/front/portal-pc-static/img/2015/wy.png" alt="微医" class="wy-logo">
+						<a  href="http://02022222222.com"  class="logo gov-logo"></a>
   			    	</div>
 
 					<div class="gh-search gh-web-search gh-search-left gh-search-gov">
@@ -83,10 +73,6 @@
 		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="拜拜脂肪君" monitor-click-rank="1"  href="" target="_blank"  class=" J_SearchHot" > 拜拜脂肪君 </a> 
 		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="流感" monitor-click-rank="2"  href="" class=" J_SearchHot" > 流感 </a>
 		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="心肌梗塞" monitor-click-rank="3"  href="" class=" J_SearchHot" > 心肌梗塞 </a>
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="骨折" monitor-click-rank="4"  href="" class=" J_SearchHot" > 骨折 </a>
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="心肌炎" monitor-click-rank="5"  href="" class=" J_SearchHot" > 心肌炎 </a>
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="结膜炎" monitor-click-rank="6"  href="" class=" J_SearchHot" > 结膜炎 </a> 
-		    				<a monitor="public_search,public_search,searchhot" monitor-search-q="支气管炎" monitor-click-rank="7"  href="" class=" J_SearchHot" > 支气管炎 </a>
 				    	</div> 
 					</div> 
 					<span class="gh-search-tips"></span>
@@ -96,12 +82,12 @@
 				<div class="container g-clear container-small">
 					<div class="home-menu-ctn">
 						<ul class="g-clear main-menu-nav">
-							<li class="hot"> <a target="_blank" class="own-tab" monitor="public_menu,home_menu,ask" href="">在线问诊</a></li>
+							<li class="current hot"> <a target="_blank" class="own-tab" monitor="public_menu,home_menu,ask" href="">在线问诊</a></li>
 							<li><a target="_blank" href="" rel="nofollow"  monitor="public_menu,home_menu,fastpoder">预约挂号</a></li>
-							<li class="fast" ><a target="_blank"  href="" class="own-tab" rel="nofollow"  monitor="public_menu,home_menu,preciseorder">极速问诊</a></li>
-			                <li><a target="_blank" href=""  monitor="public_menu,home_menu,spteam">专家团队</a></li>
-							<li><a target="_blank" href="" rel="nofollow" >健康资讯</a></li>
+			                <li><a target="_blank" href="" monitor="public_menu,home_menu,spteam">专家团队</a></li>
+							<li><a target="_blank" href="" rel="nofollow" >新闻资讯</a></li>
 						</ul>
+						
 						<div class="main-category-nav J_DiseaseCategory">
 							<h3><i></i>帮你快速找医生</h3>
 							<div class="nav-cats-wrapper J_FastCategory" style="display:none">
@@ -145,15 +131,6 @@
 											<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">白癜风</a>
 											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">湿疹</a>
 											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">银屑病</a>
-										</span>
-									</li>
-									<li data-id="5">
-										<h5 class="title">
-											<i class="gk"></i><a target="_blank" href="">骨科</a>
-										</h5>
-										<span class="sub-ds">
-											<a target="_blank" href="" class="first" monitor="public_fastselect,div,hotsick">颈椎病</a>
-											<a target="_blank" href="" monitor="public_fastselect,div,hotsick">腰椎间盘突出症</a>
 										</span>
 									</li>
 									<li data-id="6">
@@ -303,7 +280,6 @@
 										</ul>
 									</div>
 								</div>
-
 								<div class="subcats-item J_FastSubCategory" data-id="2">
 									<div class="sub-category-box J_SubBox">
 										<ul>
@@ -435,7 +411,6 @@
 										</ul>
 									</div>
 								</div>
-				
 								<div class="subcats-item show-bg J_FastSubCategory" data-id="3">
 									<div class="sub-category-box J_SubBox">
 										<ul>
@@ -485,7 +460,6 @@
 										</ul>
 									</div>
 								</div>
-
 								<div class="subcats-item show-bg J_FastSubCategory" data-id="4">
 									<div class="sub-category-box J_SubBox">
 										<ul>
@@ -544,71 +518,6 @@
 										</ul>
 									</div>
 								</div>
-
-								<div class="subcats-item J_FastSubCategory" data-id="5">
-									<div class="sub-category-box J_SubBox">
-										<ul>
-											<li>
-												<h5><a target="_blank" href="">骨科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨质增生</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肩周炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">腱鞘炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板损伤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">滑膜炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">关节炎</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">慢性腰背痛</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">股骨头缺血性坏死</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨折</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">颈椎间盘突出症</a>
-												</p>
-											</li>
-											<li>
-												<h5><a target="_blank" href="">脊柱外科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">慢性腰背痛</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">颈椎间盘突出症</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">腰椎椎管狭窄症</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊髓型颈椎病</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">神经根型颈椎病</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊柱骨折</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">脊柱肿瘤</a>
-									                <a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">椎间盘突出</a>
-												</p>
-											</li>
-											<li>
-												<h5><a target="_blank" href="">关节外科常见病</a></h5>
-												<p>
-													<p>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">肩周炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板损伤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">滑膜炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">痛风性关节炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">肩袖损伤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">肱骨外上髁炎</a>
-													<a class="focus" href="" monitor="public_fastsearch,div,sick">骨关节炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">先天性髋关节脱位</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">肌腱炎</a>
-												</p>
-											</li>
-											<li class="last">
-												<h5><a target="_blank" href="">创伤骨科常见病</a></h5>
-												<p>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">骨折</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">跟腱炎</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">半月板撕裂</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">跟腱断裂</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">腓总神经损伤</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">髌骨骨折</a>
-													<a target="_blank" href="" class="focus" monitor="public_fastsearch,div,sick">股骨颈骨折</a>
-													<a target="_blank" href="" monitor="public_fastsearch,div,sick">踝关节骨折</a>
-													<a target="_blank" href="" class="last" monitor="public_fastsearch,div,sick">膝外侧韧带损伤</a>
-												</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-
 								<div class="subcats-item show-bg J_FastSubCategory" data-id="6">
 									<div class="sub-category-box J_SubBox">
 										<ul>
@@ -681,7 +590,6 @@
 										</ul>
 									</div>
 								</div>
-
 								<div class="subcats-item J_FastSubCategory" data-id="8">
 									<div class="sub-category-box J_SubBox">
 										<ul>
@@ -765,7 +673,7 @@
 					</div>
 				</div>
 			
-				<div class="sub-nav" id="sub-nav">
+			<!-- 	<div class="sub-nav" id="sub-nav">
 					<ul class="consult" id="sub-nav-consult">
 						<li><a href="" target="_blank">免费咨询</a></li>
 						<li><a href="" target="_blank">专家问诊</a></li>
@@ -775,7 +683,7 @@
 						<li><a href="" target="_blank" monitor="public_menu,health,medical">高端医疗</a></li>
 						<li><a href="" target="_blank" monitor="public_menu,health,medical">微医严选</a></li>
 					</ul>
-				</div>
+				</div> -->
 				
 			</div>
 		</div>
@@ -788,7 +696,7 @@
 
 			<div id="g-cfg" class="g-container gp-search-new  gp-search-doc-new gp-no-margin-top" data-page="expert_v1"
 		     data-module="search" data-loadpop="default" data-header-fixed="1" data-fo-help="1" data-fo-appcode="1">
-			    <div class="g-grid2-l">
+			    <div class="g-grid-full">
 			        <div class="filter-new J_Filter">
 			            <div class="filter-tip filter-consult">
 			                <div class="filter-condition" id="J_SelCondition">
@@ -921,7 +829,7 @@
 	                                        </ul>
 	                                    </div>
 	                                </div>
-	                                <div class="condition J_hl">
+	                      <!--           <div class="condition J_hl">
 	                                    <div class="condition-title">医院等级</div>
 	                                    <div class="condition-content condition-collapse J_CT">
 	                                        <ul>
@@ -939,33 +847,10 @@
 	                                                   monitor-grade="一级医院">一级医院</a></li>
 	                                        </ul>
 	                                    </div>
-	                                </div>
+	                                </div> -->
 		                        </div>
 		                    </div>
 			                <div class="line-gray-bg"></div>
-		                    <div class="gfm-inline gfm-thin top">
-		                        <div class="gfm-field sort-filter J_sortFilter">
-		                            <a href="javascript:;" monitor="ask_sort,div_sort,comprehensive"
-		                               class="on"
-		                               data-code="" data-val="general_consult_rank" name="sort">综合<i></i></a>
-		                            <a href="javascript:;" monitor="ask_sort,div_sort,ask_rate"
-		                               class="J_Submit_A"
-		                               data-code="" data-val="1" name="sort">好评量<i></i></a>
-		                            <a href="javascript:;" monitor="ask_sort,div_sort,ask_num"
-		                               class="J_Submit_A"
-		                               data-code="" data-val="11" name="sort">问诊量<i></i></a>
-		                            <a href="javascript:;" monitor="ask_sort,div_sort,ask_price"
-		                               class="price-sort J_Submit_A" data-code="" data-val="10" name="sort">价格<i></i></a>
-		                        </div>
-
-	                            <p class="gfm-field  check-filter">
-	                                <label class="gfm-checkbox" monitor="ask_sort,div_sort,freeask_select">
-	                                	<input type="checkbox"  checked="checked" class="J_Submit"
-	                                	data-name="volunteerDoctor" data-code="" value="1">
-	                                    <span style=" position: relative;top: -1px;">义诊</span>
-	                                </label>
-	                            </p>
-		                    </div>
 		                    <input type="hidden" name="iSq" value="1"/>
 		                    <input type="hidden" name="fhc" value=""/>
 		                    <input type="hidden" name="q" value=""/>
@@ -1269,7 +1154,401 @@
 						           <span class="name">专家团队</span><i class="arrow"></i>
 						        </a>
 							</li>
-		    	
+								<li class="g-doctor-item">
+									<div class="g-doc-baseinfo">
+									    <a target="_blank"
+									       href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000"
+									       class="img" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000">
+									        <img src="https://h2img.guahao.com/images/image140//oks2673699.jpg" alt="李军友" title="李军友"
+									             onerror="this.src='https://static.guahao.cn/img/character/doc-unknow.png?_=20121223';"/>
+									        <i class='opened'></i>
+									    </a>
+									    <dl>
+									        <dt>
+									            <a target="_blank" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000"
+									               href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000"
+									               title="李军友">
+									            李军友
+									            </a>
+									            &nbsp;&nbsp;副主任医师
+									            &nbsp;&nbsp;<i class="activity-icon"style="background-image: url(images/yizhen.png)"></i>
+									        </dt>
+									        <dd>
+									            <p>皮肤科</p>
+									            <p>
+									                <span class="g-txt-ell">兰州大学第二医院</span>
+									                
+									            </p>
+									            <p class="star-count">
+											    	<span class="star">评分
+									                        <em>9.8</em>
+													</span>
+									                <span>问诊量 <i>1158</i></span>
+									            </p>
+									        </dd>
+									    </dl>
+									</div>
+									<div class="wrap">
+									    <div class="skill">
+									        <p>
+							                    擅长：
+							                        皮肤科常见病，湿疹、银屑病、带状疱疹、性病、皮肤...
+									        </p>
+									    </div>
+									    <div class="doctor-service-2">
+									        <a class="infos image" href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000#consult" monitor="ask_sort,doctor,picask"
+									           monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank">
+									            <i></i>
+									            <span class="service-name">
+									              <em>图文问诊</em>
+									              <em class="fee">￥10</em>
+									            </span>
+									        </a>
+									        <a class="infos video" href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000#consult" monitor="ask,doctor,vpask"
+									           monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank">
+									            <i></i>
+									            <span class="service-name">
+									              <em>视话问诊</em>
+									              <em class="fee"> ￥80</em>
+									            </span>
+									        </a>
+									    </div>
+									    <a class="cover-bg seo-anchor-text" href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank"
+									       monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank">
+									   		李军友
+									   	</a>
+									</div>
+								</li>
+								<li class="g-doctor-item">
+									<div class="g-doc-baseinfo">
+									    <a target="_blank" href="" class="img" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="9700d962-c720-11e1-913c-5cf9dd2e7135000">
+									        <img src="https://h2img.guahao.com/images/image140//sQh7089417.jpg" alt="夏莉" title="夏莉" onerror="this.src='../images/doc-unknow.png';"/>
+									        <i class='opened'></i>
+									    </a>
+									    <dl>
+									        <dt>
+									            <a target="_blank" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="9700d962-c720-11e1-913c-5cf9dd2e7135000"
+									               href="/expert/9700d962-c720-11e1-913c-5cf9dd2e7135000"
+									               title="夏莉">
+									            	夏莉
+									            </a>
+									            &nbsp;&nbsp;主任医师
+									            &nbsp;&nbsp;<i class="activity-icon" style="background-image: url(images/yizhen.png)"></i>
+									        </dt>
+									        <dd>
+									            <p>皮肤科</p>
+									            <p><span class="g-txt-ell">宁夏医科大学总医院</span></p>
+									            <p class="star-count">
+											    	<span class="star">评分 <em>10.0</em></span>
+									                <span>问诊量 <i>1446</i></span>
+									            </p>
+									        </dd>
+									    </dl>
+									</div>
+									<div class="wrap">
+									    <div class="skill">
+									        <p>
+							                    擅长：
+							                        临床常见病如痤疮，白癜风，皮炎湿疹、银屑病、大疱...
+									        </p>
+									    </div>
+									    <div class="doctor-service-2">
+									        <a class="infos image" href="/expert/9700d962-c720-11e1-913c-5cf9dd2e7135000#consult" monitor="ask_sort,doctor,picask"
+									           monitor-doctor-id="9700d962-c720-11e1-913c-5cf9dd2e7135000" target="_blank">
+									            <i></i>
+									            <span class="service-name">
+									              <em>图文问诊</em>
+									              <em class="fee">￥10</em>
+									            </span>
+									        </a>
+									        <a class="infos video" href="/expert/9700d962-c720-11e1-913c-5cf9dd2e7135000#consult" monitor="ask,doctor,vpask"
+									           monitor-doctor-id="9700d962-c720-11e1-913c-5cf9dd2e7135000" target="_blank">
+									            <i></i>
+									            <span class="service-name">
+									              <em>视话问诊</em>
+									              <em class="fee"> ￥200</em>
+									            </span>
+									        </a>
+									    </div>
+									    <a class="cover-bg seo-anchor-text" href="/expert/9700d962-c720-11e1-913c-5cf9dd2e7135000" target="_blank"
+									       monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="9700d962-c720-11e1-913c-5cf9dd2e7135000" target="_blank">
+									   		夏莉
+										</a>
+									</div>
+
+							        <a class="expert-team" target="_blank" href="/eteam/7935"
+							           monitor="ask_sort,doctor,team" monitor-team-id="7935" monitor-click-rank="9">
+							           <span class="name">专家团队</span><i class="arrow"></i>
+							        </a>
+								</li>
+								<li class="g-doctor-item">
+									<div class="g-doc-baseinfo">
+									    <a target="_blank"
+									       href="/expert/97012afc-c720-11e1-913c-5cf9dd2e7135000"
+									       class="img" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="97012afc-c720-11e1-913c-5cf9dd2e7135000">
+									        <img src="https://h2img.guahao.com/images/image140//YLl6277848.jpg?timestamp=1501231502280" alt="陈芳" title="陈芳"
+									             onerror="this.src='/images/doc-unknow.png';"/>
+									        <i class='opened'></i>
+									    </a>
+									    <dl>
+									        <dt>
+									            <a target="_blank" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="97012afc-c720-11e1-913c-5cf9dd2e7135000"
+									               href="/expert/97012afc-c720-11e1-913c-5cf9dd2e7135000"
+									               title="陈芳">
+									            	陈芳
+									            </a>
+									            &nbsp;&nbsp;主任医师
+									            &nbsp;&nbsp;<i class="activity-icon" style="background-image: url(images/yizhen.png)"></i>
+									        </dt>
+									        <dd>
+									            <p>呼吸与危重症医学科</p>
+									            <p>
+									                <span class="g-txt-ell">宁夏医科大学总医院</span>
+									            </p>
+									            <p class="star-count">
+											    	<span class="star">评分 <em>10.0</em> </span>
+													<span>问诊量 <i>407</i></span>
+									            </p>
+									        </dd>
+									    </dl>
+									</div>
+									<div class="wrap">
+									    <div class="skill">
+									        <p>
+							                    擅长：
+							                        支气管哮喘、肺癌、COPD、肺栓塞、肺部感染等诊...
+									        </p>
+									    </div>
+									    <div class="doctor-service-2">
+									        <a class="infos image" href="/expert/97012afc-c720-11e1-913c-5cf9dd2e7135000#consult" monitor="ask_sort,doctor,picask"
+									           monitor-doctor-id="97012afc-c720-11e1-913c-5cf9dd2e7135000" target="_blank">
+									            <i></i>
+									            <span class="service-name">
+									              <em>图文问诊</em>
+									              <em class="fee">
+									                  ￥10</em>
+									            </span>
+									        </a>
+									        <a class="infos video" href="/expert/97012afc-c720-11e1-913c-5cf9dd2e7135000#consult" monitor="ask,doctor,vpask"
+									           monitor-doctor-id="97012afc-c720-11e1-913c-5cf9dd2e7135000" target="_blank">
+									            <i></i>
+									            <span class="service-name">
+									              <em>视话问诊</em>
+									              <em>暂无排班</em>
+									            </span>
+									        </a>
+									    </div>
+									    <a class="cover-bg seo-anchor-text" href="https://www.guahao.com/expert/97012afc-c720-11e1-913c-5cf9dd2e7135000" target="_blank"
+									       monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="97012afc-c720-11e1-913c-5cf9dd2e7135000" target="_blank">
+									   		陈芳
+										</a>
+									</div>
+
+							        <a class="expert-team" target="_blank" href="/eteam/7920"
+							           monitor="ask_sort,doctor,team" monitor-team-id="7920" monitor-click-rank="9">
+							           <span class="name">专家团队</span><i class="arrow"></i>
+							        </a>
+								</li>
+								<li class="g-doctor-item">
+									<div class="g-doc-baseinfo">
+									    <a target="_blank"
+									       href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000"
+									       class="img" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000">
+									        <img src="https://h2img.guahao.com/images/image140//oks2673699.jpg" alt="李军友" title="李军友"
+									             onerror="this.src='https://static.guahao.cn/img/character/doc-unknow.png?_=20121223';"/>
+									        <i class='opened'></i>
+									    </a>
+									    <dl>
+									        <dt>
+									            <a target="_blank" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000"
+									               href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000"
+									               title="李军友">
+									            李军友
+									            </a>
+									            &nbsp;&nbsp;副主任医师
+									            &nbsp;&nbsp;<i class="activity-icon"style="background-image: url(images/yizhen.png)"></i>
+									        </dt>
+									        <dd>
+									            <p>皮肤科</p>
+									            <p>
+									                <span class="g-txt-ell">兰州大学第二医院</span>
+									                
+									            </p>
+									            <p class="star-count">
+											    	<span class="star">评分
+									                        <em>9.8</em>
+													</span>
+									                <span>问诊量 <i>1158</i></span>
+									            </p>
+									        </dd>
+									    </dl>
+									</div>
+									<div class="wrap">
+									    <div class="skill">
+									        <p>
+							                    擅长：
+							                        皮肤科常见病，湿疹、银屑病、带状疱疹、性病、皮肤...
+									        </p>
+									    </div>
+									    <div class="doctor-service-2">
+									        <a class="infos image" href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000#consult" monitor="ask_sort,doctor,picask"
+									           monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank">
+									            <i></i>
+									            <span class="service-name">
+									              <em>图文问诊</em>
+									              <em class="fee">￥10</em>
+									            </span>
+									        </a>
+									        <a class="infos video" href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000#consult" monitor="ask,doctor,vpask"
+									           monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank">
+									            <i></i>
+									            <span class="service-name">
+									              <em>视话问诊</em>
+									              <em class="fee"> ￥80</em>
+									            </span>
+									        </a>
+									    </div>
+									    <a class="cover-bg seo-anchor-text" href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank"
+									       monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank">
+									   		李军友
+									   	</a>
+									</div>
+								</li>
+								<li class="g-doctor-item last">
+									<div class="g-doc-baseinfo">
+									    <a target="_blank"
+									       href="/expert/de9b48b0-0712-4412-86d0-7161e02c8de0000"
+									       class="img" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="de9b48b0-0712-4412-86d0-7161e02c8de0000">
+									        <img src="https://h2img.guahao.com/images/image140//4kX2703582.jpg" alt="贾雪芹" title="贾雪芹"
+									             onerror="this.src='https://static.guahao.cn/img/character/doc-unknow.png?_=20121223';"/>
+									        <i class='opened'></i>
+									    </a>
+									    <dl>
+									        <dt>
+									            <a target="_blank" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="de9b48b0-0712-4412-86d0-7161e02c8de0000"
+									               href="/expert/de9b48b0-0712-4412-86d0-7161e02c8de0000"
+									               title="贾雪芹">
+									            贾雪芹
+									            </a>
+									            &nbsp;&nbsp;主任医师
+									            &nbsp;&nbsp;<i class="activity-icon"style="background-image: url(images/yizhen.png))"></i>
+									        </dt>
+									        <dd>
+									            <p>风湿科</p>
+									            <p>
+									                <span class="g-txt-ell">兰州大学第二医院</span>
+									                
+									            </p>
+									            <p class="star-count">
+											    	<span class="star">评分
+									                        暂无评分
+													</span>
+									                <span>问诊量 <i>5</i></span>
+									            </p>
+									        </dd>
+									    </dl>
+									</div>
+									<div class="wrap">
+									    <div class="skill">
+									        <p>
+							                    擅长：
+							                        自身免疫性疾病，危重症诊治。
+
+									        </p>
+									    </div>
+									    <div class="doctor-service-2">
+									        <a class="infos image" href="/expert/de9b48b0-0712-4412-86d0-7161e02c8de0000#consult" monitor="ask_sort,doctor,picask"
+									           monitor-doctor-id="de9b48b0-0712-4412-86d0-7161e02c8de0000" target="_blank">
+									            <i></i>
+									            <span class="service-name">
+									              <em>图文问诊</em>
+									              <em class="fee">
+									                  ￥10</em>
+									            </span>
+									        </a>
+									        <a class="infos video" href="/expert/de9b48b0-0712-4412-86d0-7161e02c8de0000#consult" monitor="ask,doctor,vpask"
+									           monitor-doctor-id="de9b48b0-0712-4412-86d0-7161e02c8de0000" target="_blank">
+									            <i></i>
+									            <span class="service-name">
+									              <em>视话问诊</em>
+									              <em>暂无排班</em>
+									            </span>
+									        </a>
+									    </div>
+									    <a class="cover-bg seo-anchor-text" href="/expert/de9b48b0-0712-4412-86d0-7161e02c8de0000" target="_blank"
+									       monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="de9b48b0-0712-4412-86d0-7161e02c8de0000" target="_blank">贾雪芹</a>
+									</div>
+
+							        <a class="expert-team" target="_blank" href="/eteam/7014"
+							           monitor="ask_sort,doctor,team" monitor-team-id="7014" monitor-click-rank="9">
+							           <span class="name">专家团队</span><i class="arrow"></i>
+							        </a>
+								</li>
+									<li class="g-doctor-item">
+										<div class="g-doc-baseinfo">
+										    <a target="_blank"
+										       href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000"
+										       class="img" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000">
+										        <img src="https://h2img.guahao.com/images/image140//oks2673699.jpg" alt="李军友" title="李军友"
+										             onerror="this.src='https://static.guahao.cn/img/character/doc-unknow.png?_=20121223';"/>
+										        <i class='opened'></i>
+										    </a>
+										    <dl>
+										        <dt>
+										            <a target="_blank" monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000"
+										               href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000"
+										               title="李军友">
+										            李军友
+										            </a>
+										            &nbsp;&nbsp;副主任医师
+										            &nbsp;&nbsp;<i class="activity-icon"style="background-image: url(images/yizhen.png)"></i>
+										        </dt>
+										        <dd>
+										            <p>皮肤科</p>
+										            <p>
+										                <span class="g-txt-ell">兰州大学第二医院</span>
+										                
+										            </p>
+										            <p class="star-count">
+												    	<span class="star">评分
+										                        <em>9.8</em>
+														</span>
+										                <span>问诊量 <i>1158</i></span>
+										            </p>
+										        </dd>
+										    </dl>
+										</div>
+										<div class="wrap">
+										    <div class="skill">
+										        <p>
+								                    擅长：
+								                        皮肤科常见病，湿疹、银屑病、带状疱疹、性病、皮肤...
+										        </p>
+										    </div>
+										    <div class="doctor-service-2">
+										        <a class="infos image" href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000#consult" monitor="ask_sort,doctor,picask"
+										           monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank">
+										            <i></i>
+										            <span class="service-name">
+										              <em>图文问诊</em>
+										              <em class="fee">￥10</em>
+										            </span>
+										        </a>
+										        <a class="infos video" href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000#consult" monitor="ask,doctor,vpask"
+										           monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank">
+										            <i></i>
+										            <span class="service-name">
+										              <em>视话问诊</em>
+										              <em class="fee"> ￥80</em>
+										            </span>
+										        </a>
+										    </div>
+										    <a class="cover-bg seo-anchor-text" href="/expert/0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank"
+										       monitor="ask_sort,doctor,doctor" monitor-click-rank="5" monitor-doctor-id="0770d7ad-c6ff-4497-8ea2-098fe7837b2d000" target="_blank">
+										   		李军友
+										   	</a>
+										</div>
+									</li>
 						</ul>
 					</div>
 					<div class="g-pagination">
@@ -1335,59 +1614,6 @@
 					</div>
 	        		<div class="clear"></div>
 	    		</div>
-				<div class="g-grid2-r">
-	                <div class="g-consult-entry">
-			            <div class="g-search-box box all-free">
-			                <a href="/before/consult/ask" monitor="search_allpg_resource,search_allpg_resource,freeask" class="seo-anchor-text">免费咨询</a>
-			                <div class="text">
-			                    <span class="main">免费咨询</span>
-			                    <span class="extra">身体不适，全科问诊</span>
-			                </div>
-			            </div>
-			        </div>
-		       		<div class="g-article-items g-search-box">
-		       			<h2 class="title">相关文章
-		            		<a href="/s/topic" monitor="hospital_activity,spdoctor,doctor_more">更多</a>
-						</h2>
-						<ul>
-							<li class="J_articleItem">
-								<dl >
-									<dt>
-										<i></i>
-										<a href="" target="_blank" monitor="search_allpg_resource,his_text,text" monitor-text-id="tMhCg69048699432501249">世界癌症研究基金会公布最...</a>
-									</dt>
-									<dd>
-				                        <p>致癌行为或食物1、超重或肥胖：增加11种癌症风险...<a href="/topic/tMhCg69048699432501249" target="_blank">全文</a></p>
-									</dd>
-								</dl>
-							</li>
-							<li class="J_articleItem">
-								<dl >
-									<dt>
-										<i></i>
-										<a href="" target="_blank" monitor="search_allpg_resource,his_text,text" monitor-text-id="VzXGH69045705108389890">空腹吃荔枝致低血糖？一文...</a>
-									</dt>
-									<dd>
-				                        <p>桃养人，杏伤人，荔枝树下抬死人！据营养学家统计，...<a href="/topic/VzXGH69045705108389890" target="_blank">全文</a></p>
-									</dd>
-								</dl>
-							</li>
-							<li class="J_articleItem">
-								<dl >
-									<dt>
-										<i></i>
-										<a href="" target="_blank" monitor="search_allpg_resource,his_text,text" monitor-text-id="QUmzh69036994530967554">【患者体会】感谢杨帆主任...</a>
-									</dt>
-									<dd>
-				                        <p>我和丈夫在2014年步入婚姻殿堂起初我们准备顺其...<a href="/topic/QUmzh69036994530967554" target="_blank">全文</a></p>
-									</dd>
-								</dl>
-							</li>
-						</ul>
-		       		</div>
-   
-					<div class="g-ads-side J_Promotions" data-pos="2" data-rows="3"></div>
-				</div>
 				<div class="clear"></div>
 			</div>
 			<div class="clear"></div>
@@ -1429,16 +1655,15 @@
 				<div style="width:550px;margin:0 420px; padding:20px 0;">
 				    <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
 				        <a target="_blank" href="" rel="nofollow" style="display:inline-block;text-decoration:none;height:20px;line-height:20px; color:#939393">
-				            &nbsp;浙ICP备15034772号-1
+				            &nbsp;粤ICP备13015942号
 				        </a>&nbsp;
 				        <a target="_blank" href="" rel="nofollow" style="display:inline-block;text-decoration:none;height:20px;line-height:20px; color:#939393">
-				            <img src="https://static.guahao.cn/img/ghs.png" style="float:left;">&nbsp;浙公网安备
-				            33048302000103号
+				            <img src="images/ghs.png" style="float:left;">&nbsp;互联网广告审查批文：粤（A）广(2018)第72号
 				        </a>
 				    </p>
 				</div>
 			</div>
-		</div>
+		</div>	
 		<div id="gm-bg"></div>
 	</div>
 	<script type="text/javascript">

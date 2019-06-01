@@ -1,6 +1,5 @@
 /*! portal-pc-static - git - 2019-05-28 19:40:11 */
 #sh-content .right-rail .sectionbox li a,.gp-alphabet-detail .content .info li .symptom,.gp-alphabet-detail .ellipsis,.gp-diseasehomepage .disease .info li .symptom,.gp-diseasehomepage .disease-article a,.gp-diseasehomepage .ellipsis,.gp-we-home .we-team .result .info .title .name,.has-vote .g-doctor-item .skill .vote-disease,.partners-login-input .portrait .info {
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -202,7 +201,7 @@
     zoom:1;overflow: hidden;
     width: 391px;
     height: 240px;
-    background: url(/img/v2/tel-page.png) no-repeat;
+    background: url("../images/tel-page.png") no-repeat;
     vertical-align: middle
 }
 
@@ -257,7 +256,7 @@
     zoom:1;overflow: hidden;
     width: 403px;
     height: 265px;
-    background: url(/img/v2/login-page.png) center 0 no-repeat;
+    background: url("../images/login-page.png") center 0 no-repeat;
     vertical-align: middle
 }
 
@@ -277,11 +276,11 @@
 .register-suc-fail .register-suc {
     height: 188px;
     width: 383px;
-    background: url(/img/v2/register-success.png) center 0 no-repeat
+    background: url("../images/register-success.png") center 0 no-repeat
 }
 
 .register-suc-fail .register-fail {
-    background: url(/img/v2/email-fail.png) -55px -65px no-repeat;
+    background: url("../images/email-fail.png") -55px -65px no-repeat;
     height: 240px;
     width: 380px
 }
@@ -321,7 +320,7 @@
 .progress-style .progress-bg {
     width: 194px;
     height: 194px;
-    background: url(/img/v2/tips-pic.png) center center no-repeat;
+    background: url("../images/tips-pic.png") center center no-repeat;
     float: right;
     margin-right: 35px;
     margin-top: -215px
@@ -386,7 +385,7 @@
 
 .gp-findps-tel .main-content li .gbt-img {
     margin-left: 0!important;
-    background: url(../img/account/send-mg.png) no-repeat;
+    background: url("../images/account/send-mg.png") no-repeat;
     width: 115px;
     height: 32px;
     color: #000;
@@ -463,8 +462,6 @@ form #logingo,form #submitButtom {
 
 #valid-tips {
     border: 1px solid #ccc;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     background: #fff;
     padding: 6px 8px;
@@ -490,7 +487,7 @@ form #logingo,form #submitButtom {
 }
 
 #valid-tips i {
-    background: url(/img/v2/g-total-v3.png) -71px -103px no-repeat;
+    background: url("../images/g-total-v3.png") -71px -103px no-repeat;
     height: 14px;
     width: 7px;
     position: absolute;
@@ -636,17 +633,15 @@ form #logingo,form #submitButtom {
     width: 120px;
     height: 120px;
     border: 3px solid #bcbcbc;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%
 }
 
 .new-register .tabs .user i {
-    background: url(../img/user.png) no-repeat
+    background: url("../images/user.png") no-repeat
 }
 
 .new-register .tabs .doctor i {
-    background: url(../img/doctor.png) no-repeat
+    background: url("../images/doctor.png") no-repeat
 }
 
 .new-register .tabs .item {
@@ -866,7 +861,7 @@ form #logingo,form #submitButtom {
     display: block;
     width: 16px;
     height: 16px;
-    background: url(../img/red-close.png) no-repeat
+    background: url("../images/red-close.png") no-repeat
 }
 
 .new-register .cert-line .preview-img {
@@ -952,7 +947,7 @@ form #logingo,form #submitButtom {
 }
 
 .new-register .user-success .bg {
-    background: url(../img/user-reg-suc.png) no-repeat
+    background: url("../images/user-reg-suc.png") no-repeat
 }
 
 .new-register .doctor-success h1 {
@@ -960,7 +955,7 @@ form #logingo,form #submitButtom {
 }
 
 .new-register .doctor-success .bg {
-    background: url(../img/doctor-reg-suc.png) no-repeat
+    background: url("../images/doctor-reg-suc.png") no-repeat
 }
 
 .new-register .doctor-success .hot {
@@ -969,12 +964,12 @@ form #logingo,form #submitButtom {
     display: inline-block;
     width: 29px;
     height: 17px;
-    background: url(../img/hot.png) center center no-repeat
+    background: url("../images/hot.png") center center no-repeat
 }
 
 .doctor-consult-recruit {
     border: 1px solid #e4e4e4;
-    background: url(../img/doctor-recruit.png) center top no-repeat;
+    background: url("../images/doctor-recruit.png") center top no-repeat;
     height: 800px;
     padding: 320px 70px 100px
 }
@@ -1087,13 +1082,14 @@ form #logingo,form #submitButtom {
     height: 100%;
     width: 100%;
     z-index: -10;
-    background-image: url(../img/account/bg-user.jpg?20150828);
+    background-image: url("../images/account/bg-user.jpg");
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
-    zoom:1}
+    zoom:1;
+}
 
 .amazing-box-ui .main-box {
     position: absolute;
@@ -1106,8 +1102,6 @@ form #logingo,form #submitButtom {
     background-color: rgba(255,255,255,.95);
     padding: 40px 0 0 55px;
     border-radius: 3px;
-    -webkit-box-shadow: 1px 1px 3px #999;
-    -moz-box-shadow: 1px 1px 3px #999;
     box-shadow: 1px 1px 3px #999
 }
 
@@ -1118,7 +1112,7 @@ form #logingo,form #submitButtom {
 .amazing-box-ui .box-header .logo {
     width: 197px;
     height: 55px;
-    background: url(../img/account/logo.png?20160512) center center no-repeat
+    background: url("../images/ca-logo-s.png") center center no-repeat
 }
 
 .amazing-box-ui .box-header .title {
@@ -1246,11 +1240,11 @@ form #logingo,form #submitButtom {
 
 .amazing-box-ui .third-part .weixin i {
     margin-right: 8px;
-    background: url(../img/account/weixin.png) center center no-repeat
+    background: url("../images/weixin.png") center center no-repeat
 }
 
 .amazing-box-ui .third-part .qq i {
-    background: url(../img/account/qq.png) center center no-repeat
+    background: url("../images/qq.png") center center no-repeat
 }
 
 .amazing-box-ui .third-part .more a {
@@ -1265,7 +1259,7 @@ form #logingo,form #submitButtom {
     top: 15px;
     width: 10px;
     height: 7px;
-    background: url(../img/account/arrow-down.png) center center no-repeat
+    background: url("../images/arrow-down.png") center center no-repeat
 }
 
 .amazing-box-ui .third-part .more-login {
@@ -1290,19 +1284,19 @@ form #logingo,form #submitButtom {
 }
 
 .amazing-box-ui .third-part .more-login a.alipay {
-    background-image: url(../img/account/icon-alipay.png?_=20150430)
+    background-image: url("../images/icon-alipay.png")
 }
 
 .amazing-box-ui .third-part .more-login a.sina {
-    background: url(../img/account/icon-weibo.png?_=20150430)
+    background: url("../images/icon-weibo.png")
 }
 
 .amazing-box-ui .third-part .more-login a.taobao {
-    background: url(../img/account/icon-taobao.png?_=20150430)
+    background: url("../images/icon-taobao.png")
 }
 
 .amazing-box-ui .third-part .more-login a.tc {
-    background: url(../img/account/icon-tc.png?_=20150430)
+    background: url("../images/icon-tc.png")
 }
 
 .amazing-box-ui .register {
@@ -1323,16 +1317,7 @@ form #logingo,form #submitButtom {
     top: 10px;
     width: 8px;
     height: 5px;
-    background: url(../img/account/double-arrow.png) center center no-repeat
-}
-
-.amazing-box-ui .app-download {
-    position: absolute;
-    bottom: -2px;
-    right: -2px;
-    width: 70px;
-    height: 70px;
-    background: url(../img/account/app-download.png) center center no-repeat
+    background: url("../images/double-arrow.png") center center no-repeat
 }
 
 .amazing-box-ui .app-download a {
@@ -1349,8 +1334,6 @@ form #logingo,form #submitButtom {
     width: 100px;
     height: 100px;
     border: 2px solid #fff;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%
 }
 
@@ -1420,7 +1403,7 @@ form #logingo,form #submitButtom {
     height: 50px;
     line-height: 50px;
     padding-left: 40px;
-    background: url(../img/account/success.png) left center no-repeat
+    background: url("../images/blue-success.png") left center no-repeat
 }
 
 .partners-login .complete-reg {
@@ -1673,7 +1656,7 @@ form #logingo,form #submitButtom {
 }
 
 #js-wrapper .gh-logo .logo {
-    background: url(/img/v2/head-logo.png?_=20140327) 0 -520px no-repeat;
+    background: url("../images/head-logo.png") 0 -520px no-repeat;
     height: 53px;
     width: 479px;
     margin-top: 0
@@ -1762,8 +1745,6 @@ form #logingo,form #submitButtom {
 }
 
 #js-content .arealist a {
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     color: #5ca945;
     display: inline-block;
@@ -1808,7 +1789,7 @@ form #logingo,form #submitButtom {
 }
 
 #js-content .right-top .bx-pager-link {
-    background: url(/img/v2/area-home-v1.png) -346px -210px no-repeat;
+    background: url("../images/area-home-v1.png") -346px -210px no-repeat;
     display: inline-block;
     height: 14px;
     overflow: hidden;
@@ -1819,7 +1800,7 @@ form #logingo,form #submitButtom {
 }
 
 #js-content .right-top .active {
-    background: url(/img/v2/area-home-v1.png) -310px -210px no-repeat
+    background: url("../images/area-home-v1.png") -310px -210px no-repeat
 }
 
 #js-content .right-top .bx-pager {
@@ -1869,13 +1850,13 @@ form #logingo,form #submitButtom {
 }
 
 #js-content .js-tel {
-    background: url(../img/v2/js.jpg) no-repeat;
+    background: url("../images/js.jpg") no-repeat;
     width: 258px;
     height: 92px
 }
 
 #js-content .js-lead {
-    background: url(/img/v2/area-home-v1.png) -2px -99px no-repeat;
+    background: url("../images/area-home-v1.png") -2px -99px no-repeat;
     width: 258px;
     height: 92px;
     display: block
@@ -1888,7 +1869,7 @@ form #logingo,form #submitButtom {
 }
 
 #js-content .right-bottom .bottom-bm,#js-content .right-center .center-bottom {
-    background: url(/img/v2/area-home-v1.png) -11px -212px no-repeat;
+    background: url("../images/area-home-v1.png") -11px -212px no-repeat;
     height: 6px;
     over-flow: hidden
 }
@@ -1904,7 +1885,7 @@ form #logingo,form #submitButtom {
 }
 
 #js-content .right-center li {
-    background: url(/img/v2/area-home-v1.png) -394px -211px no-repeat;
+    background: url("../images/area-home-v1.png") -394px -211px no-repeat;
     line-height: 20px;
     padding-left: 20px;
     margin: 6px 0
@@ -1916,8 +1897,6 @@ form #logingo,form #submitButtom {
 
 #js-content .right-bottom li {
     background-color: #f5fafd;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
     border-radius: 15px;
     line-height: 20px;
     margin: 10px 0;
@@ -1938,7 +1917,7 @@ form #logingo,form #submitButtom {
 }
 
 .js-footer .logo {
-    background: url(/img/v2/area-home-v1.png) -304px -105px no-repeat;
+    background: url("../images/area-home-v1.png") -304px -105px no-repeat;
     height: 86px;
     width: 64px;
     margin-top: 6px
@@ -2015,7 +1994,7 @@ form #logingo,form #submitButtom {
 }
 
 #sh-content .left-rail .bx-pager .bx-pager-item .bx-pager-link {
-    background: url(/img/v2/icons2-v3.png) 0 -428px no-repeat;
+    background: url("../images/icons2-v3.png") 0 -428px no-repeat;
     display: inline-block;
     height: 13px;
     overflow: hidden;
@@ -2037,14 +2016,10 @@ form #logingo,form #submitButtom {
     background: #f5fafd;
     float: none;
     padding: 5px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px
 }
 
 #sh-content .hos-list .arealist a {
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     color: #5ca945;
     display: inline-block;
@@ -2089,7 +2064,7 @@ form #logingo,form #submitButtom {
 }
 
 #sh-content .hos-list .hosbox .topfont h3 {
-    background: url(/img/v2/area-home-v1.png) 190px -74px no-repeat;
+    background: url("../images/area-home-v1.png") 190px -74px no-repeat;
     height: 25px;
     font-size: 12px
 }
@@ -2125,7 +2100,7 @@ form #logingo,form #submitButtom {
 #sh-content .hos-sort .tabs {
     overflow: hidden;
     font-size: 15px;
-    background: url(/img/v2/green-line-bg.png) 0 bottom repeat-x
+    background: url("../images/green-line-bg.png") 0 bottom repeat-x
 }
 
 #sh-content .hos-sort .tabs a {
@@ -2140,7 +2115,7 @@ form #logingo,form #submitButtom {
     line-height: 28px;
     text-align: center;
     color: #888;
-    background: url(/img/v2/green-line-bg.png) 0 bottom repeat-x #f5f5f5
+    background: url("../images/green-line-bg.png") 0 bottom repeat-x #f5f5f5
 }
 
 #sh-content .hos-sort .tabs a:hover {
@@ -2174,7 +2149,7 @@ form #logingo,form #submitButtom {
     display: inline-block;
     width: 310px;
     padding-left: 14px;
-    background: url(/img/v2/area-home-v1.png) -291px -313px no-repeat
+    background: url("../images/area-home-v1.png") -291px -313px no-repeat
 }
 
 #sh-content .hos-sort .tab-content li.first {
@@ -2189,7 +2164,7 @@ form #logingo,form #submitButtom {
 
 #sh-content .hos-sort .subtabs a {
     display: block;
-    background: url(/img/v2/area-home-v1.png) -281px -246px no-repeat;
+    background: url("../images/area-home-v1.png") -281px -246px no-repeat;
     height: 23px;
     width: 129px;
     text-align: center;
@@ -2207,8 +2182,6 @@ form #logingo,form #submitButtom {
 
 #sh-content .hos-sort .subtab-content {
     background: #f1f7e9;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     width: 508px;
     float: left;
@@ -2222,24 +2195,12 @@ form #logingo,form #submitButtom {
 }
 
 #sh-content .hos-sort .subtab-content li a {
-    background: url(/img/v2/area-home-v1.png) -103px -77px no-repeat;
+    background: url("../images/area-home-v1.png") -103px -77px no-repeat;
     width: auto
 }
 
 #sh-content .hos-sort .subtab-other li a {
     width: 225px
-}
-
-#sh-content .alipay-banner {
-    background: url(/img/v2/shanghai-alipy.png?20160202) no-repeat;
-    display: block;
-    height: 132px;
-    width: 688px
-}
-
-#sh-content .user-comments {
-    background: url(/img/v2/user-comment.png) no-repeat;
-    padding-top: 133px
 }
 
 #sh-content .user-comments ul {
@@ -2261,7 +2222,7 @@ form #logingo,form #submitButtom {
 }
 
 #sh-content .user-comments li .conmment {
-    background: url(/img/v2/area-home-v1.png) -2px 0 no-repeat;
+    background: url("../images/area-home-v1.png") -2px 0 no-repeat;
     height: 55px;
     width: 530px;
     float: left;
@@ -2329,7 +2290,7 @@ form #logingo,form #submitButtom {
 }
 
 #sh-content .right-rail .sectionbox span.num {
-    background: url(/img/v2/area-home-v1.png) -439px -268px no-repeat;
+    background: url("../images/area-home-v1.png") -439px -268px no-repeat;
     color: #333;
     display: inline-block;
     font-size: 14px;
@@ -2345,7 +2306,7 @@ form #logingo,form #submitButtom {
 }
 
 #sh-content .right-rail .sectionbox li {
-    background: url(/img/v2/round.png) 0 11px no-repeat;
+    background: url("../images/round.png") 0 11px no-repeat;
     line-height: 20px;
     height: 20px;
     padding: 3px 0
@@ -2369,7 +2330,7 @@ form #logingo,form #submitButtom {
 }
 
 #sh-content .right-rail .box-bot {
-    background: url(/img/v2/area-home-v1.png) -11px -212px no-repeat;
+    background: url("../images/area-home-v1.png") -11px -212px no-repeat;
     height: 6px;
     overflow: hidden
 }
@@ -2405,7 +2366,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-alphabet .alphabet-list .alphabet-box {
-    background: url(/img/v2/blue-border.png) 0 bottom repeat-x;
+    background: url("../images/blue-border.png") 0 bottom repeat-x;
     padding: 10px
 }
 
@@ -2428,7 +2389,7 @@ form #logingo,form #submitButtom {
 
 .gp-alphabet .alphabet-list .alphabet-box table tr.add-line {
     height: 10px;
-    background: url(/img/v2/blue-border.png) 0 center repeat-x
+    background: url("../images/blue-border.png") 0 center repeat-x
 }
 
 .gp-alphabet .alphabet-list .alphabet-box table tr.add-line td {
@@ -2497,8 +2458,6 @@ form #logingo,form #submitButtom {
     font-size: 14px;
     line-height: 20px;
     padding: 0 15px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     margin: 0 10px 10px
 }
@@ -2527,8 +2486,6 @@ form #logingo,form #submitButtom {
 .gp-alphabet-detail .contributor .avatar {
     width: 60px;
     height: 60px;
-    -webkit-border-radius: 60px;
-    -moz-border-radius: 60px;
     border-radius: 60px;
     float: left;
     margin-right: 8px
@@ -2722,12 +2679,12 @@ form #logingo,form #submitButtom {
     top: -52px;
     width: 225px;
     height: 77px;
-    background: url(/img/v2/illindex/all-1.png) no-repeat
+    background: url("../images/illindex/all-1.png") no-repeat
 }
 
 .gp-illindex .head-bar {
     position: relative;
-    background: url(/img/v2/button-v2.png) 0 -576px repeat-x;
+    background: url("../images/button-v2.png") 0 -576px repeat-x;
     height: 52px;
     z-index: 3000;
     font-size: 15px;
@@ -2737,7 +2694,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-illindex .head-bar .bar-left {
-    background: url(/img/v2/button-v2.png) 0 -512px no-repeat;
+    background: url("../images/button-v2.png") 0 -512px no-repeat;
     height: 60px;
     width: 7px;
     position: absolute;
@@ -2746,7 +2703,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-illindex .head-bar .bar-right {
-    background: url(/img/v2/button-v2.png) right -704px no-repeat;
+    background: url("../images/button-v2.png") right -704px no-repeat;
     height: 60px;
     width: 7px;
     position: absolute;
@@ -2879,7 +2836,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-illindex .patients-list .list-tit {
-    background: url(/img/v2/illindex/all-1.png) 0 -77px no-repeat;
+    background: url("../images/illindex/all-1.png") 0 -77px no-repeat;
     width: 174px;
     height: 45px;
     margin-left: 12px;
@@ -2933,7 +2890,7 @@ form #logingo,form #submitButtom {
     font-size: 14px;
     line-height: 38px;
     padding-left: 20px;
-    background: url(/img/v2/illindex/list-style-image.png) 10px center no-repeat
+    background: url("../images/list-style-image.png") 10px center no-repeat
 }
 
 .gp-illindex .q-list li a {
@@ -3039,7 +2996,7 @@ form #logingo,form #submitButtom {
     height: 69px;
     display: block;
     position: relative;
-    background: url(../img/disease/side-yygh.png) no-repeat;
+    background: url("../images/disease/side-yygh.png") no-repeat;
     margin-bottom: 20px;
     padding: 38px 0 0 86px
 }
@@ -3064,7 +3021,7 @@ form #logingo,form #submitButtom {
 }
 
 .g-side-consult-entry {
-    background: url(../img/disease/side-zxwz.png) no-repeat
+    background: url("../images/side-zxwz.png") no-repeat
 }
 
 .g-side-consult-entry .tit {
@@ -3080,7 +3037,7 @@ form #logingo,form #submitButtom {
     height: 66px;
     display: block;
     position: relative;
-    background: url(../img/disease/side-rank.png) no-repeat;
+    background: url("../images/side-rank.png") no-repeat;
     margin-bottom: 20px;
     padding: 25px 0 0 72px;
     color: #69c6ef
@@ -3229,8 +3186,6 @@ form #logingo,form #submitButtom {
 .gp-diseasehomepage .nobanner .expert-con .avatar {
     width: 60px;
     height: 60px;
-    -webkit-border-radius: 60px;
-    -moz-border-radius: 60px;
     border-radius: 60px;
     float: left;
     margin-right: 8px
@@ -3279,7 +3234,7 @@ form #logingo,form #submitButtom {
 
 .gp-diseasehomepage .focus-container {
     height: 280px;
-    background: url(/img/v2/loading-big.gif) center center no-repeat
+    background: url("../images/loading-big.gif") center center no-repeat
 }
 
 .gp-diseasehomepage .focus-container .focus-pannel {
@@ -3315,7 +3270,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-diseasehomepage .pagers a {
-    background: url(/img/v2/hp2.png?_=20140624) -122px -59px no-repeat;
+    background: url("../images/hp2.png") -122px -59px no-repeat;
     height: 11px;
     width: 11px;
     text-indent: -999px;
@@ -3357,7 +3312,7 @@ form #logingo,form #submitButtom {
     top: 0;
     width: 13px;
     height: 13px;
-    background: url(../img/disease/djb-logo.png) no-repeat;
+    background: url("../images/disease/djb-logo.png") no-repeat;
     background-size: 13px 13px
 }
 
@@ -3396,8 +3351,6 @@ form #logingo,form #submitButtom {
     margin: 0 7px;
     cursor: pointer;
     padding: 2px 4px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px
 }
 
@@ -3564,8 +3517,6 @@ form #logingo,form #submitButtom {
     height: 4px;
     margin-top: 10px;
     margin-right: 10px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
     background-color: #bcbcbc;
     margin-left: -14px
@@ -3578,7 +3529,7 @@ form #logingo,form #submitButtom {
     display: block;
     width: 14px;
     height: 14px;
-    background: url(../img/article-icon.png) 0 -62px no-repeat
+    background: url("../images/article-icon.png") 0 -62px no-repeat
 }
 
 .gp-diseasehomepage .disease-article .tit .icon.video {
@@ -3587,7 +3538,7 @@ form #logingo,form #submitButtom {
 
 .gp-diseasehomepage .disease-article .tit span {
     padding-left: 15px;
-    background: url(../img/expert_2015/sprite.png) -460px -118px no-repeat;
+    background: url("../images/sprite.png") -460px -118px no-repeat;
     vertical-align: middle;
     color: #bcbcbc;
     margin-left: 15px
@@ -3787,7 +3738,7 @@ form #logingo,form #submitButtom {
     zoom:1;overflow: hidden;
     width: 12px;
     height: 12px;
-    background: url(../img/disease/side-ask.png) no-repeat;
+    background: url("../images/side-ask.png") no-repeat;
     margin-left: 5px
 }
 
@@ -3809,7 +3760,7 @@ form #logingo,form #submitButtom {
     height: 51px;
     border-top: 1px solid #f0f0f0;
     transition: all .3s ease-out 0s;
-    background: url(../img/search/gray-bg.png)
+    background: url("../images/gray-bg.png")
 }
 
 .has-vote .g-doctor-item .transition-wrap:hover .num-info {
@@ -3829,10 +3780,8 @@ form #logingo,form #submitButtom {
     border: 1px solid #dff2ff;
     padding-left: 20px;
     padding-right: 5px;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
     border-radius: 1px;
-    background: url(../img/search/vote.png) 3px 1px no-repeat;
+    background: url("../images/search/vote.png") 3px 1px no-repeat;
     display: -moz-inline-stack;
     display: inline-block;
     zoom:1;overflow: hidden;
@@ -3900,17 +3849,20 @@ form #logingo,form #submitButtom {
 
 @keyframes we-slide-in {
     0% {
-        transform: scale(0) translateY(-100px) rotateX(90deg);
+        -webkit-transform: scale(0) translateY(-100px) rotateX(90deg);
+                transform: scale(0) translateY(-100px) rotateX(90deg);
         opacity: 0
     }
 
     80% {
-        transform: scale(1.031) translateY(3px) rotateX(-5deg);
+        -webkit-transform: scale(1.031) translateY(3px) rotateX(-5deg);
+                transform: scale(1.031) translateY(3px) rotateX(-5deg);
         opacity: 1
     }
 
     100% {
-        transform: scale(1) translateY(0) rotateX(0);
+        -webkit-transform: scale(1) translateY(0) rotateX(0);
+                transform: scale(1) translateY(0) rotateX(0);
         opacity: 1
     }
 }
@@ -4042,7 +3994,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-we-home .wrap-1 {
-    background: url(../img/group/we/section_1_bg.jpg) center no-repeat;
+    background: url("../images/group/we/section_1_bg.jpg") center no-repeat;
     background-size: cover
 }
 
@@ -4144,7 +4096,8 @@ form #logingo,form #submitButtom {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover
+    -o-object-fit: cover;
+       object-fit: cover
 }
 
 .gp-we-home .we-focus .pager {
@@ -4196,7 +4149,7 @@ form #logingo,form #submitButtom {
     float: right;
     width: 497px;
     height: 315px;
-    background-image: url(../img/group/servicebag-intro.jpg);
+    background: gray;
     border-left: 1px solid #c5dbec
 }
 
@@ -4223,7 +4176,7 @@ form #logingo,form #submitButtom {
     width: 20px;
     height: 22px;
     margin-right: 5px;
-    background: url(/img/v2/search-addr.png) 0 -8px no-repeat
+    background: url("../images/search-addr.png") 0 -8px no-repeat
 }
 
 .gp-we-home .we-team .grid-title .area i.arrow {
@@ -4306,7 +4259,7 @@ form #logingo,form #submitButtom {
     height: 20px;
     top: -2px;
     margin-right: 3px;
-    background: url(../img/group/we/search.png) no-repeat
+    background: url("../images/group/we/search.png") no-repeat
 }
 
 .gp-we-home .we-team .search .form .clear {
@@ -4317,7 +4270,7 @@ form #logingo,form #submitButtom {
     width: 14px;
     height: 14px;
     padding: 3px;
-    background: url(../img/clear.png) 3px 3px no-repeat;
+    background: url("../images/clear.png") 3px 3px no-repeat;
     opacity: 0;
     transition: opacity .2s ease-out
 }
@@ -4344,7 +4297,6 @@ form #logingo,form #submitButtom {
     moz-user-select: -moz- none;
     -moz-user-select: none;
     -o-user-select: none;
-    -khtml-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none
@@ -4385,7 +4337,8 @@ form #logingo,form #submitButtom {
     width: 64px;
     height: 64px;
     border-radius: 100px;
-    object-fit: cover
+    -o-object-fit: cover;
+       object-fit: cover
 }
 
 .gp-we-home .we-team .result .info .title {
@@ -4427,7 +4380,6 @@ form #logingo,form #submitButtom {
     color: #666;
     font-size: 12px;
     overflow: hidden;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
     white-space: nowrap
@@ -4482,7 +4434,7 @@ form #logingo,form #submitButtom {
     display: block;
     width: 9px;
     height: 9px;
-    background: url(../img/group/we/we_eteam_arrow.png) no-repeat
+    background: url("../images/we_eteam_arrow.png") no-repeat
 }
 
 .gp-we-home .we-team .result li {
@@ -4517,7 +4469,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-we-home .we-team .result:empty {
-    background: url(/img/v2/loading-big.gif) 394px center no-repeat
+    background: url("../images/loading-big.gif") 394px center no-repeat
 }
 
 .gp-we-home .we-team .page {
@@ -4526,7 +4478,6 @@ form #logingo,form #submitButtom {
     moz-user-select: -moz- none;
     -moz-user-select: none;
     -o-user-select: none;
-    -khtml-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none
@@ -4569,7 +4520,7 @@ form #logingo,form #submitButtom {
 .gp-we-home .we-join .grid-content {
     padding-left: 120px;
     line-height: 1.8;
-    background: url(../img/group/we/join_img.png) 20px 20px no-repeat
+    background: url("../images/group/we/join_img.png") 20px 20px no-repeat
 }
 
 .gp-we-home .we-join .intro {
@@ -4601,7 +4552,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-we-home .we-join .way i {
-    background: url(../img/group/we/join_arrow.png) 3px 2px no-repeat
+    background: url("../images/join_arrow.png") 3px 2px no-repeat
 }
 
 .gp-we-home .we-news .grid-content {
@@ -4757,22 +4708,22 @@ form #logingo,form #submitButtom {
 }
 
 .gp-we-home .aside-flow .step.s01 {
-    background: url(../img/group/s01.png) no-repeat;
+    background: url("../images/s01.png") no-repeat;
     background-size: 65% 100%
 }
 
 .gp-we-home .aside-flow .step.s02 {
-    background: url(../img/group/s02.png) no-repeat;
+    background: url("../images/s02.png") no-repeat;
     background-size: 65% 100%
 }
 
 .gp-we-home .aside-flow .step.s03 {
-    background: url(../img/group/s03.png) no-repeat;
+    background: url("../images/s03.png") no-repeat;
     background-size: 65% 100%
 }
 
 .gp-we-home .aside-flow .step.s04 {
-    background: url(../img/group/s04.png) no-repeat;
+    background: url("../images/s04.png") no-repeat;
     background-size: 65% 47%
 }
 
@@ -4941,8 +4892,6 @@ form #logingo,form #submitButtom {
     position: relative;
     margin-left: 227px;
     margin-top: 20px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
     border-radius: 2px
 }
 
@@ -4967,7 +4916,6 @@ form #logingo,form #submitButtom {
 }
 
 .g-team-intro .info .summary p::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
     border-radius: 10px;
     background: #556A83
 }
@@ -5075,8 +5023,6 @@ form #logingo,form #submitButtom {
     width: 40px;
     display: block;
     margin: 0 auto 4px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
     position: relative
 }
@@ -5085,7 +5031,7 @@ form #logingo,form #submitButtom {
     position: absolute;
     left: 50%;
     top: 50%;
-    background: url(/img/v2/order.png) no-repeat
+    background: url("../images/order.png") no-repeat
 }
 
 .gh-expert-team p i.add {
@@ -5093,7 +5039,7 @@ form #logingo,form #submitButtom {
     width: 27px;
     margin-left: -14px;
     margin-top: -13px;
-    background-image: url(../img/group/step-plus.png)
+    background-image: url("..images/group/step-plus.png")
 }
 
 .gh-expert-team p i.info {
@@ -5107,7 +5053,7 @@ form #logingo,form #submitButtom {
     height: 22px;
     margin-left: -8px;
     margin-top: -10px;
-    background-image: url(../img/group/step-doctor.png)
+    background-image: url("../images/step-doctor.png")
 }
 
 .gp-eteam-home {
@@ -5116,7 +5062,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-eteam-home .team-wrapper {
-    background: url(../img/group/zhuanjia-bg.jpg?20151216) center center no-repeat #203a4e;
+    background: url("../images/zhuanjia-bg.jpg") center center no-repeat #203a4e;
     padding: 8px 0
 }
 
@@ -5186,7 +5132,7 @@ form #logingo,form #submitButtom {
     height: 16px;
     margin-top: 8px;
     margin-right: 3px;
-    background: url(../img/dzyy/dzyy-icon.png) -22px -203px no-repeat
+    background: url("../images/dzyy-icon.png") -22px -203px no-repeat
 }
 
 .gp-eteam-home .team-show .grid-left .team-detail {
@@ -5336,7 +5282,6 @@ form #logingo,form #submitButtom {
 .gp-eteam-home .team-show .grid-left .team-detail .leader .intro p span {
     display: -webkit-box;
     -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
     word-wrap: break-word;
     overflow: hidden
 }
@@ -5448,7 +5393,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-eteam-home .team-show .grid-left .team-ask .consult-show .ask .pre-icon {
-    background-image: url(../img/2015/home/home-sprite.png);
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -50px;
     width: 35px;
@@ -5463,7 +5408,6 @@ form #logingo,form #submitButtom {
     width: 650px;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -5479,7 +5423,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-eteam-home .team-show .grid-left .team-ask .consult-show .answer .pre-icon {
-    background-image: url(../img/2015/home/home-sprite.png);
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -5px;
     width: 35px;
@@ -5505,8 +5449,6 @@ form #logingo,form #submitButtom {
 
 .gp-eteam-home .team-show .grid-left .team-ask .consult-show .answer .inner .portrait {
     float: left;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%
 }
 
@@ -5604,7 +5546,7 @@ form #logingo,form #submitButtom {
     top: 4px;
     width: 28px;
     height: 22px;
-    background: url(../img/greatdoctor/mail-icon.gif) no-repeat
+    background: url("../images/mail-icon.gif") no-repeat
 }
 
 .gp-eteam-home .team-show .grid-left .team-thanks .content .row-2 {
@@ -5786,7 +5728,7 @@ form #logingo,form #submitButtom {
     width: 13px;
     height: 9px;
     display: inline-block;
-    background: url(../img/group/eye.png)
+    background: url("../images/eye.png")
 }
 
 .gp-eteam-home .team-show .grid-right .aside-article li {
@@ -5880,7 +5822,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-eteam-apply .team-wrapper {
-    background: url(../img/group/zhuanjia-bg.jpg) center center no-repeat #203a4e;
+    background: url("../images/zhuanjia-bg.jpg") center center no-repeat #203a4e;
     padding: 8px 0
 }
 
@@ -5969,14 +5911,14 @@ form #logingo,form #submitButtom {
     top: 26px;
     left: 50px;
     margin-bottom: -566px;
-    background: url(../img/group/add_moban.png) no-repeat;
+    background: gray;
     width: 375px;
     height: 566px;
     background-size: cover
 }
 
 .gp-eteam-apply .apply-main em {
-    background: url(../img/intro/wyky-bottom.png?2015092402) 0 30px no-repeat;
+    background:gray;
     display: block;
     width: 1043px;
     height: 63px;
@@ -6024,7 +5966,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-eteam-apply .apply-main .top-tips.new-tip i {
-    background: url(../img/group/eteam_add_new.png) no-repeat;
+    background: url("../images/eteam_add_new.png") no-repeat;
     width: 79px;
     height: 79px;
     background-size: 79px;
@@ -6162,7 +6104,7 @@ form #logingo,form #submitButtom {
     display: block;
     width: 16px;
     height: 16px;
-    background: url(../img/red-close.png) no-repeat
+    background: url("../images/red-close.png") no-repeat
 }
 
 .gp-eteam-apply .apply-main .gfm-inline .gfm-datepicker {
@@ -6182,7 +6124,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-eteam-apply .apply-main .gi {
-    background: url(../../eops/img/sprites1.png) no-repeat;
+    background: url("../images/sprites1.png") no-repeat;
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -6203,7 +6145,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-eteam-apply .apply-main .g-consult-fee {
-    background: url(../../eops/img/consult-fee-bg.png) center bottom repeat-x #f1ffee;
+    background: url("../images/consult-fee-bg.png") center bottom repeat-x #f1ffee;
     padding-bottom: 10px;
     position: absolute;
     width: 728px;
@@ -6289,8 +6231,6 @@ form #logingo,form #submitButtom {
 }
 
 .gp-eteam-apply .apply-main .gfm-inline textarea {
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     height: 70px;
     width: 456px
@@ -6441,14 +6381,12 @@ form #logingo,form #submitButtom {
 
 .gp-eteam-apply .apply-main .upload-container #uploadimgType {
     border: 1px solid #ccc;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     display: inline-block;
     margin-right: 10px;
     padding: 5px 30px 5px 10px;
     width: 76px;
-    background: url(/img/v2/simulate-select.png) right 3px no-repeat;
+    background: url("../images/simulate-select.png") right 3px no-repeat;
     line-height: normal;
     font-size: 12px
 }
@@ -6462,8 +6400,6 @@ form #logingo,form #submitButtom {
     z-index: 100;
     border: 1px solid #ccc;
     border-width: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     background: #fff;
     padding: 10px
@@ -6788,11 +6724,11 @@ form #logingo,form #submitButtom {
     width: 45px;
     height: 45px;
     margin-left: 5px;
-    background: url(../img/group/home_1/join.png) right 0 no-repeat
+    background: url("../images/join.png") right 0 no-repeat
 }
 
 .gp-dzyy-home .team-wrapper {
-    background: url(../img/dzyy/dzyy-banner-home.jpg?20160302) center center no-repeat #2963c4;
+    background: #2963c4;
     height: 323px;
     padding: 0
 }
@@ -6821,7 +6757,7 @@ form #logingo,form #submitButtom {
     left: 0;
     top: 9px;
     overflow: hidden;
-    background: url(../img/dzyy/dzyy-sprite.png) no-repeat
+    background: url("../images/dzyy/dzyy-sprite.png") no-repeat
 }
 
 .gp-dzyy-home .gp-container-box .g-container .label h1 {
@@ -6835,7 +6771,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-dzyy-home .gp-container-box .g-container .left .label-bg {
-    background: url(../img/dzyy/dzyy-icon.png) -1px 0 no-repeat
+    background: url("../images/dzyy-icon.png") -1px 0 no-repeat
 }
 
 .gp-dzyy-home .gp-container-box .g-container .left h1 {
@@ -6896,7 +6832,7 @@ form #logingo,form #submitButtom {
     right: 10px;
     top: 50%;
     margin-top: -19px;
-    background: url(../img/dzyy/dzyy-sprite.png) 0 -33px no-repeat
+    background: url("../images/dzyy/dzyy-sprite.png") 0 -33px no-repeat
 }
 
 .gp-dzyy-home .dzyy-example .content {
@@ -6970,7 +6906,7 @@ form #logingo,form #submitButtom {
     bottom: -12px;
     height: 15px;
     width: 12px;
-    background: url(../img/dzyy/dzyy-sprite.png) 0 -18px no-repeat
+    background: url("../images/dzyy/dzyy-sprite.png") 0 -18px no-repeat
 }
 
 .gp-dzyy-home .team-show .grid-right .attention {
@@ -7024,7 +6960,7 @@ form #logingo,form #submitButtom {
     position: absolute;
     left: -5px;
     top: -15px;
-    background: url(../img/dzyy/dzyy-sprite.png) no-repeat
+    background: url("../images/dzyy/dzyy-sprite.png") no-repeat
 }
 
 .gp-dzyy-apply {
@@ -7149,8 +7085,6 @@ form #logingo,form #submitButtom {
 .gp-dzyy-apply .apply-main .gfm-inline textarea {
     height: 138px;
     width: 468px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px
 }
 
@@ -7180,7 +7114,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-dzyy-apply .apply-main .gfm-inline .gi {
-    background: url(../../eops/img/sprites1.png) no-repeat;
+    background: url("../images/sprites1.png") no-repeat;
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -7305,7 +7239,7 @@ form #logingo,form #submitButtom {
     display: block;
     width: 16px;
     height: 16px;
-    background: url(../img/red-close.png) no-repeat
+    background: url("../images/red-close.png") no-repeat
 }
 
 .gp-dzyy-apply .apply-main .gfm-inline .yanzhengma .code-text {
@@ -7344,8 +7278,6 @@ form #logingo,form #submitButtom {
 .gp-dzyy-apply .city-box .city-box-inner {
     border: 1px solid #ccc;
     padding: 2px 25px 2px 10px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     width: 200px
 }
@@ -7448,7 +7380,6 @@ form #logingo,form #submitButtom {
     height: 20px;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -7634,7 +7565,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-landing #banner .bx-pager-link {
-    background: url(/img/v2/hp2.png?_=20140624) -122px -59px no-repeat;
+    background: url("../images/hp2.png") -122px -59px no-repeat;
     height: 11px;
     width: 11px;
     text-indent: -999px;
@@ -7796,7 +7727,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-landing .client-side .client {
-    background: url(/img/v2/hp2.png?_=20140624) 0 -112px no-repeat;
+    background: url("../images/hp2.png") 0 -112px no-repeat;
     width: 50px;
     height: 50px
 }
@@ -7972,7 +7903,6 @@ form #logingo,form #submitButtom {
     font-size: 14px;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -8109,8 +8039,6 @@ form #logingo,form #submitButtom {
     width: 22px;
     text-align: center;
     margin: 0 5px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px
 }
 
@@ -8125,8 +8053,6 @@ form #logingo,form #submitButtom {
     margin: 0 10px 10px 0;
     background: #e1eff9;
     line-height: 22px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     white-space: nowrap;
     width: 69px;
@@ -8260,7 +8186,6 @@ form #logingo,form #submitButtom {
 .gp-landing .hy-refresh a,.gp-landing .new-onlinehos a {
     display: inline-block;
     margin-left: 10px;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -8295,7 +8220,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-landing .jh-box .news dd {
-    background: url(/img/v2/round.png) 0 6px no-repeat;
+    background: url("../images/round.png") 0 6px no-repeat;
     padding: 0 10px 12px 12px;
     position: relative
 }
@@ -8325,7 +8250,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-landing .hy-refresh li,.gp-landing .informs-box li,.gp-landing .new-onlinehos li {
-    background: url(/img/v2/round.png) 0 11px no-repeat;
+    background: url("../images/round.png") 0 11px no-repeat;
     line-height: 20px;
     padding: 3px 0
 }
@@ -8443,7 +8368,7 @@ form #logingo,form #submitButtom {
     display: inline-block;
     width: 24px;
     height: 26px;
-    background: url(/img/v2/hp2.png?_=20140624) -10px -65px no-repeat
+    background: url("../images/hp2.png") -10px -65px no-repeat
 }
 
 .gp-landing .entry-box .entry .user {
@@ -8519,7 +8444,6 @@ form #logingo,form #submitButtom {
     width: 110px;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -8644,8 +8568,6 @@ form #logingo,form #submitButtom {
 }
 
 .gp-search-new .team-intro .team-album img {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
     margin-bottom: 4px
 }
@@ -8696,8 +8618,6 @@ form #logingo,form #submitButtom {
 .gp-search-new .team-intro .portrait img {
     float: left;
     margin: 5px 0 0 20px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%
 }
 
@@ -8735,7 +8655,7 @@ form #logingo,form #submitButtom {
     height: 16px;
     margin-right: 3px;
     margin-top: 3px;
-    background: url(../img/dzyy/dzyy-icon.png) -22px -203px no-repeat
+    background: url("../images/dzyy-icon.png") -22px -203px no-repeat
 }
 
 .gp-search-new .team-intro .info .top img {
@@ -8756,8 +8676,6 @@ form #logingo,form #submitButtom {
     background-color: #f5f5f5;
     color: #333;
     border: 1px solid #eeedeb;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     display: block;
     float: left;
@@ -8895,7 +8813,7 @@ form #logingo,form #submitButtom {
     top: -1px;
     width: 20px;
     height: 15px;
-    background: url(/img/v2/search-icon.png?_=20140519) 8px 4px no-repeat;
+    background: url("../images/search-icon.png") 8px 4px no-repeat;
     display: inline-block;
     zoom:1}
 
@@ -8950,7 +8868,7 @@ form #logingo,form #submitButtom {
     height: 36px;
     line-height: 36px;
     clear: both;
-    background: url(../img/search/gray-bg.png);
+    background: url("../images/gray-bg.png");
     border: 1px solid #f0f0f0;
     margin-bottom: 10px
 }
@@ -9149,11 +9067,8 @@ form #logingo,form #submitButtom {
     height: 26px;
     line-height: 26px;
     padding-right: 18px;
-    background: url(/img/v2/search-icon.png?_=20140519) no-repeat;
+    background: url("../images/search-icon.png") no-repeat;
     margin: 4px 0 6px;
-    -webkit-transition: .1s ease-in;
-    -moz-transition: .1s ease-in;
-    -o-transition: .1s ease-in;
     transition: .1s ease-in
 }
 
@@ -9161,7 +9076,6 @@ form #logingo,form #submitButtom {
     vertical-align: top;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -9207,7 +9121,7 @@ form #logingo,form #submitButtom {
     bottom: -33px;
     right: 0;
     height: 30px;
-    background: url(../img/search/gray-bg.png)
+    background: url("../images/gray-bg.png")
 }
 
 .gp-search-new .filter-new .condition-wrap .show-more .attr-extra {
@@ -9227,7 +9141,7 @@ form #logingo,form #submitButtom {
 
 .gp-search-new .filter-new .condition-wrap .show-more .attr-extra div b {
     position: absolute;
-    background: url(/img/v2/search-icon.png?_=20140519) 0 -17px no-repeat;
+    background: url("../images/search-icon.png") 0 -17px no-repeat;
     display: -moz-inline-stack;
     display: inline-block;
     zoom:1;overflow: hidden;
@@ -9287,7 +9201,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-search-new .search-top .search-wrap {
-    background: url(../img/search/gray-bg.png)
+    background: url("../images/gray-bg.png")
 }
 
 .gp-search-new .search-top .g-tabs {
@@ -9429,7 +9343,6 @@ form #logingo,form #submitButtom {
     height: 20px;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -9468,7 +9381,7 @@ form #logingo,form #submitButtom {
 
 .gp-search-new .line-gray-bg {
     height: 6px;
-    background: url(../img/search/gray-bg.png);
+    background: url("../images/gray-bg.png");
     margin-bottom: 25px
 }
 
@@ -9540,7 +9453,7 @@ form #logingo,form #submitButtom {
     height: 49px;
     border-top: 1px solid #f0f0f0;
     transition: all .3s ease-out 0s;
-    background: url(../img/search/gray-bg.png)
+    background: url("../images/gray-bg.png")
 }
 
 .gp-search-new .g-doctor-item .transition-wrap:hover .num-info {
@@ -9560,10 +9473,8 @@ form #logingo,form #submitButtom {
     border: 1px solid #dff2ff;
     padding-left: 20px;
     padding-right: 5px;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
     border-radius: 1px;
-    background: url(../img/search/vote.png) 3px 1px no-repeat;
+    background: url("../images/search/vote.png") 3px 1px no-repeat;
     display: -moz-inline-stack;
     display: inline-block;
     zoom:1;overflow: hidden;
@@ -9597,10 +9508,8 @@ form #logingo,form #submitButtom {
     border: 1px solid #dff2ff;
     padding-left: 20px;
     padding-right: 5px;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
     border-radius: 1px;
-    background: url(../img/search/vote.png) 3px 3px no-repeat;
+    background: url("../images/search/vote.png") 3px 3px no-repeat;
     display: -moz-inline-stack;
     display: inline-block;
     zoom:1;overflow: hidden;
@@ -9927,7 +9836,7 @@ form #logingo,form #submitButtom {
     font-size: 16px;
     font-weight: 400;
     line-height: 35px;
-    background: url(../img/search/gray-bg.png);
+    background: url("../images/gray-bg.png");
     padding-left: 20px;
     border-top: 1px solid #f0f0f0
 }
@@ -10144,11 +10053,11 @@ form #logingo,form #submitButtom {
 .g-doctor-item .transition-wrap:hover .price {
     height: 49px;
     padding: 10px 0;
-    background: url(../img/search/gray-bg.png)
+    background: url("../images/gray-bg.png")
 }
 
 .g-doctor-item .transition-wrap:hover .num-info {
-    background: url(../img/search/gray-bg.png)
+    background: url("../images/gray-bg.png")
 }
 
 .g-doctor-item .skill {
@@ -10313,11 +10222,11 @@ form #logingo,form #submitButtom {
 }
 
 .g-doctor-item .price .tel i {
-    background: url(../img/search/search-tel.png) right
+    background: url("../images/search/search-tel.png") right
 }
 
 .g-doctor-item .price .tel i.no {
-    background: url(../img/search/search-tel.png);
+    background: url("../images/search/search-tel.png");
     position: relative;
     top: -2px
 }
@@ -10331,7 +10240,7 @@ form #logingo,form #submitButtom {
 }
 
 .g-doctor-item a.cover-bg {
-    background: url(/img/v2/blank.gif);
+    background: url("../images//blank.gif");
     height: 100%;
     left: 0;
     position: absolute;
@@ -10780,7 +10689,7 @@ form #logingo,form #submitButtom {
 }
 
 .g-hospital-item .gray-bg {
-    background: url(../img/search/gray-bg.png)!important
+    background: url("../images/gray-bg.png")!important
 }
 
 .g-hospital-item .waibu {
@@ -11204,7 +11113,7 @@ form #logingo,form #submitButtom {
 }
 
 .g-disease-items a {
-    background: url(../img/search/gray-bg.png);
+    background: url("../images/gray-bg.png");
     display: inline-block;
     border: 1px solid #f0f0f0;
     color: #333;
@@ -11217,8 +11126,6 @@ form #logingo,form #submitButtom {
     position: relative;
     height: 77px;
     border-top-width: 10px;
-    -webkit-border-radius: 3px 3px 0 0;
-    -moz-border-radius: 3px 3px 0 0;
     border-radius: 3px 3px 0 0
 }
 
@@ -11302,8 +11209,6 @@ form #logingo,form #submitButtom {
 }
 
 .gp-search-expert-group .expert_main:hover {
-    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,.1);
-    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,.1);
     box-shadow: 1px 1px 3px rgba(0,0,0,.1)
 }
 
@@ -11320,14 +11225,16 @@ form #logingo,form #submitButtom {
 .gp-search-expert-group .expert_main .expert-main-left .expert-left-img1 {
     width: 118px;
     height: 118px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin: 19px 0 0 25px
 }
 
 .gp-search-expert-group .expert_main .expert-main-left .expert-left-img2 {
     width: 40px;
     height: 40px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin-left: -30px;
     border: 4px solid #fff
 }
@@ -11335,7 +11242,8 @@ form #logingo,form #submitButtom {
 .gp-search-expert-group .expert_main .expert-main-left .expert-left-img3 {
     width: 40px;
     height: 40px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin-left: -3px;
     border: 4px solid #fff
 }
@@ -11496,7 +11404,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-search-new .g-doctor-item .doctor-service a i,.gp-search-new .g-doctor-item .doctor-service span i {
-    background: url(../img/consult.png) no-repeat;
+    background: url("../images/consult.png") no-repeat;
     display: inline-block;
     width: 28px;
     height: 28px;
@@ -11577,7 +11485,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-search-new .g-doctor-item .doctor-service-2 .infos i {
-    background: url(../img/consult.png) no-repeat;
+    background: url("../images//consult.png") no-repeat;
     display: inline-block;
     width: 28px;
     height: 28px;
@@ -11690,7 +11598,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-search-new .expert-history-ask .grid-content .consult-show .ask .pre-icon {
-    background-image: url(../img/2015/home/home-sprite.png);
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -50px;
     width: 35px;
@@ -11705,7 +11613,6 @@ form #logingo,form #submitButtom {
     width: 650px;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -11722,7 +11629,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-search-new .expert-history-ask .grid-content .consult-show .answer .pre-icon {
-    background-image: url(../img/2015/home/home-sprite.png);
+    background-image: url("../images/home-sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -5px;
     width: 35px;
@@ -11748,8 +11655,6 @@ form #logingo,form #submitButtom {
 
 .gp-search-new .expert-history-ask .grid-content .consult-show .answer .inner .portrait {
     float: left;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%
 }
 
@@ -11805,7 +11710,7 @@ form #logingo,form #submitButtom {
     height: 17px;
     margin-top: 5px;
     margin-right: 20px;
-    background: url(/img/v2/imgload-help.png) no-repeat
+    background: url("../images/imgload-help.png") no-repeat
 }
 
 .order-main {
@@ -11830,11 +11735,11 @@ form #logingo,form #submitButtom {
     left: -18px;
     width: 65px;
     height: 65px;
-    background: url(/img/v2/paperclip.png) no-repeat
+    background: url("../images/paperclip.png") no-repeat
 }
 
 .order-left .order-message-bg {
-    background: url(/img/v2/order_message_bg.png) no-repeat
+    background: url("../images/order_message_bg.png") no-repeat
 }
 
 .order-left .order-message-top {
@@ -11882,8 +11787,6 @@ form #logingo,form #submitButtom {
     height: auto;
     width: 60px;
     max-height: 60px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
     border-radius: 30px
 }
 
@@ -11900,7 +11803,6 @@ form #logingo,form #submitButtom {
     width: 124px;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -11920,7 +11822,7 @@ form #logingo,form #submitButtom {
     margin-top: 35px;
     width: 250px;
     height: 200px;
-    background: url(/img/v2/tips-pic.png) center center no-repeat
+    background: url("../images/tips-pic.png") center center no-repeat
 }
 
 .order-right {
@@ -12038,7 +11940,7 @@ form #logingo,form #submitButtom {
 }
 
 .order-form .user-boxes dl dt a i {
-    background: url(/img/v2/reservation.png) 0 -79px no-repeat;
+    background: url("../images/reservation.png") 0 -79px no-repeat;
     height: 15px;
     width: 13px;
     overflow: hidden;
@@ -12066,7 +11968,7 @@ form #logingo,form #submitButtom {
 }
 
 .order-form .user-boxes dl dd i {
-    background: url(/img/v2/reservation.png) 0 -168px no-repeat;
+    background: url("../images/reservation.png") 0 -168px no-repeat;
     height: 37px;
     width: 37px;
     overflow: hidden;
@@ -12107,7 +12009,7 @@ form #logingo,form #submitButtom {
 }
 
 .order-form .user-boxes .add-user i {
-    background: url(/img/v2/reservation.png) no-repeat;
+    background: url("../images/reservation.png") no-repeat;
     height: 14px;
     width: 14px;
     overflow: hidden;
@@ -12144,7 +12046,7 @@ form #logingo,form #submitButtom {
     width: 32px;
     height: 32px;
     vertical-align: middle;
-    background: url(/img/v2/loading.gif) no-repeat
+    background: url("../images/loading.gif") no-repeat
 }
 
 .order-form input {
@@ -12182,7 +12084,7 @@ form #logingo,form #submitButtom {
 }
 
 .order-form .form-line .js-area li {
-    background: url(/img/v2/round.png) left center no-repeat;
+    background: url("../images/round.png") left center no-repeat;
     padding-left: 12px;
     line-height: 18px
 }
@@ -12261,7 +12163,6 @@ form #logingo,form #submitButtom {
     display: inline-block;
     zoom:1;overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
     width: 140px
@@ -12380,8 +12281,6 @@ form #logingo,form #submitButtom {
     z-index: 100;
     border: 1px solid #ccc;
     border-width: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     background: #fff;
     padding: 10px
@@ -12433,14 +12332,12 @@ form #logingo,form #submitButtom {
 
 .order-form .upload-container #uploadimgType {
     border: 1px solid #ccc;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     display: inline-block;
     margin-right: 10px;
     padding: 5px 30px 5px 10px;
     width: 80px;
-    background: url(/img/v2/simulate-select.png) right 2px no-repeat
+    background: url("../images/simulate-select.png") right 2px no-repeat
 }
 
 .order-form .upload-container #uploadimgText label {
@@ -12526,7 +12423,7 @@ form #logingo,form #submitButtom {
 }
 
 #gp-order-pay .pay-detail .gi-alipay {
-    background: url(/img/v2/pictures-v1.png) no-repeat;
+    background: url("../images/pictures-v1.png") no-repeat;
     width: 106px;
     height: 36px
 }
@@ -12648,7 +12545,7 @@ form #logingo,form #submitButtom {
     margin: 0 auto 20px;
     width: 130px;
     height: 130px;
-    background: url(/img/v2/pictures-v1.png) no-repeat
+    background: url("../images/pictures-v1.png") no-repeat
 }
 
 .order-result .order-icon {
@@ -12708,8 +12605,6 @@ form #logingo,form #submitButtom {
     margin-right: 5px;
     margin-bottom: 8px;
     cursor: pointer;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px
 }
 
@@ -12786,7 +12681,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-order .info .tips {
-    background: url(../img/tips.png) 10px center no-repeat #dff2ff;
+    background: url("../images/tips.png") 10px center no-repeat #dff2ff;
     line-height: 20px;
     padding: 8px 30px
 }
@@ -12826,7 +12721,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-order .order-form .title .tips i {
-    background: url(/img/v2/order.png) 0 -222px no-repeat;
+    background: url("../images/order.png") 0 -222px no-repeat;
     height: 19px;
     width: 19px;
     position: absolute;
@@ -12836,7 +12731,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-order .order-form .title .notice {
-    background: url(../img/search/tip-icon.png) 0 center no-repeat;
+    background: url("../images/search/tip-icon.png") 0 center no-repeat;
     display: inline-block;
     padding-left: 15px;
     color: #ce4545;
@@ -12985,7 +12880,7 @@ form #logingo,form #submitButtom {
     width: 12px;
     height: 12px;
     display: inline-block;
-    background: url(../img/ghwy/qs.png);
+    background: url("../images/ghwy/qs.png");
     position: relative;
     top: 1px
 }
@@ -13041,7 +12936,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-order .pay .ico {
-    background: url(/img/v2/order.png) 0 -272px no-repeat;
+    background: url("../images/order.png") 0 -272px no-repeat;
     height: 46px;
     width: 46px;
     top: -10px;
@@ -13075,7 +12970,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-order .pay .alipay {
-    background: url(/img/v2/order.png) 0 -873px no-repeat;
+    background: url("../images/order.png") 0 -873px no-repeat;
     height: 35px;
     width: 105px;
     display: inline-block;
@@ -13208,7 +13103,7 @@ form #logingo,form #submitButtom {
 .gp-order .order-suc .tzx-entry span {
     display: inline-block;
     padding: 0 15px 0 35px;
-    background: url(../img/tips.png) 16px center no-repeat #f9fcfe;
+    background: url("../images/tips.png") 16px center no-repeat #f9fcfe;
     border: 1px solid #e0f2fe;
     margin-right: 20px
 }
@@ -13248,7 +13143,7 @@ form #logingo,form #submitButtom {
     width: 14px;
     height: 14px;
     margin-left: 5px;
-    background: url(../img/insurance-tip.png) no-repeat
+    background: url("../images/insurance-tip.png") no-repeat
 }
 
 .gp-order .order-suc .send-insurance .tip-container .insurance-tip {
@@ -13312,7 +13207,7 @@ form #logingo,form #submitButtom {
 
 .gp-order .order-suc h2 i {
     position: absolute;
-    background: url(/img/v2/icons-v2.png) 0 -281px no-repeat;
+    background: url("../images/icons-v2.png") 0 -281px no-repeat;
     height: 46px;
     width: 46px;
     left: -70px;
@@ -13355,7 +13250,7 @@ form #logingo,form #submitButtom {
 }
 
 .gp-order .order-suc .infos .wy-code {
-    background: url(../img/qr/wy_code_xiadan.png) right 0 no-repeat;
+    background: url("../images/office-account-qrcode-2.png") right 0 no-repeat;
     float: right;
     border-left: 1px dotted #e4e4e4;
     width: 128px;
@@ -13394,7 +13289,7 @@ form #logingo,form #submitButtom {
     width: 12px;
     height: 12px;
     margin-right: 10px;
-    background: url(../img/warn.png)
+    background: url("../images/warn.png")
 }
 
 .gp-order .order-suc .infos .consult li {
@@ -13408,8 +13303,6 @@ form #logingo,form #submitButtom {
     display: block;
     width: 5px;
     height: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
     background-color: #f9a821;
     float: left;
@@ -13480,7 +13373,7 @@ form #logingo,form #submitButtom {
 
 .gp-order .order-fail h2 i {
     position: absolute;
-    background: url(/img/v2/icons-v2.png) 0 -547px no-repeat;
+    background: url("../images/icons-v2.png") 0 -547px no-repeat;
     height: 46px;
     width: 46px;
     left: -70px;
@@ -13520,7 +13413,7 @@ form #logingo,form #submitButtom {
 
 .gp-order .links-box a i {
     position: absolute;
-    background: url(/img/v2/order.png) -105px -487px no-repeat;
+    background: url("../images/order.png") -105px -487px no-repeat;
     left: 50%
 }
 
@@ -13636,7 +13529,7 @@ form #logingo,form #submitButtom {
 .gp-order .confirm-box ul li .yinxiang-tag-hover {
     border: 1px solid #3A7BEE;
     color: #3A7BEE;
-    background: url(../img/v2/choose-hover.png) right bottom no-repeat;
+    background: url("../images/choose-hover.png") right bottom no-repeat;
     background-size: 18px 15px;
     cursor: pointer
 }
@@ -13724,7 +13617,7 @@ form #logingo,form #submitButtom {
     position: absolute;
     width: 34px;
     height: 30px;
-    background: url(/img/v2/confirm.png) no-repeat;
+    background: url("../images/confirm.png") no-repeat;
     margin-left: -45px;
     margin-top: -5px
 }
@@ -13769,7 +13662,7 @@ form #logingo,form #submitButtom {
     left: -10px;
     width: 10px;
     height: 11px;
-    background: url(/img/v2/confirm.png) -55px -9px no-repeat
+    background: url("../images/confirm.png") -55px -9px no-repeat
 }
 
 .gp-order .order-confirm .action {
@@ -14147,15 +14040,15 @@ form #logingo,form #submitButtom {
 }
 
 .order-yzwy-bg {
-    background: url(../img/xywy/entry/normal.jpg) no-repeat
+    background: url("../images/normal.jpg") no-repeat
 }
 
 .order-yzwy-bg-fk {
-    background: url(../img/xywy/entry/fk.jpg) no-repeat
+    background: url("../images/fk.jpg") no-repeat
 }
 
 .order-yzwy-bg-wk {
-    background: url(../img/xywy/entry/wk.jpg) no-repeat
+    background: url("../images/wk.jpg") no-repeat
 }
 
 .expr-yzwy-info {
@@ -14445,7 +14338,8 @@ form #logingo,form #submitButtom {
 }
 
 .animation-slide-down {
-    animation: slide-down .3s ease-out
+    -webkit-animation: slide-down .3s ease-out;
+            animation: slide-down .3s ease-out
 }
 
 .animation-flicker {
@@ -14589,8 +14483,6 @@ li {
 .grid-title .tabs a {
     display: inline-block;
     padding: 0 5px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px
 }
 
@@ -15308,7 +15200,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .gp-search .ip-smart .img {
     margin-left: 80px;
-    background: url(/img/v2/search-icon.png?_=20140519) -146px -206px no-repeat;
+    background: url("../images/search-icon.png") -146px -206px no-repeat;
     width: 50px;
     height: 50px
 }
@@ -15491,7 +15383,7 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-search .filter-tip .filter-condition ul .sel-condition a i {
     width: 20px;
     height: 15px;
-    background: url(/img/v2/search-icon.png?_=20140519) 8px 4px no-repeat;
+    background: url("../images/search-icon.png") 8px 4px no-repeat;
     display: inline-block;
     zoom:1}
 
@@ -15512,8 +15404,6 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-search .filter .search-login-tips {
     float: left;
     display: inline-block;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     padding: 0 10px;
     height: 24px;
@@ -15534,8 +15424,6 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-search .filter .top {
     height: 34px;
     padding: 10px 15px 0;
-    -webkit-box-shadow: 0 2px 2px #f9f9f9;
-    -moz-box-shadow: 0 2px 2px #f9f9f9;
     box-shadow: 0 2px 2px #f9f9f9
 }
 
@@ -15644,8 +15532,6 @@ article dd,article dir,article menu,article ol,article ul {
     height: 60px;
     margin: 0 auto;
     max-width: 60px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
     border-radius: 30px
 }
 
@@ -15802,7 +15688,6 @@ article dd,article dir,article menu,article ol,article ul {
     margin-right: 4px;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
     vertical-align: bottom
@@ -16048,11 +15933,8 @@ article dd,article dir,article menu,article ol,article ul {
     height: 26px;
     line-height: 26px;
     padding-right: 18px;
-    background: url(/img/v2/search-icon.png?_=20140519) no-repeat;
+    background: url("../images/search-icon.png") no-repeat;
     margin: 4px 0 6px;
-    -webkit-transition: .1s ease-in;
-    -moz-transition: .1s ease-in;
-    -o-transition: .1s ease-in;
     transition: .1s ease-in
 }
 
@@ -16117,7 +15999,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .gp-search .filter-new .condition-wrap .show-more .attr-extra div b {
     position: absolute;
-    background: url(/img/v2/search-icon.png?_=20140519) 0 -17px no-repeat;
+    background: url("../images/search-icon.png") 0 -17px no-repeat;
     display: -moz-inline-stack;
     display: inline-block;
     zoom:1;overflow: hidden;
@@ -16185,7 +16067,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search .indept-filter .hy-type i {
-    background: url(/img/v2/search-icon.png?_=20140519) 0 -392px no-repeat;
+    background: url("../images/search-icon.png") 0 -392px no-repeat;
     position: absolute;
     height: 8px;
     width: 9px;
@@ -16208,7 +16090,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .gp-search .head-bar {
     position: relative;
-    background: url(/img/v2/button-v2.png) 0 -576px repeat-x;
+    background: url("../images/button-v2.png") 0 -576px repeat-x;
     height: 63px;
     z-index: 3000;
     font-size: 15px;
@@ -16218,7 +16100,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search .head-bar .bar-left {
-    background: url(/img/v2/button-v2.png) 0 -512px no-repeat;
+    background: url("../images/button-v2.png") 0 -512px no-repeat;
     height: 60px;
     width: 7px;
     position: absolute;
@@ -16227,7 +16109,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search .head-bar .bar-right {
-    background: url(/img/v2/button-v2.png) right -704px no-repeat;
+    background: url("../images/button-v2.png") right -704px no-repeat;
     height: 60px;
     width: 7px;
     position: absolute;
@@ -16568,11 +16450,11 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search .sche-list table .err .gi-wishopen {
-    background: url(/img/v2/pictures-v1.png) -17px -95px no-repeat
+    background: url("../images/pictures-v1.png") -17px -95px no-repeat
 }
 
 .gp-search .sche-list table .err .gi-neterr {
-    background: url(/img/v2/pictures-v1.png) -17px -346px no-repeat
+    background: url("../images/pictures-v1.png") -17px -346px no-repeat
 }
 
 .gp-search .sche-list table .err .search-a {
@@ -16583,8 +16465,6 @@ article dd,article dir,article menu,article ol,article ul {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     background: #e6e4dd
 }
@@ -16605,7 +16485,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search .sche-list table .err p.fast-order i {
-    background: url(/img/v2/pictures-v1.png) 0 -170px
+    background: url("../images/pictures-v1.png") 0 -170px
 }
 
 .gp-search .sche-list table .err .has-add-fav {
@@ -16665,7 +16545,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .gp-search .sche-list table .full-plan span {
     display: inline-block;
-    background: url(/img/v2/pictures-v1.png) 0 -170px;
+    background: url("../images/pictures-v1.png") 0 -170px;
     width: 60px;
     height: 41px;
     position: absolute;
@@ -16775,8 +16655,6 @@ article dd,article dir,article menu,article ol,article ul {
     background: #e1eff9;
     border: 1px solid #c5dbec;
     color: #1c55b5;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     display: inline-block;
     padding: 3px 15px;
@@ -17013,7 +16891,6 @@ article dd,article dir,article menu,article ol,article ul {
     height: 20px;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -17100,7 +16977,7 @@ article dd,article dir,article menu,article ol,article ul {
 
 .gp-search-all .dd-results .dd-tips h2 i {
     position: absolute;
-    background: url(/img/v2/search-icon.png?_=20140519) 0 -427px no-repeat;
+    background: url("../images/search-icon.png") 0 -427px no-repeat;
     height: 34px;
     width: 34px;
     left: -4px;
@@ -17131,7 +17008,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search-all .dd-results .dd-tips li h3 i {
-    background: url(/img/v2/search-icon.png?_=20140519) -130px -388px no-repeat
+    background: url("../images/search-icon.png") -130px -388px no-repeat
 }
 
 .gp-search-all .dd-results .dd-tips li p {
@@ -17140,7 +17017,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search-all .dd-results .dd-tips li p i {
-    background: url(/img/v2/search-icon.png?_=20140519) -167px -388px no-repeat
+    background: url("../images/search-icon.png") -167px -388px no-repeat
 }
 
 .gp-search-all .dd-results .dd-tips li h3,.gp-search-all .dd-results .dd-tips li p {
@@ -17201,7 +17078,7 @@ article dd,article dir,article menu,article ol,article ul {
     color: #333;
     font-size: 14px;
     line-height: 28px;
-    background: url(/img/v2/round.png) 0 9px no-repeat;
+    background: url("../images/round.png") 0 9px no-repeat;
     padding-left: 12px
 }
 
@@ -17479,7 +17356,7 @@ article dd,article dir,article menu,article ol,article ul {
     top: -6px;
     left: -1px;
     position: absolute;
-    background: url(/img/v2/search-icon.png?_=20140519) -29px -155px no-repeat #fff
+    background: url("../images/search-icon.png") -29px -155px no-repeat #fff
 }
 
 .gl-doc-shift-content .type {
@@ -17549,14 +17426,14 @@ article dd,article dir,article menu,article ol,article ul {
     vertical-align: middle;
     padding: 9px 0;
     height: 32px;
-    background: url(/img/v2/search-icon.png?_=20140519) no-repeat
+    background: url("../images/search-icon.png") no-repeat
 }
 
 #gfo-insearch .content .case-info-clone .icon {
     position: absolute;
     top: 31px;
     right: -3px;
-    background: url(/img/v2/search-icon.png?_=20140519) no-repeat;
+    background: url("../images/search-icon.png") no-repeat;
     width: 16px;
     height: 16px;
     display: block
@@ -17797,7 +17674,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search-dis .disease-box .tips h2 {
-    background: url(/img/v2/zhuanti/disease/tips.png) no-repeat;
+    background: url("../images/disease-tips.png") no-repeat;
     padding-left: 45px;
     height: 36px;
     line-height: 36px;
@@ -17867,13 +17744,13 @@ article dd,article dir,article menu,article ol,article ul {
     height: 198px;
     overflow: hidden;
     position: relative;
-    background: url(/img/v2/hp-banner-bg.png) no-repeat
+    background: url("../images/hp-banner-bg.png") no-repeat
 }
 
 .gp-search-dis .qa-box .banner li {
     width: 630px;
     height: 198px;
-    background: url(/img/v2/banner-landing.gif) center 75px no-repeat
+    background: url("../images/banner-landing.gif") center 75px no-repeat
 }
 
 .gp-search-dis .qa-box .banner .img {
@@ -17891,7 +17768,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search-dis .qa-box .banner .bx-next,.gp-search-dis .qa-box .banner .bx-prev {
-    background: url(/img/v2/hp1.png) no-repeat;
+    background: url("../images/hp1.png") no-repeat;
     height: 40px;
     width: 40px;
     text-indent: -999px;
@@ -17931,7 +17808,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search-dis .qa-box .banner .bx-pager-link {
-    background: url(/img/v2/hp2.png?_=20140624) -122px -59px no-repeat;
+    background: url("../images/hp2.png") -122px -59px no-repeat;
     height: 11px;
     width: 11px;
     text-indent: -999px;
@@ -17969,7 +17846,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search-dis .qa-box .qa-list dl dt i.ask {
-    background: url(/img/v2/zhuanti/disease/ask.png) no-repeat;
+    background: url("../images/disease-ask.png") no-repeat;
     width: 34px;
     height: 34px;
     position: absolute;
@@ -18001,7 +17878,7 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-search-dis .qa-box .qa-list dl dd {
     margin-top: -5px;
     padding-bottom: 20px;
-    background: url(/img/v2/zhuanti/disease/answer.png) no-repeat;
+    background: url("../images/disease-answer.png") no-repeat;
     padding-left: 54px
 }
 
@@ -18014,7 +17891,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search-dis .qa-box .qa-list dl dd i.top {
-    background: url(/img/v2/zhuanti/disease/top.png) no-repeat;
+    background: url("../images/disease-top.png") no-repeat;
     width: 7px;
     height: 10px;
     position: absolute;
@@ -18039,7 +17916,7 @@ article dd,article dir,article menu,article ol,article ul {
 }
 
 .gp-search-dis .qa-box .g-base-blueline {
-    background: url(/img/v2/zhuanti/disease/qa.png) right center no-repeat;
+    background: url("../images/disease-qa.png") right center no-repeat;
     margin-bottom: 0
 }
 
@@ -18056,11 +17933,7 @@ article dd,article dir,article menu,article ol,article ul {
     float: left;
     position: relative;
     width: 487px;
-    -webkit-border-top-left-radius: 3px;
-    -moz-border-radius-topleft: 3px;
     border-top-left-radius: 3px;
-    -webkit-border-bottom-left-radius: 3px;
-    -moz-border-radius-bottomleft: 3px;
     border-bottom-left-radius: 3px
 }
 
@@ -18146,7 +18019,7 @@ body {
     color: #888;
     padding: 15px 0 15px 15px;
     height: 73px;
-    background: url(/img/v2/top-bg.png);
+    background: url("../images/top-bg.png");
     position: relative
 }
 
@@ -18172,7 +18045,6 @@ body {
     line-height: 22px;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -18226,18 +18098,18 @@ body {
 }
 
 .gp-person .wrap .person-left ul .myzxzl span {
-    background: url(../img/order/core.png) 0 -15px no-repeat;
+    background: url("../images/order-core.png") 0 -15px no-repeat;
     width: 19px;
     height: 15px;
     margin-right: 17px
 }
 
 .gp-person .wrap .person-left ul .myzxzl a.current span,.gp-person .wrap .person-left ul .myzxzl:hover span {
-    background: url(../img/order/core.png) no-repeat
+    background: url("../images/order-core.png") no-repeat
 }
 
 .gp-person .wrap .person-left ul .mygydd span {
-    background: url(../img/order/core.png) 0 -51px no-repeat;
+    background: url("../images/order-core.png") 0 -51px no-repeat;
     width: 17px;
     height: 21px;
     position: relative;
@@ -18246,28 +18118,28 @@ body {
 }
 
 .gp-person .wrap .person-left ul .mygydd a.current span,.gp-person .wrap .person-left ul .mygydd:hover span {
-    background: url(../img/order/core.png) 0 -30px no-repeat
+    background: url("../images/order-core.png") 0 -30px no-repeat
 }
 
 .gp-person .wrap .person-left ul .health-record span {
-    background: url(../img/v2/health-record.png) no-repeat;
+    background: url("../images/health-record.png") no-repeat;
     width: 19px;
     height: 17px
 }
 
 .gp-person .wrap .person-left ul .health-record a.current span,.gp-person .wrap .person-left ul .health-record:hover span {
-    background: url(../img/v2/health-hover.png) no-repeat
+    background: url("../images/health-hover.png") no-repeat
 }
 
 .gp-person .wrap .person-left ul .my-referral span {
-    background: url(../img/infirmary/referral.png) no-repeat;
+    background: url("../images/infirmary-referral.png") no-repeat;
     background-size: 19px 17px;
     width: 19px;
     height: 17px
 }
 
 .gp-person .wrap .person-left ul .my-referral a.current span,.gp-person .wrap .person-left ul .my-referral:hover span {
-    background: url(../img/infirmary/referral-hover.png) no-repeat;
+    background: url("../images/infirmary-referral-hover.png") no-repeat;
     background-size: 19px 17px
 }
 
@@ -18277,7 +18149,7 @@ body {
 }
 
 .gp-person .wrap .person-left ul .myans .gi2 {
-    background: url(/img/v2/g-total-v3.png) -105px -124px no-repeat
+    background: url("../images/v2/g-total-v3.png") -105px -124px no-repeat
 }
 
 .gp-person .wrap .person-left ul .myans .gi-ans {
@@ -18301,7 +18173,7 @@ body {
 }
 
 .gp-person .wrap .person-left ul .myinsur .gi-insurance {
-    background: url(../img/usercenter/icon-insur.png);
+    background: url("../images/usercenter/icon-insur.png");
     width: 19px;
     height: 14px;
     margin-right: 19px!important;
@@ -18309,17 +18181,17 @@ body {
 }
 
 .gp-person .wrap .person-left ul .myinsur .current span,.gp-person .wrap .person-left ul a.myinsur-a:hover span {
-    background: url(../img/usercenter/icon-insur-hover.png)
+    background: url("../images/usercenter/icon-insur-hover.png")
 }
 
 .gp-person .wrap .person-left ul .mymedical .gi-medical {
-    background: url(../img/usercenter/icon-medical.png);
+    background: url("../images/usercenter/icon-medical.png");
     width: 17px;
     height: 19px
 }
 
 .gp-person .wrap .person-left ul .mymedical .current span,.gp-person .wrap .person-left ul a.mymedical-a:hover span {
-    background: url(../img/usercenter/icon-medical-hover.png)
+    background: url("../images/usercenter/icon-medical-hover.png")
 }
 
 .gp-person .wrap .person-left ul .mysetting .current span,.gp-person .wrap .person-left ul a.mysetting-a:hover span {
@@ -18339,7 +18211,7 @@ body {
 }
 
 .gp-person .wrap .person-left ul .mydzyy .mydzyy-a .gi-dzyy {
-    background: url(../img/dzyy/dzyy-icon.png) -20px -140px no-repeat;
+    background: url("../images/dzyy-icon.png") -20px -140px no-repeat;
     width: 20px;
     height: 20px;
     margin-right: 16px
@@ -18350,17 +18222,17 @@ body {
 }
 
 .gp-person .wrap .person-left ul .coupon .gi2 {
-    background: url(../img/v2/coupon-ss.png) center no-repeat
+    background: url("../images/coupon-ss.png") center no-repeat
 }
 
 .gp-person .wrap .person-left ul .coupon .current .gi2,.gp-person .wrap .person-left ul .coupon:hover .gi2 {
-    background: url(../img/v2/coupon-s.png) center no-repeat
+    background: url("../images/coupon-s.png") center no-repeat
 }
 
 .gp-person .wrap .person-left ul .feedback .gi2 {
     width: 18px;
     margin-right: 18px;
-    background: url(/img/v2/feedback-icon-mini.png) no-repeat
+    background: url("../images/feedback-icon-mini.png") no-repeat
 }
 
 .gp-person .wrap .person-left ul .feedback .current .gi2,.gp-person .wrap .person-left ul .feedback:hover .gi2 {
@@ -18368,7 +18240,7 @@ body {
 }
 
 .gp-person .wrap .person-left ul .myask .gi2 {
-    background: url(/img/v2/g-total-v3.png) -105px -124px no-repeat
+    background: url("../images/g-total-v3.png") -105px -124px no-repeat
 }
 
 .gp-person .wrap .person-left ul .myask .current span,.gp-person .wrap .person-left ul a.myask-a:hover span {
@@ -18376,7 +18248,7 @@ body {
 }
 
 .gp-person .wrap .person-left ul .my-plus .current span,.gp-person .wrap .person-left ul a.my-plus-a:hover span {
-    background: url(/img/v2/my-apply-icon2.png) no-repeat
+    background: url("../images/my-apply-icon2.png") no-repeat
 }
 
 .gp-person .wrap .person-left ul .myconsult-a span {
@@ -18388,7 +18260,7 @@ body {
 }
 
 .gp-person .wrap .person-left ul .baby span {
-    background: url(/img/v2/icon-baby-2.png) no-repeat;
+    background: url("../images/icon-baby-2.png") no-repeat;
     display: inline-block;
     height: 19px;
     overflow: hidden;
@@ -18398,7 +18270,7 @@ body {
 }
 
 .gp-person .wrap .person-left ul .baby .current span,.gp-person .wrap .person-left ul .baby a:hover span {
-    background-image: url(/img/v2/icon-baby-1.png)
+    background-image: url("../images/icon-baby-1.png")
 }
 
 .gp-person .wrap .person-left ul .rms span {
@@ -18467,7 +18339,7 @@ body {
 }
 
 .gp-person .wrap .person-right .noresults:not(.ucenter-noresults) .to-big {
-    background: url(/img/v2/noresults.png) no-repeat;
+    background: url("../images/no-results.png") no-repeat;
     width: 408px;
     height: 275px;
     display: block;
@@ -18519,11 +18391,11 @@ body {
     display: block;
     width: 802px;
     border-left: 1px dashed #ccc;
-    background: url(/img/v2/top-bg.png) -7px 0
+    background: url("../images/top-bg.png") -7px 0
 }
 
 .gp-person .wrap .person-right .my-extra-order .gi-plus {
-    background: url(../img/usercenter/icon-plus.png) no-repeat;
+    background: url("../images/icon-plus.png") no-repeat;
     width: 55px;
     height: 55px
 }
@@ -18547,11 +18419,11 @@ body {
     display: block;
     width: 802px;
     border-left: 1px dashed #ccc;
-    background: url(/img/v2/top-bg.png) -7px 0
+    background: url("../images/top-bg.png") -7px 0
 }
 
 .gp-person .wrap .person-right .my-insurance .insurance {
-    background: url(../img/usercenter/icon-insurance.png) no-repeat;
+    background: url("../images/usercenter/icon-insurance.png") no-repeat;
     width: 79px;
     height: 58px
 }
@@ -18573,14 +18445,14 @@ body {
 .gp-person .wrap .person-right .my-insurance .coupon {
     width: 79px;
     height: 58px;
-    background: url(../img/v2/coupon-l.png) center no-repeat
+    background: url("../images/coupon-l.png") center no-repeat
 }
 
 .gp-person .wrap .person-right .my-insurance .feedback {
     width: 48px;
     height: 35px;
     margin-top: 22px;
-    background: url(/img/v2/feedback-icon.png)
+    background: url("../images/feedback-icon.png")
 }
 
 .gp-person .wrap .person-right .empty-insuracne {
@@ -18663,7 +18535,7 @@ body {
 .gp-person .wrap .person-right .exchangeRule .close {
     width: 14px;
     height: 14px;
-    background: url(../img/coupon/close.png) center center no-repeat;
+    background: url("../images/coupon/close.png") center center no-repeat;
     background-size: 14px 14px;
     position: absolute;
     right: 0;
@@ -18887,103 +18759,103 @@ body {
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-blue {
     width: 280px;
     height: 221px;
-    background-image: url(../img/coupon/coupon-blue.png)
+    background-image: url("../images/coupon/coupon-blue.png")
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-red {
     width: 280px;
     height: 221px;
-    background-image: url(../img/coupon/coupon-red.png)
+    background-image: url("../images/coupon/coupon-red.png")
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-orange {
     width: 280px;
     height: 221px;
-    background-image: url(../img/coupon/coupon-orange.png)
+    background-image: url("../images/coupon/coupon-orange.png")
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-green {
     width: 280px;
     height: 221px;
-    background-image: url(../img/coupon/coupon-green.png)
+    background-image: url("../images/coupon/coupon-green.png")
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-package {
     width: 280px;
     height: 221px;
-    background-image: url(../img/coupon/coupon-package.png)
+    background-image: url("../images/coupon/coupon-package.png")
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-gold {
     width: 280px;
     height: 221px;
-    background-image: url(../img/coupon/coupon-gold.png)
+    background-image: url("../images/coupon/coupon-gold.png")
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-grey {
     width: 280px;
     height: 221px;
-    background-image: url(../img/coupon/coupon-grey.png)
+    background-image: url("../images/coupon/coupon-grey.png")
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-sky {
     width: 280px;
     height: 221px;
-    background-image: url(../img/coupon/coupon-sky.png)
+    background-image: url("../images/coupon/coupon-sky.png")
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-yellow {
     width: 280px;
     height: 221px;
-    background-image: url(../img/coupon/coupon-yellow.png)
+    background-image: url("../images/coupon/coupon-yellow.png")
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-tip-used {
     width: 52px;
     height: 55px;
-    background-image: url(../img/coupon/coupon-tip-used.png)
+    background-image: url("../images/coupon/coupon-tip-used.png")
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-tip-expired {
     width: 52px;
     height: 55px;
-    background: url(../img/coupon/coupon-tip-expired.png) no-repeat
+    background: url("../images/coupon/coupon-tip-expired.png") no-repeat
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-tip-green {
     width: 52px;
     height: 55px;
-    background: url(../img/coupon/coupon-tip-green.png) no-repeat
+    background: url("../images/coupon/coupon-tip-green.png") no-repeat
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-tip-blue {
     width: 52px;
     height: 55px;
-    background: url(../img/coupon/coupon-tip-blue.png) no-repeat
+    background: url("../images/coupon/coupon-tip-blue.png") no-repeat
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-tip-yellow {
     width: 52px;
     height: 55px;
-    background: url(../img/coupon/coupon-tip-yellow.png) no-repeat
+    background: url("../images/coupon/coupon-tip-yellow.png") no-repeat
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-tip-red {
     width: 52px;
     height: 55px;
-    background: url(../img/coupon/coupon-tip-red.png) no-repeat
+    background: url("../images/coupon/coupon-tip-red.png") no-repeat
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-tip-grey {
     width: 52px;
     height: 55px;
-    background: url(../img/coupon/coupon-tip-grey.png) no-repeat
+    background: url("../images/coupon/coupon-tip-grey.png") no-repeat
 }
 
 .gp-person .wrap .person-right .coupon-list ul li .coupon.coupon-nodoc {
     width: 71px;
     height: 55px;
-    background: url(../img/coupon/nocoupon.png) no-repeat;
+    background: url("../images/coupon/nocoupon.png") no-repeat;
     margin: 0 auto
 }
 
@@ -19036,7 +18908,7 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    background: url(../img/yzwy/icon-thank-2.png) no-repeat
+    background: url("../images/icon-thank-2.png") no-repeat
 }
 
 .gp-person .wrap .person-right .insurance-list ul .thanks-icon a.t1 {
@@ -19099,7 +18971,7 @@ body {
     width: 14px;
     height: 14px;
     margin-left: 5px;
-    background: url(../img/insurance-tip.png) no-repeat
+    background: url("../images/insurance-tip.png") no-repeat
 }
 
 .gp-person .wrap .person-right .insurance-list .tip-container .insurance-tip {
@@ -19196,14 +19068,14 @@ body {
 }
 
 .gp-person .wrap .person-right .order-remind .ask {
-    background: url(/img/v2/g-total-v3.png) -105px -60px no-repeat;
+    background: url("../images/g-total-v3.png") -105px -60px no-repeat;
     display: block;
     height: 48px;
     width: 55px
 }
 
 .gp-person .wrap .person-right .order-remind .consult {
-    background: url(/img/v2/icons2-v3.png) 0 -588px no-repeat;
+    background: url("../images/icons2-v3.png") 0 -588px no-repeat;
     display: block;
     height: 48px;
     width: 55px
@@ -19435,7 +19307,6 @@ body {
 .gp-person .wrap .person-right .zxzl .zl-title ul.content .time span,.gp-person .wrap .person-right .zxzl .zl-title ul.content .title span {
     display: -webkit-box;
     -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
     word-wrap: break-word;
     overflow: hidden
 }
@@ -19620,12 +19491,14 @@ body {
 
 @keyframes slide-down {
     0% {
-        transform: translateY(-10px) scale(.98);
+        -webkit-transform: translateY(-10px) scale(.98);
+                transform: translateY(-10px) scale(.98);
         opacity: 0
     }
 
     100% {
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
         opacity: 1
     }
 }
@@ -20099,7 +19972,7 @@ body {
 .gp-person .order-detail .tzx-entry span {
     display: inline-block;
     padding: 0 15px 0 35px;
-    background: url(../img/tips.png) 16px center no-repeat #f9fcfe;
+    background: url("../images/tips.png") 16px center no-repeat #f9fcfe;
     border: 1px solid #e0f2fe;
     margin-right: 20px
 }
@@ -20142,7 +20015,7 @@ body {
     height: 18px;
     width: 20px;
     color: #88aeca;
-    background: url(/img/v2/icons2-v3.png) 0 -390px no-repeat;
+    background: url("../images/icons2-v3.png") 0 -390px no-repeat;
     display: block
 }
 
@@ -20208,8 +20081,6 @@ body {
     padding: 6px;
     background: #e0f2fe;
     width: 200px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     top: 11px
 }
@@ -20317,8 +20188,6 @@ body {
     padding: 3px 10px;
     width: 450px;
     display: inline-block;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     margin: 5px 0;
     color: #719d3c
@@ -20453,7 +20322,6 @@ body {
     color: #333;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -20477,7 +20345,6 @@ body {
     text-overflow: ellipsis;
     -webkit-line-clamp: 2;
     line-clamp: 2;
-    -webkit-box-orient: vertical;
     box-orient: vertical
 }
 
@@ -20548,7 +20415,7 @@ body {
     padding: 20px 0;
     font-size: 12px;
     color: #333;
-    background: url(/img/v2/blue-border.png) 0 bottom repeat-x #f9f9f9
+    background: url("../images/blue-border.png") 0 bottom repeat-x #f9f9f9
 }
 
 .gp-person .order-list table td a {
@@ -20758,7 +20625,7 @@ body {
     top: 22px;
     width: 34px;
     height: 34px;
-    background: url(../img/expert_2015/sprite.png) 0 -100px no-repeat
+    background: url("../images/sprite.png") 0 -100px no-repeat
 }
 
 .gp-person .feedback-detail .qa-list li .date {
@@ -21084,7 +20951,7 @@ body {
     font-size: 14px;
     line-height: 52px;
     height: 52px;
-    background: url(/img/v2/blue-border.png) 0 bottom repeat-x
+    background: url("../images/blue-border.png") 0 bottom repeat-x
 }
 
 .gp-person .myfav-list .list li span {
@@ -21094,7 +20961,6 @@ body {
     text-indent: 30px;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -21196,7 +21062,6 @@ body {
 
 .gp-person .my-dzyy .quick-detail .detail-con .detail-imgs li span,.gp-person .welfare-detail .welfare-mode .mode-bd p span,.gp-person .welfare-list td.item-name .item-info a {
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
@@ -21320,7 +21185,7 @@ body {
     display: block;
     width: 16px;
     height: 16px;
-    background: url(../img/red-close.png) no-repeat
+    background: url("../images/red-close.png") no-repeat
 }
 
 .gp-person .patients-list-table {
@@ -21619,7 +21484,7 @@ body {
     display: block;
     width: 16px;
     height: 16px;
-    background: url(../img/red-close.png) no-repeat
+    background: url("../images/red-close.png") no-repeat
 }
 
 .gp-person .health-record .new-record .submit {
@@ -22070,7 +21935,6 @@ body {
 }
 
 .gp-person .epay .epay-contract .epay-contract-con::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
     border-radius: 10px;
     -webkit-box-shadow: #888;
     background: rgba(157,178,217,.3)
@@ -22110,7 +21974,7 @@ body {
 }
 
 .gp-person .my-quick .gi-quick-big {
-    background: url(../img/dzyy/dzyy-icon.png) -4px -74px no-repeat;
+    background: url("../images/dzyy-icon.png") -4px -74px no-repeat;
     width: 54px;
     height: 54px
 }
@@ -22339,8 +22203,6 @@ body {
 .gp-person .my-quick .doctor-items .doctor-info img {
     width: 60px;
     height: 60px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
     border-radius: 30px;
     float: left;
     margin: 25px 10px 15px 18px
@@ -22383,7 +22245,6 @@ body {
     text-decoration: none;
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    -webkit-transition: all .8s;
     transition: all .8s
 }
 
@@ -22729,8 +22590,6 @@ body {
     border: 1px solid;
     color: #ff591d;
     text-align: center;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px
 }
 
@@ -22933,8 +22792,6 @@ body {
     padding: 0;
     color: #377bee;
     background-color: #dff2ff;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px
 }
 
@@ -22959,8 +22816,6 @@ body {
 .gp-person .jzcard-manage .card>div .card-type {
     border: 1px solid #377bee;
     padding: 3px 6px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
     border-radius: 20px;
     color: #377bee
 }
@@ -23036,13 +22891,13 @@ body {
 
 #userinfo-display .auth-line .authIcon-mobile {
     width: 38px;
-    background: url(/img/v2/g-total-v3.png) -88px 0 no-repeat;
+    background: url("../images/g-total-v3.png") -88px 0 no-repeat;
     left: 16px
 }
 
 #userinfo-display .auth-line .authIcon-email {
     width: 52px;
-    background: url(/img/v2/g-total-v3.png) -126px 0 no-repeat
+    background: url("../images/g-total-v3.png") -126px 0 no-repeat
 }
 
 #userinfo-display .auth-line .auth-det {
@@ -23195,7 +23050,7 @@ body {
 
 #g-myask-ans .q-list tbody td {
     height: 50px;
-    background: url(/img/v2/blue-border.png) 0 bottom repeat-x;
+    background: url("../images/blue-border.png") 0 bottom repeat-x;
     vertical-align: middle
 }
 
@@ -23236,7 +23091,7 @@ body {
 }
 
 #g-myask-ans .q-list .blue-bg td {
-    background: url(/img/v2/blue-border.png) 0 49px repeat-x #f5fafd
+    background: url("../images/blue-border.png") 0 49px repeat-x #f5fafd
 }
 
 #person-plus-list .wrap .person-right .order-remind .meta a {
@@ -23306,7 +23161,7 @@ body {
 }
 
 .g-common-list .list tbody td {
-    background: url(/img/v2/blue-border.png) 0 bottom repeat-x #f9f9f9;
+    background: url("../images/blue-border.png") 0 bottom repeat-x #f9f9f9;
     line-height: 20px;
     padding: 10px 15px 10px 0;
     vertical-align: middle;
@@ -23329,7 +23184,7 @@ body {
 }
 
 .g-common-list .list .blue-bg td {
-    background: url(/img/v2/blue-border.png) 0 49px repeat-x #f5fafd
+    background: url("../images/blue-border.png") 0 49px repeat-x #f5fafd
 }
 
 #gm-authapply .body,#gm-usedetail .body {
@@ -23580,7 +23435,7 @@ body {
 }
 
 #gm-authapply .title a,#gm-bingli .title a,#gm-detail .title a,#gm-usedetail .title a,#gm-viewbingli .title a {
-    background: url(/img/v2/hp2.png?_=20140624) -99px -124px no-repeat #f8f8f8;
+    background: url("../images/hp2.png") -99px -124px no-repeat #f8f8f8;
     position: absolute;
     right: 12px;
     top: 12px;
@@ -23589,7 +23444,7 @@ body {
 }
 
 #gm-authapply .title a:hover,#gm-bingli .title a:hover,#gm-detail .title a:hover,#gm-usedetail .title a:hover,#gm-viewbingli .title a:hover {
-    background: url(/img/v2/hp2.png?_=20140624) -90px -150px no-repeat #f8f8f8;
+    background: url("../images/hp2.png") -90px -150px no-repeat #f8f8f8;
     position: absolute;
     right: 8px;
     top: 8px;
@@ -23787,7 +23642,7 @@ body {
     display: block;
     width: 16px;
     height: 16px;
-    background: url(../img/red-close.png) no-repeat
+    background: url("../images/red-close.png") no-repeat
 }
 
 .consult-bottom-enter {
@@ -23829,7 +23684,8 @@ body {
 }
 
 .slideDown {
-    animation: slide-down .3s ease-out
+    -webkit-animation: slide-down .3s ease-out;
+            animation: slide-down .3s ease-out
 }
 
 .g-askTip-popup {
@@ -23926,8 +23782,6 @@ body {
     height: 315px;
     margin-bottom: 20px;
     background: url(../img/my/myconsult/get-app-bg.png) center no-repeat #fff;
-    -webkit-box-shadow: 0 0 5px #ddd;
-    -moz-box-shadow: 0 0 5px #ddd;
     box-shadow: 0 0 5px #ddd;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -24020,8 +23874,6 @@ body {
 
 .gp-myconsult-detail .get-weiyi-app .btn-iphone {
     border: 1px solid #377bee;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
     background: url(../img/my/myconsult/download-ios.png) 20px 10px no-repeat
 }
@@ -24033,8 +23885,6 @@ body {
 
 .gp-myconsult-detail .get-weiyi-app .btn-android {
     border: 1px solid #5ca945;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
     margin-top: 15px;
     color: #5ca945;
@@ -24047,8 +23897,6 @@ body {
 }
 
 .gp-myconsult-detail .myconsult-info {
-    -webkit-box-shadow: 0 0 5px #ddd;
-    -moz-box-shadow: 0 0 5px #ddd;
     box-shadow: 0 0 5px #ddd;
     background-color: #fff
 }
@@ -24201,4 +24049,10 @@ body {
 .gp-myconsult-detail .myconsult-info .con-pay-btn:hover {
     background-color: #e18f06;
     text-decoration: none
+}
+
+/*custom*/
+.gp-search-new .g-grid-full {
+    width: 100%;
+    margin-right: 20px
 }
