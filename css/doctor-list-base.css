@@ -4845,9 +4845,10 @@ form #logingo,form #submitButtom {
     position: relative;
     top: 2px;
     background-color: #D3D7D8;
-    padding: 10px;
+    padding: 8px 11px 5px 11px;
     font-size: 18px;
-    color: #333
+    color: #333;
+    border-radius: 3px;
 }
 
 .g-team-intro .info .skill i {
@@ -4964,7 +4965,8 @@ form #logingo,form #submitButtom {
 }
 
 .g-team-intro .zj-infoadd {
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    padding-top: 0px;
     margin-left: 0!important
 }
 
@@ -5181,7 +5183,8 @@ form #logingo,form #submitButtom {
 .gp-eteam-home .team-show .grid-left .team-detail li .info {
     width: 255px;
     padding-right: 10px;
-    padding-top: 15px
+    padding-top: 15px;
+    line-height: 20px;
 }
 
 .gp-eteam-home .team-show .grid-left .team-detail li .info .photo {
@@ -5204,7 +5207,8 @@ form #logingo,form #submitButtom {
 
 .gp-eteam-home .team-show .grid-left .team-detail li .info h5 {
     margin-top: 3px;
-    font-size: inherit
+    font-size: inherit;
+    margin-bottom: 5px;
 }
 
 .gp-eteam-home .team-show .grid-left .team-detail li .info h5 a {
@@ -5227,7 +5231,8 @@ form #logingo,form #submitButtom {
 
 .gp-eteam-home .team-show .grid-left .team-detail li .intro p {
     overflow: hidden;
-    height: 3em
+    /* height: 3em */
+    line-height: 25px;
 }
 
 .gp-eteam-home .team-show .grid-left .team-detail li .intro p strong {
