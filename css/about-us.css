@@ -428,7 +428,8 @@
     background: #fff;
     width: 33%;
     font-size: 14px;
-    padding: 10px 0
+    padding: 10px 0;
+    float: left;
 }
 
 #gp-friendlyLink .friendly-link .guahao-friendlink h5 {
