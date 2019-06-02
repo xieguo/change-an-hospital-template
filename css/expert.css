@@ -128,7 +128,8 @@ li {
 .grid-group {
     width: 1200px;
     margin: 20px auto;
-    zoom:1}
+    zoom:1
+}
 
 .grid-group:after {
     display: block;
@@ -5105,7 +5106,8 @@ article dd,article dir,article menu,article ol,article ul {
 .gp-expert .grid-title .visit {
     display: -moz-inline-stack;
     display: inline-block;
-    zoom:1;overflow: hidden;
+    zoom:1;
+    overflow: hidden;
     position: relative;
     top: 2px;
     background-color: #f9a821;
@@ -5813,4 +5815,69 @@ article dd,article dir,article menu,article ol,article ul {
 
 .jwy-gc-height {
     min-height: 0!important
-}}
+}
+
+/* custom */
+.grid-full {
+    width: 100%;
+}
+
+.gp-expert .expert-online-consult .consult-type {
+    width: 700px;
+}
+
+.gp-expert .expert-online-consult .consult-desc {
+    width: 400px;
+}
+
+.grid-content .expert-static-shift ul {
+    overflow: hidden;
+    zoom:1;
+    padding: 15px
+}
+
+.grid-content .expert-static-shift ul li {
+    width: 383px;
+    float: left;
+    padding: 15px 0;
+    margin-left: 4px
+}
+
+.grid-content .expert-static-shift ul li a {
+    display: inline-block;
+    height: 30px;
+    width: 68px;
+    line-height: 30px;
+    text-align: center;
+    background: #53a3e2;
+    color: #fff
+}
+
+.grid-content .expert-static-shift ul li a.downLoad-btn {
+    color: #fff;
+    background: #188ece;
+    padding: 5px 8px
+}
+
+.grid-content .expert-static-shift ul li p {
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    background: #a3a4a5
+}
+
+ .grid-content {
+    padding: 0;
+}
+
+.grid-full .grid-title {
+    height: 55px;
+}
+
+.no-schedule {
+    height:150px;
+    background: url("../images/noapply.png") center center no-repeat;
+}
