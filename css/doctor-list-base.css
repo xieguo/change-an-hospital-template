@@ -4905,7 +4905,8 @@ form #logingo,form #submitButtom {
     overflow-y: auto;
     color: #fff;
     padding: 10px 5px 10px 20px;
-    line-height: 21px
+    line-height: 21px;
+    border-radius: 3px;
 }
 
 .g-team-intro .info .summary p::-webkit-scrollbar {
